@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>CyberEyeQ Weekly Podcast</title>
+<link>https://cybereyeq.github.io/podcast/</link>
+<atom:link href="https://cybereyeq.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+<language>en-us</language>
+<copyright>(c) 2026 CyberEyeQ</copyright>
+<description>Two hosts break down enforcement actions, compliance deadlines, and policy developments across AI governance, privacy, cybersecurity, financial services, healthcare, and child safety regulation. Produced from CyberEyeQ's daily regulation tracking pipeline.</description>
+<itunes:subtitle>10-minute weekly briefings on the regulatory stories that actually matter</itunes:subtitle>
+<itunes:summary>Two hosts break down enforcement actions, compliance deadlines, and policy developments across AI governance, privacy, cybersecurity, financial services, healthcare, and child safety regulation. Produced from CyberEyeQ's daily regulation tracking pipeline.</itunes:summary>
+<itunes:author>CyberEyeQ</itunes:author>
+<itunes:owner>
+  <itunes:name>YM</itunes:name>
+  <itunes:email>chenym@gmail.com</itunes:email>
+</itunes:owner>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:category text="Technology">
+  <itunes:category text="Tech News"/>
+</itunes:category>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<lastBuildDate>Sun, 19 Apr 2026 06:15:26 +0000</lastBuildDate>
+<item>
+<title>Episode 17: COPPA Deadline in 4 Days + China AI Companion Law</title>
+<itunes:title>Episode 17: COPPA Deadline in 4 Days + China AI Companion Law</itunes:title>
+<itunes:episode>17</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-04-18.mp3" length="14287351" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-017</guid>
+<itunes:duration>00:09:55</itunes:duration>
+<itunes:summary>FTC's amended COPPA Rule takes effect April 22 (4 days). China's AI Companion Law passes second NPCSC reading. Plus updates on EU AI Act GPAI compliance and 3 enforcement actions worth tracking.</itunes:summary>
+<description>FTC's amended COPPA Rule takes effect April 22 (4 days). China's AI Companion Law passes second NPCSC reading. Plus updates on EU AI Act GPAI compliance and 3 enforcement actions worth tracking.</description>
+<content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CyberEyeQ Weekly Podcast — Episode 17 (April 18, 2026)</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; max-width: 780px; margin: 2em auto; padding: 0 1em; line-height: 1.55; color: #222; }
+h1 { border-bottom: 3px solid #0a5; padding-bottom: .25em; }
+h2 { color: #0a5; margin-top: 1.6em; }
+h3 { color: #444; }
+ul { padding-left: 1.4em; }
+li { margin-bottom: .4em; }
+.meta { color: #555; font-size: .95em; }
+.cta { background: #f5f9f6; border-left: 4px solid #0a5; padding: 1em 1.2em; margin-top: 2em; }
+.story-num { font-weight: 700; color: #0a5; }
+.transcript { border-top: 1px solid #ddd; padding-top: 1em; margin-top: 1.5em; }
+.transcript p { margin: .5em 0; }
+.speaker-alex { color: #184a8c; font-weight: 600; }
+.speaker-sarah { color: #7a2a6f; font-weight: 600; }
+.footer { font-size: .85em; color: #777; margin-top: 3em; border-top: 1px solid #eee; padding-top: 1em; }
+</style>
+</head>
+<body>
+
+<h1>CyberEyeQ Weekly Podcast — Episode 17</h1>
+<p class="meta"><strong>Date:</strong> April 18, 2026 &middot; <strong>Duration:</strong> ~10 minutes &middot; <strong>Hosts:</strong> Alex Chen &amp; Dr. Sarah Kim</p>
+<p>Your weekly briefing on the regulatory stories that actually matter for compliance teams. Sourced from CyberEyeQ Weekly Newsletter Issue #17.</p>
+
+<h2>This Week's Top 5 Stories</h2>
+<ul>
+<li><span class="story-num">1.</span> <strong>COPPA Amended Rule — Full Compliance Deadline</strong> (April 22, 4 days out). Operators of child-directed services need written security programs, retention policies, and separate verifiable parental consent for non-integral disclosures. Biometric identifiers (voiceprints, faceprints, facial templates) are now protected personal information.</li>
+<li><span class="story-num">2.</span> <strong>China Finalizes World's First AI Companion Law</strong>. Interim Measures for Anthropomorphic AI Interaction Services (CAC, NDRC, MIIT, MPS, SAMR), effective July 15, 2026. Blanket ban on virtual intimate relationships for minors; mandatory AI-nature disclosure and 2-hour continuous-use reminders; consent required before interaction data is used for model training. Fines RMB 10,000–200,000 with service-suspension powers.</li>
+<li><span class="story-num">3.</span> <strong>FinCEN Proposes Largest AML Overhaul in Decades</strong>. Joint NPRM with OCC, FDIC, NCUA shifts US AML/CFT compliance from an "existence" standard to an "effectiveness" standard. Includes an innovation safe harbor for AI/ML in compliance — a first for US financial regulation. Comments due June 9, 2026.</li>
+<li><span class="story-num">4.</span> <strong>EU Cyber Resilience Act — Conformity Body Notification Deadline</strong>. Member States must designate notifying authorities for conformity assessment bodies by <strong>June 11, 2026</strong> (54 days out). Manufacturer reporting obligations for actively exploited vulnerabilities take effect <strong>September 11, 2026</strong>. Covers all products with digital elements placed on the EU market.</li>
+<li><span class="story-num">5.</span> <strong>EU Digital Omnibus Trilogue — Targeted April 28</strong>. Political trilogue aims to finalize deal on AI Act high-risk deadline extensions and new prohibited-practice rules. Outcome will shape 2026–2027 AI Act compliance roadmaps.</li>
+</ul>
+
+<h2>Action Items This Week</h2>
+<ul>
+<li>Verify COPPA program covers biometric data and confirm written security / retention policies are operational before <strong>April 22</strong>.</li>
+<li>If you operate emotional-AI or companion products with users in China, begin compliance mapping against the <strong>July 15</strong> effective date.</li>
+<li>US financial institutions: start drafting a FinCEN comment letter and assess your AML program against the effectiveness standard. Deadline <strong>June 9</strong>.</li>
+<li>Watch Colorado AI Act enforcement begin <strong>June 30</strong> (75 days) and EUDAMED mandatory use begin <strong>May 28</strong> (40 days).</li>
+</ul>
+
+<div class="transcript">
+<h2>Full Transcript</h2>
+
+<p><span class="speaker-alex">Alex:</span> Welcome back to the CyberEyeQ Weekly Podcast. I'm Alex Chen, and this is your ten-minute briefing on the regulatory stories that actually matter for compliance teams. With me as always is Dr. Sarah Kim, our regulatory analyst. Sarah, we have an unusually deadline-heavy week. What should listeners focus on first?</p>
+
+<p><span class="speaker-sarah">Sarah:</span> Alex, the single most urgent item on every compliance calendar right now is the FTC's amended COPPA Rule. Full compliance is due April 22, which is exactly four days from today. Operators of child-directed websites and services must have a written information security program, a written data retention policy, and separate verifiable parental consent for any non-integral data disclosure. On top of that, biometric identifiers — voiceprints, faceprints, facial templates — are now explicitly protected personal information under COPPA.</p>
+
+<p><span class="speaker-alex">Alex:</span> So this is not a drill. What should compliance teams be doing right now?</p>
+
+<p><span class="speaker-sarah">Sarah:</span> Three things. One: verify that your COPPA program covers biometric data, not just traditional identifiers. Two: review your parental consent flows for non-integral disclosures, which is the trickiest new category. Three: confirm your written security and retention policies are documented and actually operational — not sitting in a draft folder. And separately, remember the Senate just passed COPPA 2.0 unanimously, which extends protections to ages 13 through 16. That's on the horizon, but April 22 is the live wire.</p>
+
+<p><span class="speaker-alex">Alex:</span> Let's pivot across the Pacific. On April 10, China finalized what our newsletter calls the world's first AI companion regulation. Walk us through it.</p>
+
+<p><span class="speaker-sarah">Sarah:</span> This is a landmark. Four agencies — the CAC, NDRC, MIIT, MPS, and SAMR — jointly issued the Interim Measures for the Administration of Anthropomorphic AI Interaction Services. Effective July 15, so a 90-day compliance window starts now. The centerpiece is a blanket prohibition on virtual intimate relationships — virtual family members, virtual partners — for minors. All covered services must disclose that the user is interacting with AI, must issue continuous-use reminders every two hours, must obtain separate user consent before using interaction data for model training, and must undergo security assessments if they exceed one million registered users or 100,000 monthly active users.</p>
+
+<p><span class="speaker-alex">Alex:</span> What's the penalty range, and why does this matter outside China?</p>
+
+<p><span class="speaker-sarah">Sarah:</span> Fines run from 10,000 to 200,000 RMB, with service suspension powers available to regulators. But the real significance is global. This is the first regulatory framework anywhere to treat sustained emotional AI interaction as a distinct category requiring specialized oversight. The EU AI Act addresses exploitation of vulnerabilities for specific groups, but not emotional engagement as a category. The US has COPPA for children's data, but nothing specifically about the psychological dynamics of AI companionship. European and US regulators will study this template closely. If you operate companion chatbots or emotional-AI products accessible to Chinese users, compliance mapping needs to start this week.</p>
+
+<p><span class="speaker-alex">Alex:</span> Let's talk about money. FinCEN proposed what the newsletter calls the largest AML overhaul in decades. What's actually changing?</p>
+
+<p><span class="speaker-sarah">Sarah:</span> It's a philosophical shift. For decades, US anti-money laundering compliance has been measured against an existence standard — does your program exist, does it cover the required components. FinCEN's proposed rule, developed jointly with the OCC, FDIC, and NCUA, replaces that with an effectiveness standard — does your program actually work. That's a fundamentally different regulatory posture. The rule also includes an innovation safe harbor that explicitly encourages the use of AI and machine learning in AML compliance without triggering additional enforcement risk. That's a first for US financial regulation.</p>
+
+<p><span class="speaker-alex">Alex:</span> And the comment deadline?</p>
+
+<p><span class="speaker-sarah">Sarah:</span> June 9, so you have roughly 52 days. Banks, credit unions, and money services businesses should be drafting comment letters now. The practical question is whether your current AML program — your transaction monitoring, your customer due diligence, your suspicious activity reporting — can demonstrate effectiveness, not just coverage. Institutions with mature risk analytics are well-positioned. Institutions relying on legacy rules-based systems will need to invest.</p>
+
+<p><span class="speaker-alex">Alex:</span> Over to Europe, but sticking with cybersecurity. The EU Cyber Resilience Act has a conformity body notification deadline coming up on June 11. Why does this matter?</p>
+
+<p><span class="speaker-sarah">Sarah:</span> The CRA is the EU's comprehensive cybersecurity regulation for products with digital elements — everything from consumer IoT to enterprise software. Member States must designate notifying authorities responsible for conformity assessment bodies by June 11, so 54 days from now. That's the infrastructure step. The real operational hammer comes on September 11, when manufacturer reporting obligations for actively exploited vulnerabilities take effect.</p>
+
+<p><span class="speaker-alex">Alex:</span> What should manufacturers be doing now?</p>
+
+<p><span class="speaker-sarah">Sarah:</span> Two things. First, review the CRA conformity assessment requirements for your specific product category — some products will need third-party assessment, others can self-declare, and getting that classification wrong is expensive. Second, engage with the designated notifying authorities in your operating jurisdictions as they come online. If you ship products with digital elements into the EU, this is not optional. And start building your vulnerability disclosure and reporting workflow now, because the September 11 deadline for reporting actively exploited vulnerabilities is an absolute cliff.</p>
+
+<p><span class="speaker-alex">Alex:</span> Last story. The EU Digital Omnibus — there's a political trilogue targeted for April 28, just ten days out. What's at stake?</p>
+
+<p><span class="speaker-sarah">Sarah:</span> The trilogue aims to finalize a political deal on extensions to the AI Act's high-risk system deadlines and on new prohibited-practice rules. For companies that have been building AI Act compliance programs assuming the original deadlines, this could mean more runway — or it could mean new obligations, depending on how the final text lands. The key thing for compliance teams is: don't assume your current AI Act implementation plan is final. Track the April 28 outcome closely, because it will shape your 2026 and 2027 compliance roadmap.</p>
+
+<p><span class="speaker-alex">Alex:</span> Sarah, before we close, three takeaways for compliance teams leaving this podcast.</p>
+
+<p><span class="speaker-sarah">Sarah:</span> First: if you operate any child-directed service, COPPA April 22 is non-negotiable. Verify your written security program, data retention policy, and biometric data controls today. Second: if you operate emotional-AI or companion products, begin China compliance mapping now — the July 15 effective date gives you 90 days and the penalty exposure includes service suspension. Third: if you're a US financial institution, start drafting your FinCEN comment letter this week and begin assessing whether your AML program meets an effectiveness standard, not just an existence standard.</p>
+
+<p><span class="speaker-alex">Alex:</span> And one more to watch. Colorado's AI Act enforcement begins June 30 — that's 75 days from now — for high-risk AI system deployers. If you haven't started your Colorado impact assessments, that deadline is the next one after China.</p>
+
+<p><span class="speaker-sarah">Sarah:</span> Right. And EUDAMED mandatory use for medical device manufacturers begins May 28. That's 40 days out. A lot of calendars are converging this quarter.</p>
+
+<p><span class="speaker-alex">Alex:</span> That's the briefing. Five stories, four urgent deadlines, one clear message: the regulatory velocity is not slowing down. Subscribe to the CyberEyeQ Weekly Newsletter for the full written briefing, the enforcement watch, and our deep dives. Thanks for listening. I'm Alex Chen, she's Dr. Sarah Kim, and we'll see you next week.</p>
+
+<p><span class="speaker-sarah">Sarah:</span> Thanks Alex. Stay compliant out there.</p>
+
+</div>
+
+<div class="cta">
+<strong>Subscribe to the CyberEyeQ Weekly Newsletter</strong><br>
+Actionable regulatory intelligence across AI governance, financial services, healthcare, cybersecurity, privacy, age verification, cloud security, and China regulation — delivered weekly.<br>
+Contact: info@cybereyeq.com
+</div>
+
+<p class="footer">Episode sourced from CyberEyeQ Weekly Newsletter Issue #17 (April 16, 2026). All fine amounts, dates, and regulatory details verified against the newsletter source. This podcast is for informational purposes only and does not constitute legal advice.</p>
+
+</body>
+</html>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
+</channel>
+</rss>
