@@ -34,7 +34,7 @@
   <div id="episodes">Loading…</div>
 
   <script>
-    fetch('podcast/episodes.json').then(r => r.json()).then(data => {
+    fetch('episodes.json').then(r => r.json()).then(data => {
       const container = document.getElementById('episodes');
       const eps = data.episodes.slice().sort((a,b) => b.number - a.number);
       container.innerHTML = eps.map(ep => `
@@ -42,7 +42,7 @@
           <h3>${ep.title}</h3>
           <div class="meta">${ep.date} · Episode ${ep.number}</div>
           <p>${ep.summary}</p>
-          <audio controls preload="none" src="podcast/episodes/${ep.filename}"></audio>
+          <audio controls preload="none" src="episodes/${ep.filename}"></audio>
         </div>
       `).join('');
     }).catch(() => {

@@ -22,10 +22,10 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-EPISODES_JSON = REPO_ROOT / "podcast" / "episodes.json"
-EPISODES_DIR = REPO_ROOT / "podcast" / "episodes"
-SHOW_NOTES_DIR = REPO_ROOT / "podcast" / "show-notes"
-FEED_OUT = REPO_ROOT / "podcast" / "feed.xml"
+EPISODES_JSON = REPO_ROOT / "episodes.json"
+EPISODES_DIR = REPO_ROOT / "episodes"
+SHOW_NOTES_DIR = REPO_ROOT / "show-notes"
+FEED_OUT = REPO_ROOT / "feed.xml"
 
 
 def ffprobe_duration_seconds(mp3_path: Path) -> int:
