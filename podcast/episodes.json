@@ -1,0 +1,28 @@
+{
+  "show": {
+    "title": "CyberEyeQ Weekly Podcast",
+    "subtitle": "10-minute weekly briefings on the regulatory stories that actually matter",
+    "description": "Two hosts break down enforcement actions, compliance deadlines, and policy developments across AI governance, privacy, cybersecurity, financial services, healthcare, and child safety regulation. Produced from CyberEyeQ's daily regulation tracking pipeline.",
+    "author": "CyberEyeQ",
+    "owner_name": "CyberEyeQ",
+    "owner_email": "info@cybereyeq.com",
+    "category": "Technology",
+    "subcategory": "Tech News",
+    "language": "en-us",
+    "explicit": false,
+    "image_url": "https://cybereyeq.github.io/podcast/cover.jpg",
+    "site_url": "https://cybereyeq.github.io/podcast/",
+    "feed_url": "https://cybereyeq.github.io/podcast/feed.xml",
+    "copyright": "(c) 2026 CyberEyeQ"
+  },
+  "episodes": [
+    {
+      "number": 17,
+      "title": "Episode 17: COPPA Deadline in 4 Days + China AI Companion Law",
+      "date": "2026-04-18",
+      "filename": "podcast-2026-04-18.mp3",
+      "summary": "FTC's amended COPPA Rule takes effect April 22 (4 days). China's AI Companion Law passes second NPCSC reading. Plus updates on EU AI Act GPAI compliance and 3 enforcement actions worth tracking.",
+      "show_notes_html": "podcast-2026-04-18.html"
+    }
+  ]
+}
