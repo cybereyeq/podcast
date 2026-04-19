@@ -8,17 +8,18 @@ at https://cybereyeq.github.io/podcast/ — beehiiv (and Apple/Spotify/Overcast)
 
 ```
 .
-├── index.html              # landing page + episode list (Pages serves this at /)
-├── podcast/
-│   ├── episodes.json       # source of truth for the feed
-│   ├── feed.xml            # generated — do not hand-edit
-│   ├── cover.jpg           # 3000x3000 show artwork (Apple Podcasts requires >=1400x1400)
-│   ├── episodes/           # MP3 files referenced by enclosure URLs
-│   └── show-notes/         # per-episode HTML, embedded as content:encoded
+├── index.html              # landing page (Pages serves this at /podcast/)
+├── feed.xml                # generated RSS — https://cybereyeq.github.io/podcast/feed.xml
+├── episodes.json           # source of truth for the feed
+├── cover.jpg               # 3000x3000 show artwork (Apple requires >=1400x1400)
+├── episodes/               # MP3 files referenced by enclosure URLs
+├── show-notes/             # per-episode HTML, embedded as content:encoded
 └── scripts/
     ├── append_episode.py   # adds an entry to episodes.json
     └── build_rss.py        # regenerates feed.xml from episodes.json + the MP3s
 ```
+
+Note: the Pages URL root for a repo named `podcast` is already `/podcast/`, so the repo content lives at the *root* of the repo, not inside a `podcast/` subdirectory.
 
 ## Weekly publishing flow
 

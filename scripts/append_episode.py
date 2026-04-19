@@ -19,7 +19,7 @@ import json
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-EPISODES_JSON = REPO_ROOT / "podcast" / "episodes.json"
+EPISODES_JSON = REPO_ROOT / "episodes.json"
 
 
 def main():
