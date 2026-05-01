@@ -20,7 +20,118 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Tue, 28 Apr 2026 01:34:16 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 01:24:23 +0000</lastBuildDate>
+<item>
+<title>Episode 19: EU Digital Omnibus Lands + $1.165M HIPAA Ransomware Bundle</title>
+<itunes:title>Episode 19: EU Digital Omnibus Lands + $1.165M HIPAA Ransomware Bundle</itunes:title>
+<itunes:episode>19</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-04-30.mp3" length="16465337" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-019</guid>
+<itunes:duration>00:11:26</itunes:duration>
+<itunes:summary>EU AI Act Digital Omnibus hits political agreement at the April 28 trilogue with a three-track new timeline (Annex III Dec 2 2027, Annex I Aug 2 2028, watermarking Nov 2 2026). Plus: OCR's $1.165M four-settlement HIPAA ransomware bundle, today's Ofcom OSA platform deadline, China's eight-agency crypto-marketing ban, and the EDPB's 25-DPA transparency sweep.</itunes:summary>
+<description>EU AI Act Digital Omnibus hits political agreement at the April 28 trilogue with a three-track new timeline (Annex III Dec 2 2027, Annex I Aug 2 2028, watermarking Nov 2 2026). Plus: OCR's $1.165M four-settlement HIPAA ransomware bundle, today's Ofcom OSA platform deadline, China's eight-agency crypto-marketing ban, and the EDPB's 25-DPA transparency sweep.</description>
+<content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CyberEyeQ Weekly — Episode 19 (April 30, 2026)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.55; color: #1a1a1a; }
+  h1 { font-size: 26px; margin-bottom: 4px; }
+  h2 { font-size: 20px; margin-top: 32px; padding-bottom: 6px; border-bottom: 2px solid #e0e0e0; }
+  h3 { font-size: 16px; margin-top: 22px; color: #2c3e50; }
+  .meta { color: #666; font-size: 14px; margin-bottom: 24px; }
+  .badge { display: inline-block; padding: 2px 8px; background: #f0f4f8; border-radius: 4px; font-size: 12px; margin-right: 6px; color: #2c3e50; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: #1a5490; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .deadline { background: #fff7e6; border-left: 4px solid #d97706; padding: 10px 14px; margin: 12px 0; }
+  .source { font-size: 13px; color: #666; margin-top: 4px; }
+  .footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #e0e0e0; font-size: 13px; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>Episode 19: EU Digital Omnibus Lands + $1.165M HIPAA Ransomware Bundle</h1>
+<p class="meta">CyberEyeQ Weekly · April 30, 2026 · ~9 minutes</p>
+
+<p>This week's five stories: the EU Digital Omnibus on AI hits political agreement at the April 28 trilogue with a three-track new timeline; OCR settles four ransomware investigations on a single day; Ofcom's hard platform-response deadline lands today; eight Chinese regulators outlaw online marketing of crypto and other illegal financial products; and the EDPB launches a 25-DPA coordinated enforcement sweep on GDPR transparency.</p>
+
+<h2>Top 5 Stories</h2>
+
+<h3>1. EU Digital Omnibus on AI — Political agreement at April 28 trilogue</h3>
+<p>The trilogue converged on three structural changes: Annex III high-risk standalone systems postponed to <strong>December 2, 2027</strong>; Annex I AI embedded in regulated products to <strong>August 2, 2028</strong>; and a watermarking obligation for AI-generated content on <strong>November 2, 2026</strong>. Note: this is political agreement, not yet legal enactment — until Official Journal publication, August 2, 2026 remains operative.</p>
+<div class="source">Sources:
+  <a href="https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai">European Parliament Legislative Train</a> ·
+  <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">European Commission — AI regulatory framework</a> ·
+  <a href="https://www.aoshearman.com/en/insights/digital-omnibus-on-ai-what-is-really-on-the-table-as-trilogues-begin">A&amp;O Shearman — Digital Omnibus trilogue analysis</a>
+</div>
+
+<h3>2. HHS OCR HIPAA Ransomware Bundle — $1.165M, four settlements (April 23)</h3>
+<p>OCR settled four ransomware investigations on April 23: Regional Women's Health Group / Axia (37,989 affected), Assured Imaging, Star Group L.P. Health Benefits Plan, and Consociate Health. Total payments $1,165,000; 427,000 individuals affected; two-year corrective action plans on each. Largest single-day Risk Analysis Initiative bundle since October 2024. Posture shifts from <em>risk analysis</em> to <em>risk management</em> evidence.</p>
+<div class="source">Source:
+  <a href="https://www.hhs.gov/press-room/ocr-settles-four-ransomware-investigations.html">HHS — OCR settles four ransomware investigations</a>
+</div>
+
+<h3>3. Ofcom OSA platform-response deadline — Today (April 30)</h3>
+<p>Mandatory written submissions due today from Facebook, Instagram, Roblox, Snapchat, TikTok, and YouTube on under-18 protection measures under the UK Online Safety Act 2023. Six post-OSA age-assurance fines totalling £2.3M+ already logged. Non-response expected to feed Ofcom's next enforcement wave through May.</p>
+<div class="source">Source:
+  <a href="https://www.ofcom.org.uk/online-safety/protecting-children/">Ofcom — Protecting Children</a>
+</div>
+
+<h3>4. China — Eight-agency Financial Product Online Marketing Measures (April 24)</h3>
+<p>PBOC + MIIT + SAMR + NFRA + CSRC + NIPA + CAC + SAFE released the Financial Product Online Marketing Management Measures (金融产品网络营销管理办法), <strong>effective September 30, 2026</strong>. Bans misleading promotional language; requires loan products to display annualised rates; restricts live-stream/short-video promoters to direct employees of licensed institutions; <em>explicitly prohibits online marketing services for virtual currency issuance and trading</em>.</p>
+<div class="source">Sources:
+  <a href="https://www.bastillepost.com/global/article/5808096-china-adopts-measures-to-regulate-online-marketing-of-financial-products">Bastille Post — China adopts marketing measures</a> ·
+  <a href="https://www.tradingview.com/news/cointelegraph:ad28bf74e094b:0-china-s-new-online-marketing-rules-tighten-ban-on-crypto-promotions/">Cointelegraph — Crypto promotion ban</a>
+</div>
+
+<h3>5. EDPB 2026 Coordinated Enforcement Framework — GDPR transparency</h3>
+<p>EDPB launched its 2026 CEF on GDPR Articles 12–14 (privacy-notice transparency); 25 supervisory authorities participating. Companion development: Ireland's DPC opened an inquiry into X / Grok using public posts to train an LLM — Article 13/14 question.</p>
+<div class="source">Source:
+  <a href="https://www.edpb.europa.eu/news/news/2026/cef-2026-edpb-launches-coordinated-enforcement-action-transparency-and-information_en">EDPB — 2026 CEF on transparency</a>
+</div>
+
+<h2>Compliance Action Items with Deadlines</h2>
+<div class="deadline">
+  <strong>TODAY · April 30, 2026</strong> — UK platform legal/policy leads (Facebook, Instagram, Roblox, Snapchat, TikTok, YouTube): confirm Ofcom submission filed and audit log retained. <span class="badge">UK · OSA</span>
+</div>
+<div class="deadline">
+  <strong>May 4, 2026 (4 days)</strong> — Federal civilian agencies and benchmarked private-sector teams: remediate the 8-CVE CISA KEV batch (PaperCut, JetBrains TeamCity, Cisco). <span class="badge">US · CISA</span>
+</div>
+<div class="deadline">
+  <strong>May 28, 2026 (28 days)</strong> — MedTech regulatory affairs: complete EUDAMED actor / UDI / Notified Body / Vigilance module registration ahead of mandatory use. <span class="badge">EU · MDR/IVDR</span>
+</div>
+<div class="deadline">
+  <strong>June 19, 2026 (50 days)</strong> — UK organisations: implement DUAA mandatory complaints procedure. <span class="badge">UK · DUAA</span>
+</div>
+<div class="deadline">
+  <strong>September 30, 2026 (155 days)</strong> — Multinational platforms with China nexus: complete financial-promotion content review under PBOC + 7-agency Measures. <span class="badge">China · Financial</span>
+</div>
+<div class="deadline">
+  <strong>November 2, 2026 (188 days)</strong> — AI-generated content producers: implement watermarking under EU AI Act Omnibus track. <span class="badge">EU · AI Act</span>
+</div>
+
+<h2>Resources</h2>
+<ul>
+  <li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA Known Exploited Vulnerabilities Catalog</a></li>
+  <li><a href="https://health.ec.europa.eu/latest-updates/eudamed-four-first-modules-will-be-mandatory-use-28-may-2026-2025-11-27_en">European Commission — EUDAMED mandatory use guidance</a></li>
+  <li><a href="https://www.ftc.gov/news-events/topics/protecting-consumer-privacy-security/privacy-security-enforcement">FTC — privacy &amp; security enforcement</a></li>
+  <li><a href="https://cybereyeq.github.io/podcast/feed.xml">CyberEyeQ Weekly RSS Feed</a></li>
+</ul>
+
+<p class="footer">CyberEyeQ — Actionable Regulatory Intelligence. This podcast is for informational purposes only and does not constitute legal advice. Always consult qualified legal counsel for compliance decisions. Contact: <a href="mailto:info@cybereyeq.com">info@cybereyeq.com</a></p>
+
+</body>
+</html>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 18: EU AI Act Countdown + Iranian OT Attacks on US Infrastructure</title>
 <itunes:title>Episode 18: EU AI Act Countdown + Iranian OT Attacks on US Infrastructure</itunes:title>
