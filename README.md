@@ -23,10 +23,10 @@ Note: the Pages URL root for a repo named `podcast` is already `/podcast/`, so t
 
 ## Weekly publishing flow
 
-The `weekly-podcast-generator` scheduled task does this automatically every Saturday:
+The `weekly-podcast-generator` scheduled task does this automatically every Thursday morning (04:32 local):
 
 1. Generates the dialogue script + show-notes HTML.
-2. Synthesizes the MP3 with espeak-ng (in-sandbox).
+2. Synthesizes the MP3 with the Gemini multi-speaker TTS API (`scripts/synth_gemini.py` in cybereyeq/regtech-skills, ~12 chunks parallel, resumable per-chunk PCM checkpoint). Switched from espeak-ng on 2026-05-02.
 3. Drops `podcast-YYYY-MM-DD.mp3` into `podcast/episodes/`.
 4. Drops `podcast-YYYY-MM-DD.html` into `podcast/show-notes/`.
 5. Calls `scripts/append_episode.py --number N --title ... --filename ...`.
