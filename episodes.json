@@ -47,6 +47,14 @@
       "filename": "podcast-2026-05-07.mp3",
       "summary": "Three-week look at the regtech week-of-April-30: EU Digital Omnibus on AI emerges as a three-track program (watermarking Nov 2 2026, Annex III Dec 2 2027, Annex I Aug 2 2028), HHS OCR's $1.165M four-settlement HIPAA ransomware bundle, today's Ofcom OSA platform deadline, China's eight-agency online crypto-marketing ban, and the EDPB's 25-DPA Article 12-14 transparency sweep. EUDAMED four-module mandatory use lands May 28.",
       "show_notes_html": "podcast-2026-05-07.html"
+    },
+    {
+      "number": 21,
+      "title": "Episode 21: EU AI Three-Track Locks In + Record $12.75M CCPA Fine + China AI Agents",
+      "date": "2026-05-14",
+      "filename": "podcast-2026-05-14.mp3",
+      "summary": "EU AI Act Digital Omnibus reaches political agreement May 7 (Annex III to Dec 2 2027, GPAI still Aug 2 2026). California AG hits GM/OnStar with a record $12.75M CCPA penalty for selling driver telemetry. Plus: Connecticut SB 5 / SB 4 and Colorado SB 26-189 advance, China issues the first horizontal AI-agent regime, CMS freezes new hospice/HHA Medicare enrollments for six months, Luxembourg NIS2 goes live, and FedRAMP CR26 hits public preview.",
+      "show_notes_html": "podcast-2026-05-14.html"
     }
   ]
 }

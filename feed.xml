@@ -20,7 +20,119 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 07 May 2026 11:39:14 +0000</lastBuildDate>
+<lastBuildDate>Thu, 14 May 2026 11:39:25 +0000</lastBuildDate>
+<item>
+<title>Episode 21: EU AI Three-Track Locks In + Record $12.75M CCPA Fine + China AI Agents</title>
+<itunes:title>Episode 21: EU AI Three-Track Locks In + Record $12.75M CCPA Fine + China AI Agents</itunes:title>
+<itunes:episode>21</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-05-14.mp3" length="8256813" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-021</guid>
+<itunes:duration>00:08:36</itunes:duration>
+<itunes:summary>EU AI Act Digital Omnibus reaches political agreement May 7 (Annex III to Dec 2 2027, GPAI still Aug 2 2026). California AG hits GM/OnStar with a record $12.75M CCPA penalty for selling driver telemetry. Plus: Connecticut SB 5 / SB 4 and Colorado SB 26-189 advance, China issues the first horizontal AI-agent regime, CMS freezes new hospice/HHA Medicare enrollments for six months, Luxembourg NIS2 goes live, and FedRAMP CR26 hits public preview.</itunes:summary>
+<description>EU AI Act Digital Omnibus reaches political agreement May 7 (Annex III to Dec 2 2027, GPAI still Aug 2 2026). California AG hits GM/OnStar with a record $12.75M CCPA penalty for selling driver telemetry. Plus: Connecticut SB 5 / SB 4 and Colorado SB 26-189 advance, China issues the first horizontal AI-agent regime, CMS freezes new hospice/HHA Medicare enrollments for six months, Luxembourg NIS2 goes live, and FedRAMP CR26 hits public preview.</description>
+<content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CyberEyeQ Weekly Podcast &mdash; Episode 21 (May 14, 2026)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 760px; margin: 2em auto; padding: 0 1em; color: #1a1a1a; line-height: 1.55; }
+  h1 { color: #003366; border-bottom: 2px solid #003366; padding-bottom: 0.3em; }
+  h2 { color: #003366; margin-top: 1.6em; border-bottom: 1px solid #ccd; padding-bottom: 0.2em; }
+  h3 { color: #224; margin-top: 1.2em; }
+  .meta { color: #555; font-size: 0.9em; margin-bottom: 1.5em; }
+  .badge { background: #003366; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.8em; font-weight: bold; }
+  .deadline { background: #fff3cd; border-left: 4px solid #ffb300; padding: 0.6em 1em; margin: 0.6em 0; }
+  .deadline strong { color: #8a6d00; }
+  ul { padding-left: 1.4em; }
+  li { margin-bottom: 0.45em; }
+  a { color: #0055aa; }
+  blockquote { background: #f4f6fb; border-left: 4px solid #003366; margin: 1em 0; padding: 0.6em 1em; font-style: italic; }
+  .footer { margin-top: 2.5em; padding-top: 1em; border-top: 1px solid #ccd; color: #555; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>CyberEyeQ Weekly Podcast</h1>
+<p class="meta"><span class="badge">Episode 21</span> &middot; May 14, 2026 &middot; Source: <a href="https://github.com/cybereyeq/results/blob/main/newsletter/output/weekly-2026-05-14.html">Weekly Briefing #20 (May 14, 2026)</a></p>
+
+<blockquote>This week's briefing: Brussels reaches political agreement on the EU AI Act Digital Omnibus (Annex III slips to Dec 2 2027); California AG secures a record $12.75M CCPA penalty against GM/OnStar for selling driver telemetry; Connecticut and Colorado pass new AI laws; China issues the world's first horizontal regime for autonomous AI agents; CMS freezes new hospice and home-health enrollments nationwide for six months; Luxembourg's NIS2 goes live; FedRAMP CR26 enters public preview.</blockquote>
+
+<h2>Top 5 Stories</h2>
+
+<h3>1. EU AI Act Digital Omnibus &mdash; Political Agreement, Annex III to Dec 2 2027</h3>
+<p>On May 7 the Council and Parliament reached political agreement on the EU AI Act Digital Omnibus. <strong>Annex III high-risk obligations slip to December 2, 2027</strong>; AI embedded in Annex I regulated products moves to <strong>August 2, 2028</strong>; <strong>GPAI enforcement still goes live August 2, 2026</strong>; and nudification apps are now banned EU-wide. Risk: governance teams treat the postponement as a pause and miss the GPAI date and the November 2 2026 watermarking obligation.</p>
+<p>Source: <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">European Commission &mdash; AI Act regulatory framework</a></p>
+
+<h3>2. California AG &mdash; Record $12.75M CCPA Penalty Against GM &amp; OnStar</h3>
+<p>The California Attorney General secured a <strong>$12.75 million CCPA penalty</strong> against General Motors and OnStar for selling driver geolocation and telemetry data without proper notice or opt-out. The figure is roughly 4.6&times; the prior Disney/ABC CCPA record. Notable for connected-vehicle and IoT-data programs &mdash; the AG is now pricing sensitive-attribute sales materially above prior baselines.</p>
+<p>Source: <a href="https://oag.ca.gov/privacy/ccpa">California Attorney General &mdash; CCPA enforcement</a></p>
+
+<h3>3. Connecticut SB 5 / SB 4 and Colorado SB 26-189 &mdash; State AI &amp; Privacy Wave</h3>
+<p>Connecticut passed <strong>SB 5 (AI)</strong> and <strong>SB 4 (privacy &amp; data brokers)</strong> on May 1; Colorado passed <strong>SB 26-189 on May 9</strong> to replace its stayed AI Act. Both Connecticut bills and the Colorado bill are awaiting governor signatures. Pattern continues: state-level AI/privacy frameworks are filling federal gaps and creating compounding multi-state compliance work.</p>
+<p>Source: <a href="https://www.cga.ct.gov/">Connecticut General Assembly</a> &middot; <a href="https://leg.colorado.gov/">Colorado General Assembly</a></p>
+
+<h3>4. China &mdash; World's First Horizontal AI-Agent Regime (CAC/NDRC/MIIT, May 8)</h3>
+<p>On May 8 the Cyberspace Administration of China, the National Development and Reform Commission, and the Ministry of Industry and Information Technology jointly issued <strong>Implementation Opinions on autonomous AI agents</strong> &mdash; the first horizontal regulatory regime for agent-based AI anywhere. Headline obligations: <strong>mandatory digital-ID registration for agents</strong>, a <strong>70% smart-terminal adoption target by 2027</strong>, and supply-chain accountability requirements for terminal manufacturers. Multinational AI deployments with a China nexus need to plan for an agent-registration pathway.</p>
+<p>Source: <a href="http://www.cac.gov.cn/">Cyberspace Administration of China</a></p>
+
+<h3>5. CMS Hospice / HHA Enrollment Moratorium &mdash; Six Months, Nationwide</h3>
+<p>On May 13 the Centers for Medicare &amp; Medicaid Services imposed a <strong>nationwide six-month moratorium on new Medicare enrollments for hospice agencies and home health agencies</strong> under the Anti-Fraud Task Force. Most majority-ownership changes are also paused. Existing providers and current patients are unaffected. The moratorium may be extended in six-month increments. Healthcare M&amp;A counsel: pause hospice/HHA transactions or expect change-of-ownership delays.</p>
+<p>Source: <a href="https://www.cms.gov/newsroom">CMS &mdash; Newsroom</a></p>
+
+<h2>Compliance Action Items</h2>
+
+<div class="deadline"><strong>May 19, 2026 (5 days) &mdash; FTC Take It Down Act &sect;3 takedown obligations effective.</strong> Covered platforms must operationalize a notice-and-takedown process for non-consensual intimate imagery and remove valid-request content (and known identical copies) within 48 hours. Trust &amp; Safety: confirm intake form is live, dedup/hash-matching pipeline is operational, and 48-hour SLA telemetry feeds the audit log.</div>
+
+<div class="deadline"><strong>May 28, 2026 (14 days) &mdash; EUDAMED four-module mandatory use.</strong> Actor registration, UDI/Devices, Notified Bodies &amp; Certificates, and Vigilance modules become mandatory across the EU MDR/IVDR perimeter. MedTech RA: verify SRN issuance and complete UDI submissions before this date.</div>
+
+<div class="deadline"><strong>June 11, 2026 &mdash; EU CRA Member-State conformity-assessment-body designation.</strong> Member States must designate CABs under the Cyber Resilience Act framework.</div>
+
+<div class="deadline"><strong>June 19, 2026 &mdash; UK DUAA mandatory complaints-procedure deadline.</strong></div>
+
+<div class="deadline"><strong>End of June 2026 &mdash; FedRAMP CR26 final.</strong> Public preview launched May 4; final by end of June; in force early July; baseline runs through December 31, 2028. Cloud providers seeking federal authorization: review the preview now.</div>
+
+<div class="deadline"><strong>August 2, 2026 &mdash; EU AI Act GPAI obligations operative.</strong> Despite the Annex III/Annex I postponements, general-purpose AI enforcement is still on the original timeline.</div>
+
+<div class="deadline"><strong>November 2, 2026 &mdash; EU AI Act watermarking obligation.</strong> Any organisation creating synthetic media. Don't let the Annex III/Annex I postponements push this date out of view.</div>
+
+<div class="deadline"><strong>December 2, 2027 &mdash; EU AI Act Annex III high-risk obligations (revised).</strong></div>
+
+<h2>Enforcement Watch</h2>
+<ul>
+  <li><strong>California AG &mdash; $12.75M CCPA penalty against GM/OnStar</strong> for selling driver geolocation/telemetry; ~4.6&times; the prior Disney/ABC record.</li>
+  <li><strong>CMS &mdash; Six-month nationwide moratorium on new hospice/HHA Medicare enrollments</strong> effective May 13 under the Anti-Fraud Task Force.</li>
+  <li><strong>Luxembourg &mdash; NIS2 transposition went live May 10</strong>; EU tally now ~23 of 27 Member States transposed.</li>
+  <li><strong>CISA &mdash; CIRCIA final rule still pending</strong>; the May target window closed without publication.</li>
+</ul>
+
+<h2>Resources &amp; References</h2>
+<ul>
+  <li><a href="https://github.com/cybereyeq/results/blob/main/newsletter/output/weekly-2026-05-14.html">Full Weekly Briefing #20 (May 14, 2026) on GitHub</a></li>
+  <li><a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">European Commission &mdash; AI Act regulatory framework</a></li>
+  <li><a href="https://oag.ca.gov/privacy/ccpa">California Attorney General &mdash; CCPA</a></li>
+  <li><a href="https://www.cga.ct.gov/">Connecticut General Assembly</a></li>
+  <li><a href="https://leg.colorado.gov/">Colorado General Assembly</a></li>
+  <li><a href="http://www.cac.gov.cn/">Cyberspace Administration of China</a></li>
+  <li><a href="https://www.cms.gov/newsroom">CMS &mdash; Newsroom</a></li>
+  <li><a href="https://www.fedramp.gov/">FedRAMP</a></li>
+  <li><a href="https://www.ftc.gov/">Federal Trade Commission</a></li>
+  <li><a href="https://cybereyeq.github.io/podcast/feed.xml">CyberEyeQ Podcast RSS feed</a></li>
+</ul>
+
+<div class="footer">
+  <p>CyberEyeQ Weekly is an automated regtech-intelligence digest. The dialogue is generated from the weekly newsletter; treat the show notes and the underlying primary-source links as authoritative.</p>
+  <p>RSS: <a href="https://cybereyeq.github.io/podcast/feed.xml">https://cybereyeq.github.io/podcast/feed.xml</a></p>
+</div>
+
+</body>
+</html>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 20: EU AI Three-Track Timeline + EUDAMED Deadline + China Crypto Marketing Ban</title>
 <itunes:title>Episode 20: EU AI Three-Track Timeline + EUDAMED Deadline + China Crypto Marketing Ban</itunes:title>
