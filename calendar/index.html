@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>2026 Regtech Deadline Calendar — CybereyeQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A living deadline map for AI governance, financial, healthcare, age verification, China, cybersecurity, privacy, and cloud security regulations. Updated nightly from the CybereyeQ regulation registry.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://cybereyeq.github.io/podcast/calendar/">
+<meta property="og:title" content="2026 Regtech Deadline Calendar">
+<meta property="og:description" content="Compliance deadlines across 8 regulatory domains, refreshed nightly.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cybereyeq.github.io/podcast/calendar/">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f172a;
+    --fg: #f8fafc;
+    --accent: #22d3ee;
+    --muted: #94a3b8;
+    --panel: #1e293b;
+    --rule: #334155;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    margin: 0;
+    padding: 2rem 1.25rem 4rem;
+    max-width: 860px;
+    margin-inline: auto;
+  }
+  h1 { color: var(--accent); margin: 0 0 .25rem; font-size: 2.2rem; line-height: 1.15; }
+  h2 { color: var(--accent); border-bottom: 1px solid var(--rule); padding-bottom: .25rem; margin-top: 2rem; font-size: 1.3rem; }
+  p.sub { color: var(--muted); margin: 0 0 1.5rem; }
+  .placeholder {
+    border: 1px dashed var(--rule);
+    border-radius: 12px;
+    padding: 2.5rem 1.5rem;
+    background: var(--panel);
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .placeholder strong { color: var(--accent); display: block; font-size: 1.1rem; margin-bottom: .5rem; }
+  .placeholder small { color: var(--muted); }
+  .domains { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .75rem; margin: 1.5rem 0; }
+  .domain { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: .75rem 1rem; }
+  .domain b { color: var(--accent); display: block; font-size: .95rem; }
+  .domain span { color: var(--muted); font-size: .85rem; }
+  .signup {
+    background: var(--panel);
+    border: 1px solid var(--accent);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  .signup h2 { margin-top: 0; border-bottom: none; padding-bottom: 0; }
+  .embed-slot {
+    background: #0b1424;
+    border: 1px dashed var(--rule);
+    border-radius: 8px;
+    padding: 1.25rem;
+    color: var(--muted);
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: .85rem;
+    line-height: 1.5;
+  }
+  footer { color: var(--muted); border-top: 1px solid var(--rule); padding-top: 1rem; margin-top: 3rem; font-size: .9rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+  <h1>2026 Regtech Deadline Calendar</h1>
+  <p class="sub">A living deadline map across eight regulatory domains. Refreshed nightly from the CybereyeQ regulation registry.</p>
+
+  <div class="placeholder">
+    <strong>Heatmap visualization — coming soon</strong>
+    <small>The interactive 52-week × 8-domain heatmap will replace this panel once the nightly <code>nightly-calendar-rebuild</code> task ships.</small>
+  </div>
+
+  <h2>Domains tracked</h2>
+  <div class="domains">
+    <div class="domain"><b>AI governance</b><span>EU AI Act, US state AI laws, NIST AI RMF guidance</span></div>
+    <div class="domain"><b>Financial</b><span>DORA, SEC disclosure, FCA, MAS, RBI</span></div>
+    <div class="domain"><b>Healthcare</b><span>HIPAA, HITECH, EU Health Data Space</span></div>
+    <div class="domain"><b>Age verification</b><span>UK Online Safety Act, EU DSA, US state laws</span></div>
+    <div class="domain"><b>China</b><span>PIPL, DSL, CSL, generative-AI rules, CAC measures</span></div>
+    <div class="domain"><b>Cybersecurity</b><span>NIS2, CRA, SEC Cyber Disclosure, state breach laws</span></div>
+    <div class="domain"><b>Privacy</b><span>GDPR, CPRA, state comprehensive laws, ePrivacy</span></div>
+    <div class="domain"><b>Cloud security</b><span>FedRAMP, C5, ISO 27017, CCM, regional sovereignty</span></div>
+  </div>
+
+  <div class="signup">
+    <h2>Get the PDF</h2>
+    <p>Email-gated download of the full 2026 calendar (PDF) is in setup. Subscribe to the CybereyeQ briefing to receive it when it lands.</p>
+    <div class="embed-slot" id="beehiiv-embed-slot">
+      <!--
+        BEEHIIV EMBED PLACEHOLDER
+
+        Replace this block with the iframe snippet from beehiiv:
+          beehiiv dashboard → Audience → Subscribe forms → embed → copy iframe
+
+        Expected form: <iframe src="https://embeds.beehiiv.com/<form-id>" data-test-id="beehiiv-embed" ...></iframe>
+
+        Until then, this placeholder shows that the signup slot exists.
+      -->
+      [beehiiv embed pending — paste form iframe here]
+    </div>
+  </div>
+
+  <h2>How this is built</h2>
+  <p>Eight regulation trackers run nightly (3:00 AM – 5:55 AM) across the CybereyeQ pipeline, each pulling enforcement dates, transposition windows, and consultation closes from primary sources. A nightly aggregator (<code>scripts/build-calendar.sh</code>) merges every <code>upcoming_deadlines</code> array into one JSON, which this page renders.</p>
+  <p>Discovery-feed candidates (regulations not yet enacted but plausibly heading there) overlay on the heatmap at lower opacity, using the registry's confidence tiers.</p>
+
+  <footer>
+    <a href="../">← Back to CyberEyeQ Weekly Podcast</a><br>
+    <a href="../privacy/">Privacy policy</a>
+  </footer>
+</body>
+</html>
