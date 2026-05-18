@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Translate My Framework — SOC 2 to GDPR, AI Act, HIPAA — CybereyeQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Already have SOC 2? See exactly what GDPR, the EU AI Act, and HIPAA add on top — theme by theme, with article citations.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://cybereyeq.github.io/podcast/translate/">
+<meta property="og:title" content="Translate My Framework — SOC 2 to GDPR, AI Act, HIPAA">
+<meta property="og:description" content="What does GDPR add on top of SOC 2? Or the AI Act? Or HIPAA? See the delta, theme by theme, with article citations.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cybereyeq.github.io/podcast/translate/">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f172a;
+    --fg: #f8fafc;
+    --accent: #22d3ee;
+    --accent-soft: rgba(34, 211, 238, 0.12);
+    --muted: #94a3b8;
+    --panel: #1e293b;
+    --rule: #334155;
+    --hi: #fbbf24;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    margin: 0;
+    padding: 2rem 1.25rem 4rem;
+    max-width: 920px;
+    margin-inline: auto;
+  }
+  h1 { color: var(--accent); margin: 0 0 .25rem; font-size: 2.1rem; line-height: 1.15; }
+  h2 { color: var(--accent); border-bottom: 1px solid var(--rule); padding-bottom: .25rem; margin-top: 2.25rem; font-size: 1.25rem; }
+  h3 { color: var(--fg); margin: 1.25rem 0 .25rem; font-size: 1.05rem; }
+  p.sub { color: var(--muted); margin: 0 0 1.25rem; }
+  .banner {
+    background: rgba(251, 191, 36, 0.1);
+    border: 1px solid var(--hi);
+    color: var(--hi);
+    border-radius: 8px;
+    padding: .75rem 1rem;
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+  }
+  .picker {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0 2rem;
+    display: grid;
+    gap: 1rem;
+  }
+  .picker label { display: block; color: var(--muted); font-size: .85rem; margin-bottom: .35rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; }
+  .picker select {
+    background: #0b1424;
+    color: var(--fg);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: .55rem .75rem;
+    width: 100%;
+    font-size: 1rem;
+    font: inherit;
+  }
+  .picker .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  @media (max-width: 560px) { .picker .grid { grid-template-columns: 1fr; } }
+  .meta-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    color: var(--muted);
+    font-size: .9rem;
+    margin: 0 0 1rem;
+  }
+  .meta-line b { color: var(--accent); }
+  .theme {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .theme h3 { margin-top: 0; }
+  .theme .label {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-radius: 999px;
+    padding: .15rem .65rem;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    margin-bottom: .35rem;
+  }
+  .theme .soc2 { color: var(--muted); font-size: .92rem; }
+  .theme .delta { margin: .5rem 0; }
+  .theme .action {
+    background: rgba(34, 211, 238, 0.08);
+    border-left: 3px solid var(--accent);
+    padding: .55rem .75rem;
+    border-radius: 0 6px 6px 0;
+    margin-top: .65rem;
+    font-size: .92rem;
+  }
+  .theme .action b { color: var(--accent); }
+  .theme .cite {
+    font-size: .8rem;
+    color: var(--muted);
+    margin-top: .5rem;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  .signup {
+    background: var(--panel);
+    border: 1px solid var(--accent);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2.5rem 0 1rem;
+  }
+  .signup h2 { margin-top: 0; border-bottom: none; padding-bottom: 0; }
+  .embed-slot {
+    background: #0b1424;
+    border: 1px dashed var(--rule);
+    border-radius: 8px;
+    padding: 1.25rem;
+    color: var(--muted);
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: .85rem;
+    line-height: 1.5;
+  }
+  .actions {
+    display: flex;
+    gap: .75rem;
+    flex-wrap: wrap;
+    margin: 1rem 0 2rem;
+  }
+  .actions button, .actions a {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    padding: .5rem 1rem;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: .9rem;
+  }
+  .actions button:hover, .actions a:hover { background: var(--accent); color: var(--bg); }
+  footer { color: var(--muted); border-top: 1px solid var(--rule); padding-top: 1rem; margin-top: 3rem; font-size: .9rem; }
+  a { color: var(--accent); }
+  @media print {
+    :root { color-scheme: light; --bg: #fff; --fg: #111; --panel: #fff; --rule: #ccc; --muted: #444; --accent: #006080; --accent-soft: rgba(0, 96, 128, 0.08); }
+    body { padding: 1rem 0; max-width: none; }
+    .picker, .signup, .embed-slot, .actions, .banner { display: none; }
+    .theme { break-inside: avoid; box-shadow: none; }
+    footer { display: none; }
+  }
+</style>
+</head>
+<body>
+  <h1>Translate My Framework</h1>
+  <p class="sub">Already have SOC 2? See exactly what GDPR, the EU AI Act, and HIPAA add on top — theme by theme, with article citations. Updated 2026-05-17.</p>
+
+  <div class="banner">
+    <b>v0.5 preview release.</b> Content is editorially reviewed but not yet exhaustive. Spot something off? Email <a href="mailto:info@cybereyeq.com">info@cybereyeq.com</a> — corrections become public commits.
+  </div>
+
+  <div class="picker">
+    <div class="grid">
+      <div>
+        <label for="base">I already have</label>
+        <select id="base">
+          <option value="soc2">SOC 2 (Common Criteria)</option>
+        </select>
+      </div>
+      <div>
+        <label for="target">Show me the delta for</label>
+        <select id="target">
+          <option value="gdpr">EU GDPR</option>
+          <option value="ai_act">EU AI Act</option>
+          <option value="hipaa">US HIPAA</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="meta-line" id="meta"></div>
+
+  <div class="actions">
+    <button type="button" onclick="window.print()">Print / Save as PDF</button>
+    <a href="../calendar/">Open the 2026 Deadline Calendar →</a>
+  </div>
+
+  <div id="delta"></div>
+
+  <div class="signup">
+    <h2>Get the PDF</h2>
+    <p>For the polished email-ready PDF (with summary diagrams and a 1-page executive overview), subscribe to the CybereyeQ briefing. Until the embed is wired, use the <b>Print / Save as PDF</b> button above — the page is print-styled.</p>
+    <div class="embed-slot">
+      <!--
+        BEEHIIV EMBED PLACEHOLDER
+        Replace with the iframe snippet from beehiiv:
+          beehiiv dashboard → Audience → Subscribe forms → embed → copy iframe
+      -->
+      [beehiiv embed pending — paste form iframe here]
+    </div>
+  </div>
+
+  <footer>
+    <a href="../">← CyberEyeQ Weekly Podcast</a>  ·
+    <a href="../calendar/">2026 Deadline Calendar</a>  ·
+    <a href="../privacy/">Privacy</a>
+  </footer>
+
+<script>
+// Crosswalk data — inline so the page works offline (e.g., for Print-to-PDF).
+// Each target is a list of themes; each theme cites primary-source articles/sections.
+const CROSSWALK = {
+  base: { soc2: { name: "SOC 2 (Common Criteria + optional Privacy)", id: "soc2" } },
+  targets: {
+    gdpr: {
+      name: "EU GDPR (Regulation (EU) 2016/679)",
+      summary: "GDPR is principle-based but enforceable. SOC 2 Common Criteria overlap with security and access control, but GDPR adds 10 substantive areas no SOC 2 audit will cover.",
+      themes: [
+        {
+          label: "Lawful basis",
+          title: "Establish a lawful basis for every processing activity",
+          soc2_says: "SOC 2 doesn't dictate the legal basis for processing.",
+          delta: "GDPR Art. 6 requires you to establish one of six lawful bases (consent, contract, legal obligation, vital interests, public task, legitimate interests) per processing activity. Art. 9 prohibits processing of special-category data unless an enumerated exception applies.",
+          action: "Maintain a Record of Processing Activities (Art. 30) that documents the legal basis per activity. For special-category data, document the Art. 9 exception.",
+          cite: "GDPR Arts. 6, 9, 30"
+        },
+        {
+          label: "Data subject rights",
+          title: "Build response workflows for 7 individual rights",
+          soc2_says: "SOC 2 Privacy category mentions rights principles but is not prescriptive.",
+          delta: "GDPR Arts. 12–23 require concrete response to: access (15), rectification (16), erasure (17), restriction (18), portability (20), objection (21), and human review of automated decisions (22). Default response window: 1 month, extendable by 2 months.",
+          action: "Build SAR (subject access request) workflow with clock-tracking. Define rectification, deletion, and export procedures per data store.",
+          cite: "GDPR Arts. 12–23"
+        },
+        {
+          label: "Breach notification",
+          title: "72-hour clock to the supervisory authority",
+          soc2_says: "SOC 2 has 'incident response' generally; no fixed deadline.",
+          delta: "Art. 33 requires notification to the supervisory authority within 72 hours of awareness of a personal data breach. Art. 34 requires direct communication to data subjects when the breach is likely to result in high risk.",
+          action: "Define personal-data-breach triage that distinguishes from generic security incidents. Document where the 72-hour clock starts (awareness, not discovery).",
+          cite: "GDPR Arts. 33, 34"
+        },
+        {
+          label: "Cross-border transfers",
+          title: "Mechanism + Transfer Impact Assessment for each non-EEA destination",
+          soc2_says: "SOC 2 doesn't address jurisdictional data flow.",
+          delta: "Chapter V requires a transfer mechanism for personal data leaving the EEA: adequacy decision (Art. 45), SCCs (Art. 46), BCRs (Art. 47), or derogations (Art. 49). Schrems II requires a Transfer Impact Assessment per destination.",
+          action: "Inventory cross-border data flows. Implement appropriate mechanism per destination. Conduct TIA per destination country; document supplementary measures where local law contradicts EU protections.",
+          cite: "GDPR Arts. 45–49; CJEU C-311/18 (Schrems II)"
+        },
+        {
+          label: "DPIA",
+          title: "Data Protection Impact Assessment for high-risk processing",
+          soc2_says: "SOC 2 covers general risk assessment.",
+          delta: "Art. 35 requires DPIA for processing likely to result in high risk: large-scale special-category, systematic monitoring, automated decisions with legal effect, etc. Specific lists vary by Member State DPA.",
+          action: "Adopt DPIA methodology. Build trigger checklist tied to product/feature launch. Consult DPA if residual risk remains high.",
+          cite: "GDPR Art. 35"
+        },
+        {
+          label: "DPO",
+          title: "Determine if a Data Protection Officer is required",
+          soc2_says: "SOC 2 doesn't require a DPO.",
+          delta: "Arts. 37–39 require DPO appointment for public authorities, large-scale special-category processing, or systematic monitoring of data subjects on a large scale.",
+          action: "Document the DPO-required analysis. If yes, appoint and publish contact details; ensure independence and direct reporting to highest management.",
+          cite: "GDPR Arts. 37–39"
+        },
+        {
+          label: "Privacy by design",
+          title: "Embed PbD into product/feature design gates",
+          soc2_says: "SOC 2 doesn't explicitly require this.",
+          delta: "Art. 25 requires data protection by design and by default throughout the data lifecycle: data minimization, purpose limitation, pseudonymization where appropriate, default settings that limit processing.",
+          action: "Integrate a privacy-review gate into the product/feature design process. Capture decisions in design docs reviewable by the DPO.",
+          cite: "GDPR Art. 25"
+        },
+        {
+          label: "Processor agreements",
+          title: "Audit vendor contracts for Art. 28 clauses",
+          soc2_says: "SOC 2 has vendor management generally.",
+          delta: "Art. 28 requires specific clauses in processor agreements (processing instructions, confidentiality, security, sub-processors, audit rights, return/deletion, assistance). Art. 26 covers joint-controller arrangements.",
+          action: "Audit existing vendor contracts for Art. 28 clauses. For joint-controller relationships, ensure a transparency notice publicly explains roles.",
+          cite: "GDPR Arts. 26, 28"
+        },
+        {
+          label: "Records of Processing Activities",
+          title: "Stand up and maintain a RoPA",
+          soc2_says: "SOC 2 doesn't require a RoPA.",
+          delta: "Art. 30 requires controllers/processors with ≥250 employees (or any size for high-risk or special-category processing) to maintain RoPA listing purposes, categories, recipients, retention, and security measures.",
+          action: "Build RoPA in spreadsheet or GRC tool. Make it the canonical inventory referenced by DPIAs, breach analysis, and SARs.",
+          cite: "GDPR Art. 30"
+        },
+        {
+          label: "Children's data",
+          title: "Age gating and parental consent for under-16s",
+          soc2_says: "SOC 2 doesn't address children specifically.",
+          delta: "Art. 8 requires verifiable parental consent for information-society services offered directly to children under 16 (Member States may lower the threshold to 13).",
+          action: "If your service may attract children, implement age gating and a parental-consent mechanism. Document the threshold per Member State served.",
+          cite: "GDPR Art. 8"
+        }
+      ]
+    },
+    ai_act: {
+      name: "EU AI Act (Regulation (EU) 2024/1689, as amended by Digital Omnibus VII, 2026-05-07)",
+      summary: "SOC 2 doesn't cover AI-specific obligations. The AI Act adds 11 substantive areas, with deadlines pushed in Omnibus VII to December 2, 2027 (standalone high-risk) and August 2, 2028 (embedded high-risk).",
+      themes: [
+        {
+          label: "Risk classification",
+          title: "Inventory and classify every AI system in use",
+          soc2_says: "SOC 2 has general risk assessment.",
+          delta: "Art. 6 + Annex III classifies AI systems into four tiers: prohibited (Art. 5), high-risk (Art. 6 + Annex III), limited-risk transparency-only (Art. 50), and minimal-risk. Your obligations depend entirely on classification.",
+          action: "Inventory AI systems (built, bought, embedded). Classify each against Annex III. Document the classification rationale and revisit whenever a system's use case changes.",
+          cite: "AI Act Arts. 5, 6, 50; Annex III"
+        },
+        {
+          label: "Prohibited practices",
+          title: "Confirm no in-use AI system falls under Article 5",
+          soc2_says: "SOC 2 doesn't restrict specific use cases.",
+          delta: "Art. 5 prohibits 8+ categories: manipulation/exploitation, social scoring, biometric categorization by race/political/religious belief, emotion inference in workplace/education, real-time biometric ID in public spaces, predictive policing, untargeted scraping for facial recognition databases, and (per Omnibus VII, effective 2026-12-02) NCII and CSAM generation including 'nudifiers'. Prohibited practices in force since 2025-02-02.",
+          action: "Run an Art. 5 audit across every AI use. Document the review. Block any system found to fall under Art. 5.",
+          cite: "AI Act Art. 5; Omnibus VII (2026-05-07)"
+        },
+        {
+          label: "Provider vs deployer",
+          title: "Determine your role per AI system",
+          soc2_says: "Doesn't apply.",
+          delta: "Most enterprises are 'deployers' (Art. 26) of high-risk AI built by others, not 'providers' (Art. 16+). Deployer obligations are lighter but include: comply with use instructions, monitor operation, notify workers if used at work, and conduct Fundamental Rights Impact Assessment (FRIA, Art. 27) if a public body or covered private deployer.",
+          action: "For each high-risk AI system, document your role. Most likely: deployer. If deployer, conduct FRIA before deployment and meet worker-notification obligations.",
+          cite: "AI Act Arts. 16, 26, 27"
+        },
+        {
+          label: "Conformity assessment",
+          title: "Pre-market assessment for high-risk systems (provider obligation)",
+          soc2_says: "SOC 2 audit does not satisfy this.",
+          delta: "Arts. 43–44 require conformity assessment before placing a high-risk system on the EU market. Most Annex III categories permit internal control; some (biometric ID) require notified body. Omnibus VII deadlines: 2027-12-02 for Annex III standalone, 2028-08-02 for Annex I embedded.",
+          action: "If you are a provider, determine assessment route per system. Schedule against the revised deadlines. Maintain the technical file ready for inspection.",
+          cite: "AI Act Arts. 43, 44; Annex IV"
+        },
+        {
+          label: "Risk management system",
+          title: "Continuous, iterative AI-specific risk management",
+          soc2_says: "SOC 2 has general risk management.",
+          delta: "Art. 9 requires AI-specific risk management throughout the system lifecycle — identification, analysis, evaluation, mitigation — with continuous review.",
+          action: "Stand up an AI risk register separate from (or tagged within) the SOC 2 risk register. Bake in periodic review tied to model updates.",
+          cite: "AI Act Art. 9"
+        },
+        {
+          label: "Training data governance",
+          title: "Document data sources, sampling, and bias examination",
+          soc2_says: "SOC 2 has data integrity broadly.",
+          delta: "Art. 10 requires training, validation, and testing data to be relevant, representative, free of errors, and complete; bias must be examined and mitigated.",
+          action: "Document data sourcing, sampling, and bias-mitigation steps for any training dataset. Where Omnibus VII permits, you may process sensitive personal data specifically for bias detection — document the legal basis under GDPR.",
+          cite: "AI Act Art. 10; Omnibus VII"
+        },
+        {
+          label: "Technical documentation",
+          title: "Author per the Annex IV template",
+          soc2_says: "SOC 2 has documentation requirements broadly.",
+          delta: "Art. 11 + Annex IV requires extensive technical documentation (system description, design choices, data used, training methodology, performance metrics, risk management, monitoring, etc.).",
+          action: "Author technical documentation per the Annex IV outline. Maintain version control.",
+          cite: "AI Act Art. 11; Annex IV"
+        },
+        {
+          label: "Logging and traceability",
+          title: "Automatic event logging on high-risk systems",
+          soc2_says: "SOC 2 has logging generally.",
+          delta: "Art. 12 requires automatic logs that preserve traceability for the lifetime of operation.",
+          action: "Implement AI-event logging beyond standard infrastructure logging. Define retention and review cadence.",
+          cite: "AI Act Art. 12"
+        },
+        {
+          label: "Transparency to users",
+          title: "Disclose AI interaction and AI-generated content",
+          soc2_says: "SOC 2 doesn't address user-facing transparency.",
+          delta: "Art. 50 requires disclosure that users are interacting with an AI system, that content is AI-generated (synthetic content marking), and disclosure of emotion-recognition or biometric-categorization use. Per Omnibus VII, the grace period for synthetic-content transparency dropped from 6 to 3 months, with the deadline now 2026-12-02.",
+          action: "Audit user-facing interfaces for required disclosures. Deploy machine-readable markers for AI-generated content by 2026-12-02.",
+          cite: "AI Act Art. 50; Omnibus VII"
+        },
+        {
+          label: "Human oversight",
+          title: "Effective human oversight for high-risk systems",
+          soc2_says: "Doesn't apply.",
+          delta: "Art. 14 requires that high-risk AI be designed for effective oversight: operators must be able to understand the system, monitor it, intervene, and stop it.",
+          action: "Define operator roles, decision rights, and intervention paths. Train operators.",
+          cite: "AI Act Art. 14"
+        },
+        {
+          label: "Post-market monitoring",
+          title: "AI-specific monitoring and incident reporting",
+          soc2_says: "SOC 2 has monitoring generally.",
+          delta: "Art. 72 requires AI-specific post-market monitoring. Art. 73 requires reporting of serious incidents to the AI Office and national authorities within 15 days (some categories shorter).",
+          action: "Set up AI monitoring distinct from operational monitoring. Define serious-incident criteria and the 15-day reporting clock.",
+          cite: "AI Act Arts. 72, 73"
+        }
+      ]
+    },
+    hipaa: {
+      name: "US HIPAA (45 CFR Parts 160 and 164)",
+      summary: "SOC 2 Common Criteria substantially overlap HIPAA Security Rule, but HIPAA adds Privacy Rule, Breach Notification Rule, and specific operational obligations like BAAs and minimum-necessary that SOC 2 does not require.",
+      themes: [
+        {
+          label: "Privacy Rule",
+          title: "Adopt the full Privacy Rule control set",
+          soc2_says: "SOC 2 has an optional Privacy category, principle-based.",
+          delta: "45 CFR Part 164 Subpart E is much more prescriptive: Notice of Privacy Practices, permitted uses and disclosures, authorization requirements, minimum-necessary standard, individual rights.",
+          action: "Adopt the full Privacy Rule control set. Publish a Notice of Privacy Practices (per 164.520). Train workforce on permitted uses.",
+          cite: "45 CFR 164.500–164.534"
+        },
+        {
+          label: "Security Rule mapping",
+          title: "Map SOC 2 CC to HIPAA Security Rule safeguards",
+          soc2_says: "SOC 2 Common Criteria overlap heavily with HIPAA Security Rule.",
+          delta: "45 CFR Part 164 Subpart C requires specific administrative, physical, and technical safeguards (some 'required', some 'addressable'). The mapping is mostly 1:1 with SOC 2 CC, but document the explicit mapping for audit.",
+          action: "Build a control-mapping spreadsheet: each Security Rule standard ↔ SOC 2 CC control reference. Address gaps (most are around the formal Risk Analysis documentation in 164.308(a)(1)).",
+          cite: "45 CFR 164.302–164.318"
+        },
+        {
+          label: "Breach Notification Rule",
+          title: "60-day notification clock to individuals and HHS",
+          soc2_says: "SOC 2 has incident response.",
+          delta: "45 CFR Part 164 Subpart D requires notification to affected individuals within 60 days of discovery, HHS within 60 days for breaches affecting 500+ individuals (otherwise annual log), and prominent media for breaches affecting 500+ residents of a state.",
+          action: "Build the breach-assessment workflow that determines 'probability that PHI has been compromised'. Pre-build notification templates and HHS portal submission paths.",
+          cite: "45 CFR 164.400–164.414"
+        },
+        {
+          label: "Business Associate Agreements",
+          title: "Execute BAAs with every PHI-touching vendor",
+          soc2_says: "SOC 2 has vendor management.",
+          delta: "HIPAA requires a BAA with each vendor that creates, receives, maintains, or transmits PHI on your behalf. The BAA must include specific HHS-prescribed terms.",
+          action: "Audit vendors for PHI touchpoints. Execute BAAs mirroring the HHS sample BAA terms (164.504(e)). Track BAA renewals.",
+          cite: "45 CFR 164.502(e), 164.504(e)"
+        },
+        {
+          label: "Minimum necessary",
+          title: "Limit uses, disclosures, and requests to minimum necessary",
+          soc2_says: "SOC 2 has logical access generally.",
+          delta: "45 CFR 164.502(b) requires that uses, disclosures, and requests be limited to the minimum necessary to accomplish the purpose (with carve-outs for treatment, individual access, HHS, and others).",
+          action: "Define minimum-necessary policies per role and use case. Build role-based access aligned with the policy.",
+          cite: "45 CFR 164.502(b), 164.514(d)"
+        },
+        {
+          label: "Patient access rights",
+          title: "30-day SLA for patient access requests",
+          soc2_says: "SOC 2 has general data access principles.",
+          delta: "45 CFR 164.524 requires patient access to PHI within 30 days (one 30-day extension permitted). 164.526 covers amendment; 164.528 covers accounting of disclosures.",
+          action: "Build a patient-request workflow with 30-day clock tracking. Cap fees per OCR guidance (cost-based only).",
+          cite: "45 CFR 164.524, 164.526, 164.528"
+        },
+        {
+          label: "Workforce training and sanctions",
+          title: "HIPAA-specific training program with sanctions tier",
+          soc2_says: "SOC 2 has training generally.",
+          delta: "45 CFR 164.530(b) requires specific HIPAA workforce training; 164.530(e) requires a sanctions policy for non-compliance.",
+          action: "Deploy HIPAA-specific training (initial + refresher). Document a sanctions tier (verbal, written, termination) for HIPAA violations.",
+          cite: "45 CFR 164.530(b), 164.530(e)"
+        },
+        {
+          label: "Authorization for special uses",
+          title: "Get authorization for marketing, sale of PHI, psychotherapy notes",
+          soc2_says: "SOC 2 doesn't constrain these uses.",
+          delta: "45 CFR 164.508 requires specific authorization for marketing communications, sale of PHI, and disclosure of psychotherapy notes (with narrow exceptions).",
+          action: "If any of these uses occur, build an authorization workflow distinct from consent for treatment/payment/operations.",
+          cite: "45 CFR 164.508"
+        },
+        {
+          label: "Designated officials",
+          title: "Appoint named Privacy Officer and Security Official",
+          soc2_says: "SOC 2 doesn't require named officials.",
+          delta: "45 CFR 164.530(a)(1) requires a Privacy Officer; 164.308(a)(2) requires a Security Official. Names must be available to OCR on request.",
+          action: "Appoint and publish (internally) the names. Document responsibilities. Both roles can be held by the same person at smaller organizations.",
+          cite: "45 CFR 164.530(a)(1), 164.308(a)(2)"
+        },
+        {
+          label: "Cloud-specific",
+          title: "BAA covers your CSP; no-view services documented",
+          soc2_says: "SOC 2 covers cloud broadly.",
+          delta: "HHS HIPAA Cloud Computing Guidance clarifies that CSPs are business associates even for no-view storage. BAAs must cover all HIPAA-relevant services; de-identified data has narrow exceptions.",
+          action: "Confirm CSP BAAs cover all HIPAA-relevant services. Document any no-view configurations and de-identified-data uses.",
+          cite: "HHS HIPAA Cloud Computing Guidance (2016, updated)"
+        }
+      ]
+    }
+  }
+};
+
+const baseEl = document.getElementById('base');
+const targetEl = document.getElementById('target');
+const metaEl = document.getElementById('meta');
+const deltaEl = document.getElementById('delta');
+
+function render() {
+  const base = CROSSWALK.base[baseEl.value];
+  const target = CROSSWALK.targets[targetEl.value];
+  metaEl.innerHTML = `Showing the delta from <b>${base.name}</b> to <b>${target.name}</b>. <span>${target.themes.length} themes.</span>`;
+  let html = `<h2>What ${target.name.split(' (')[0]} adds on top of SOC 2</h2>`;
+  html += `<p>${target.summary}</p>`;
+  for (const t of target.themes) {
+    html += `<div class="theme">`;
+    html += `  <span class="label">${escapeHtml(t.label)}</span>`;
+    html += `  <h3>${escapeHtml(t.title)}</h3>`;
+    html += `  <p class="soc2"><b>SOC 2 says:</b> ${escapeHtml(t.soc2_says)}</p>`;
+    html += `  <p class="delta">${escapeHtml(t.delta)}</p>`;
+    html += `  <div class="action"><b>Action:</b> ${escapeHtml(t.action)}</div>`;
+    html += `  <p class="cite">${escapeHtml(t.cite)}</p>`;
+    html += `</div>`;
+  }
+  deltaEl.innerHTML = html;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));
+}
+
+baseEl.addEventListener('change', render);
+targetEl.addEventListener('change', render);
+render();
+</script>
+</body>
+</html>
