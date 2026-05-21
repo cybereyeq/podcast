@@ -20,7 +20,136 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 14 May 2026 11:39:25 +0000</lastBuildDate>
+<lastBuildDate>Thu, 21 May 2026 11:41:04 +0000</lastBuildDate>
+<item>
+<title>Episode 22: CIRCIA Still Missing + EU AI Transparency August 2 + CT Neural Data</title>
+<itunes:title>Episode 22: CIRCIA Still Missing + EU AI Transparency August 2 + CT Neural Data</itunes:title>
+<itunes:episode>22</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-05-21.mp3" length="8739117" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-022</guid>
+<itunes:duration>00:09:06</itunes:duration>
+<itunes:summary>CIRCIA's final rule is still unpublished past its May 2026 target, leaving 300,000 critical infrastructure entities in limbo with $500K/day penalties ahead. Plus: EU AI Act Article 50 transparency obligations still land August 2, Connecticut pioneers neural data protections, and two sector deadlines hit this week — NERC CIP-003-11 on May 26 and EUDAMED on May 28.</itunes:summary>
+<description>CIRCIA's final rule is still unpublished past its May 2026 target, leaving 300,000 critical infrastructure entities in limbo with $500K/day penalties ahead. Plus: EU AI Act Article 50 transparency obligations still land August 2, Connecticut pioneers neural data protections, and two sector deadlines hit this week — NERC CIP-003-11 on May 26 and EUDAMED on May 28.</description>
+<content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Episode 22: CIRCIA Still Missing + EU AI Transparency Lands August 2 + CT Neural Data</title>
+  <style>
+    body { margin: 0; padding: 0; background: #f4f4f8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #1a1a2e; }
+    .container { max-width: 680px; margin: 0 auto; padding: 32px 20px; }
+    .header { background: #1a1a2e; border-radius: 10px 10px 0 0; padding: 32px; }
+    .header h1 { color: #22d3ee; font-size: 22px; margin: 0 0 8px; line-height: 1.3; }
+    .header .meta { color: #94a3b8; font-size: 13px; margin: 0; }
+    .body-card { background: #fff; border-radius: 0 0 10px 10px; padding: 28px 32px; margin-bottom: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+    h2 { font-size: 16px; color: #1a1a2e; border-bottom: 2px solid #e94560; padding-bottom: 6px; margin: 28px 0 14px; }
+    h3 { font-size: 14px; color: #1a1a2e; margin: 18px 0 6px; }
+    p { font-size: 14px; line-height: 1.7; color: #374151; margin: 0 0 12px; }
+    .badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 6px; }
+    .critical { background: #fee2e2; color: #b91c1c; }
+    .high { background: #fef9c3; color: #854d0e; }
+    .medium { background: #dbeafe; color: #1d4ed8; }
+    ul { padding-left: 20px; margin: 6px 0 12px; }
+    li { font-size: 14px; color: #374151; line-height: 1.7; margin-bottom: 4px; }
+    a { color: #22d3ee; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .deadline-table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+    .deadline-table th { background: #1a1a2e; color: #e2e8f0; font-size: 12px; padding: 8px 12px; text-align: left; }
+    .deadline-table td { font-size: 13px; padding: 8px 12px; border-bottom: 1px solid #e5e7eb; }
+    .deadline-table tr:nth-child(even) td { background: #f9fafb; }
+    .footer { text-align: center; font-size: 12px; color: #6b7280; padding: 16px 0; }
+    .feed-cta { background: #1a1a2e; border-radius: 8px; padding: 18px 24px; text-align: center; margin: 20px 0; }
+    .feed-cta a { color: #22d3ee; font-weight: 600; font-size: 14px; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Episode 22: CIRCIA Still Missing + EU AI Transparency Lands August 2 + CT Neural Data</h1>
+    <p class="meta">CyberEyeQ Weekly Podcast &middot; May 21, 2026 &middot; ~8 min &middot; Hosts: Alex &amp; Sarah</p>
+  </div>
+  <div class="body-card">
+    <div class="feed-cta">
+      <a href="https://cybereyeq.github.io/podcast/feed.xml">Subscribe via RSS</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://podcasts.apple.com/podcast/cybereyeq">Apple Podcasts</a>
+    </div>
+
+    <h2>This Week in One Minute</h2>
+    <p>CIRCIA's final rule remains unpublished past its own May 2026 target — 300,000 critical infrastructure entities in compliance limbo, with $500K/day penalties once the rule lands. The EU AI Act Omnibus is now clearer: Article 50 transparency obligations still hit <strong>August 2, 2026</strong> — that date was NOT moved. China confirmed a comprehensive omnibus AI law is in drafting. Connecticut's AI bill passed the legislature: first US law to classify <strong>neural data</strong> as sensitive personal information, effective July 1. EUDAMED's four mandatory modules go live May 28. NERC CIP-003-11 extends cybersecurity controls to low-impact electric grid sites on May 26.</p>
+
+    <h2>Top 5 Stories</h2>
+
+    <h3><span class="badge critical">Critical</span> 1. CIRCIA Final Rule Still Missing</h3>
+    <p>CISA's cyber incident reporting rule missed its own May 2026 target. ~300,000 critical infrastructure entities remain in compliance limbo. DHS funding disruptions cancelled stakeholder town halls; further delay is "increasingly likely." Core requirements — 72-hour incident reporting, 24-hour ransomware payment reporting — are not expected to change. Once published: <strong>$500,000/day penalties apply immediately</strong>.</p>
+    <p><strong>Action:</strong> Design compliance programs to the proposed rule now. Do not wait for the final.</p>
+    <p><a href="https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/circia/faqs">CISA CIRCIA FAQ</a></p>
+
+    <h3><span class="badge high">High</span> 2. EU AI Act: What August 2, 2026 Still Means</h3>
+    <p>The Omnibus pushed Annex III deadlines to December 2027 and Annex I to August 2028. But <strong>Article 50(1) transparency obligations stay at August 2, 2026</strong>: deepfake labelling, AI-interaction disclosure, biometric/emotion-recognition notices. Commission's draft guidelines adopt the "average consumer" standard — consultation closes June 3.</p>
+    <p><strong>Action:</strong> Map every EU-facing AI surface against Article 50(1) and file a consultation response before June 3.</p>
+    <p><a href="https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act">EU Article 50 Consultation</a></p>
+
+    <h3><span class="badge high">High</span> 3. Connecticut Pioneers Neural Data Protection</h3>
+    <p>Connecticut's AI bill (SB 5) awaits the governor's signature. <strong>Effective July 1:</strong> neural data (BCI, EEG) classified as sensitive requiring opt-in consent. Minor protections expanded to ages 13-17 with a blanket ban on targeted advertising and data sale. The bill also covers frontier AI supply chains, chatbot transparency, employment AI use, and content provenance.</p>
+    <p><strong>Action:</strong> Reclassify neural-interface product data as sensitive. Rewire minor-protection flows for CT users before July 1.</p>
+
+    <h3><span class="badge medium">Medium</span> 4. China's Two-Track AI Governance</h3>
+    <p><strong>Track 1 (May 17):</strong> State Council confirms comprehensive national AI law in drafting — a single statute to replace CAC's patchwork. No timeline yet. <strong>Track 2 (July 15):</strong> CAC Anthropomorphic AI Interactive Services rules effective — mandatory AI identity disclosure, emotional dependency prohibitions, ban on simulating vulnerable groups for China-facing conversational AI.</p>
+    <p><a href="https://www.cac.gov.cn">CAC China</a></p>
+
+    <h3><span class="badge critical">Critical</span> 5. Two Sector Deadlines in 7 Days</h3>
+    <p><strong>May 26 — NERC CIP-003-11:</strong> FERC Order No. 918 extends mandatory cybersecurity controls to low-impact Bulk Electric System (BES) Cyber Systems for the first time. Utilities must document physical security, transient cyber asset management, and supply chain risk.</p>
+    <p><strong>May 28 — EUDAMED Mandatory Modules:</strong> Actor registration, UDI/Devices, Notified Bodies &amp; Certificates, and Vigilance modules become mandatory across EU MDR/IVDR. Non-compliant manufacturers risk supply-chain disruption.</p>
+
+    <h2>Compliance Action Items</h2>
+    <ul>
+      <li><strong>Now:</strong> Design CIRCIA compliance to proposed rule — don't wait for the final.</li>
+      <li><strong>May 26:</strong> Audit low-impact BES assets against CIP-003-11 requirements.</li>
+      <li><strong>May 28:</strong> Verify EUDAMED SRN issuance; complete UDI submissions before deadline.</li>
+      <li><strong>June 3:</strong> File EU Article 50 consultation response if you operate generative, biometric, or emotion-recognition AI in the EU.</li>
+      <li><strong>July 1:</strong> Reclassify CT neural data as sensitive; rewire minor ad/data protections for ages 13-17.</li>
+      <li><strong>July 15:</strong> Audit China-facing conversational AI for CAC Anthropomorphic AI compliance.</li>
+      <li><strong>August 2:</strong> EU AI Act Article 50(1) transparency obligations live — deepfake labelling, AI-interaction disclosure, biometric notices.</li>
+    </ul>
+
+    <h2>Upcoming Deadlines (60 Days)</h2>
+    <table class="deadline-table">
+      <tr><th>Date</th><th>Regulation</th><th>Jurisdiction</th><th>Sector</th></tr>
+      <tr><td>May 26</td><td>NERC CIP-003-11 effective</td><td>US</td><td>Energy</td></tr>
+      <tr><td>May 28</td><td>EUDAMED four mandatory modules</td><td>EU</td><td>Healthcare / MedTech</td></tr>
+      <tr><td>June 3</td><td>EU AI Act Article 50 consultation closes</td><td>EU</td><td>AI Governance</td></tr>
+      <tr><td>July 1</td><td>Connecticut neural data + privacy + AI amendments</td><td>US / CT</td><td>Privacy / AI</td></tr>
+      <tr><td>July 15</td><td>CAC Anthropomorphic AI rules effective</td><td>China</td><td>AI / Conversational AI</td></tr>
+      <tr><td>August 2</td><td>EU AI Act Article 50(1) transparency obligations</td><td>EU</td><td>AI Governance</td></tr>
+    </table>
+
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/circia/faqs">CISA CIRCIA FAQ</a></li>
+      <li><a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/">EU AI Act Omnibus Council Press Release</a></li>
+      <li><a href="https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act">EU Article 50 Consultation (closes June 3)</a></li>
+      <li><a href="https://www.federalregister.gov/documents/2026/03/24/2026-05711/order-no-918-critical-infrastructure-protection-reliability-standard-cip-003-11-cyber">FERC Order No. 918 — NERC CIP-003-11</a></li>
+      <li><a href="https://health.ec.europa.eu/latest-updates/eudamed-four-first-modules-will-be-mandatory-use-28-may-2026-2025-11-27_en">EU Commission EUDAMED Mandatory Modules</a></li>
+      <li><a href="https://cybereyeq.github.io/podcast/feed.xml">CyberEyeQ Podcast RSS Feed</a></li>
+    </ul>
+
+    <div class="feed-cta">
+      <p style="color:#94a3b8; font-size:13px; margin:0 0 6px;">Subscribe to stay current on regulatory compliance</p>
+      <a href="https://cybereyeq.github.io/podcast/feed.xml">Add RSS feed to your podcast app</a>
+    </div>
+  </div>
+  <div class="footer">CyberEyeQ &mdash; Actionable Regulatory Intelligence &middot; info@cybereyeq.com</div>
+</div>
+</body>
+</html>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 21: EU AI Three-Track Locks In + Record $12.75M CCPA Fine + China AI Agents</title>
 <itunes:title>Episode 21: EU AI Three-Track Locks In + Record $12.75M CCPA Fine + China AI Agents</itunes:title>

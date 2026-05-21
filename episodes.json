@@ -55,6 +55,14 @@
       "filename": "podcast-2026-05-14.mp3",
       "summary": "EU AI Act Digital Omnibus reaches political agreement May 7 (Annex III to Dec 2 2027, GPAI still Aug 2 2026). California AG hits GM/OnStar with a record $12.75M CCPA penalty for selling driver telemetry. Plus: Connecticut SB 5 / SB 4 and Colorado SB 26-189 advance, China issues the first horizontal AI-agent regime, CMS freezes new hospice/HHA Medicare enrollments for six months, Luxembourg NIS2 goes live, and FedRAMP CR26 hits public preview.",
       "show_notes_html": "podcast-2026-05-14.html"
+    },
+    {
+      "number": 22,
+      "title": "Episode 22: CIRCIA Still Missing + EU AI Transparency August 2 + CT Neural Data",
+      "date": "2026-05-21",
+      "filename": "podcast-2026-05-21.mp3",
+      "summary": "CIRCIA's final rule is still unpublished past its May 2026 target, leaving 300,000 critical infrastructure entities in limbo with $500K/day penalties ahead. Plus: EU AI Act Article 50 transparency obligations still land August 2, Connecticut pioneers neural data protections, and two sector deadlines hit this week \u2014 NERC CIP-003-11 on May 26 and EUDAMED on May 28.",
+      "show_notes_html": "podcast-2026-05-21.html"
     }
   ]
 }
