@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Translate My Framework — SOC 2 or ISO 27001 to GDPR, AI Act, HIPAA — CybereyeQ</title>
+<title>Translate My Framework — SOC 2, ISO 27001 or NIST AI RMF to GDPR, AI Act, HIPAA — CybereyeQ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Already have SOC 2 or ISO 27001? See exactly what GDPR, the EU AI Act, and HIPAA add on top — theme by theme, with article citations.">
+<meta name="description" content="Already have SOC 2, ISO 27001, or NIST AI RMF? See exactly what GDPR, the EU AI Act, and HIPAA add on top — theme by theme, with article citations.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://cybereyeq.github.io/podcast/translate/">
-<meta property="og:title" content="Translate My Framework — SOC 2 or ISO 27001 to GDPR, AI Act, HIPAA">
-<meta property="og:description" content="What does GDPR add on top of SOC 2 or ISO 27001? Or the AI Act? Or HIPAA? See the delta, theme by theme, with article citations.">
+<meta property="og:title" content="Translate My Framework — SOC 2, ISO 27001 or NIST AI RMF to GDPR, AI Act, HIPAA">
+<meta property="og:description" content="What does GDPR add on top of SOC 2, ISO 27001, or NIST AI RMF? Or the AI Act? Or HIPAA? See the delta, theme by theme, with article citations.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://cybereyeq.github.io/podcast/translate/">
 <style>
@@ -170,10 +170,10 @@
 </head>
 <body>
   <h1>Translate My Framework</h1>
-  <p class="sub">Already have SOC 2 or ISO 27001? See exactly what GDPR, the EU AI Act, and HIPAA add on top — theme by theme, with article citations. Updated 2026-05-21.</p>
+  <p class="sub">Already have SOC 2, ISO 27001, or NIST AI RMF? See exactly what GDPR, the EU AI Act, and HIPAA add on top — theme by theme, with article citations. Updated 2026-05-21.</p>
 
   <div class="banner">
-    <b>v0.6 preview release.</b> Now includes ISO 27001:2022 as a base framework. Content is editorially reviewed but not yet exhaustive. Spot something off? Email <a href="mailto:info@cybereyeq.com">info@cybereyeq.com</a> — corrections become public commits.
+    <b>v0.7 preview release.</b> Now includes NIST AI RMF 1.0 (with the GenAI Profile, NIST AI 600-1) as a base framework. Content is editorially reviewed but not yet exhaustive. Spot something off? Email <a href="mailto:info@cybereyeq.com">info@cybereyeq.com</a> — corrections become public commits.
   </div>
 
   <div class="picker">
@@ -183,6 +183,7 @@
         <select id="base">
           <option value="soc2">SOC 2 (Common Criteria)</option>
           <option value="iso27001">ISO/IEC 27001:2022</option>
+          <option value="nist_ai_rmf">NIST AI RMF 1.0 (+ GenAI Profile)</option>
         </select>
       </div>
       <div>
@@ -229,15 +230,17 @@
 // Each target has a themes_by_base map; each theme cites primary-source articles/sections.
 const CROSSWALK = {
   bases: {
-    soc2:     { id: "soc2",     name: "SOC 2 (Common Criteria + optional Privacy)", short: "SOC 2" },
-    iso27001: { id: "iso27001", name: "ISO/IEC 27001:2022",                         short: "ISO 27001" }
+    soc2:        { id: "soc2",        name: "SOC 2 (Common Criteria + optional Privacy)",                                       short: "SOC 2" },
+    iso27001:    { id: "iso27001",    name: "ISO/IEC 27001:2022",                                                                short: "ISO 27001" },
+    nist_ai_rmf: { id: "nist_ai_rmf", name: "NIST AI RMF 1.0 (NIST AI 100-1) + Generative AI Profile (NIST AI 600-1)",          short: "NIST AI RMF" }
   },
   targets: {
     gdpr: {
       name: "EU GDPR (Regulation (EU) 2016/679)",
       summary_by_base: {
         soc2:     "GDPR is principle-based but enforceable. SOC 2 Common Criteria overlap with security and access control, but GDPR adds 10 substantive areas no SOC 2 audit will cover.",
-        iso27001: "ISO 27001:2022 Annex A 5.34 is an explicit bridge to privacy law, but it only requires you to identify and comply with applicable PII rules — it does not satisfy GDPR's substantive obligations. The 10 deltas below are what your ISMS still has to absorb."
+        iso27001: "ISO 27001:2022 Annex A 5.34 is an explicit bridge to privacy law, but it only requires you to identify and comply with applicable PII rules — it does not satisfy GDPR's substantive obligations. The 10 deltas below are what your ISMS still has to absorb.",
+        nist_ai_rmf: "NIST AI RMF is a voluntary US AI risk-management framework — not a privacy law and not a control framework. Its only nominal privacy hooks are 'Privacy-Enhanced' as one of seven Trustworthy AI characteristics (AI RMF §3) and 'Data Privacy' as one of the 12 GenAI risk categories in NIST AI 600-1. Neither addresses lawful basis, data-subject rights, breach notification, or any other GDPR substantive obligation. All 10 deltas below are net new."
       },
       themes_by_base: {
         soc2: [
@@ -343,6 +346,58 @@ const CROSSWALK = {
             delta: "GDPR Art. 8 requires verifiable parental consent for information-society services offered directly to children under 16 (Member States may lower the threshold to 13).",
             action: "If your service may attract children, implement age gating and a parental-consent mechanism. Document the threshold per Member State served.",
             cite: "GDPR Art. 8" }
+        ],
+        nist_ai_rmf: [
+          { label: "Lawful basis", title: "Establish a lawful basis for every processing activity",
+            base_says: "NIST AI RMF doesn't address personal-data legal basis. The closest hook is GenAI Profile risk category 'Data Privacy' (NIST AI 600-1 §2.4) which treats privacy as a risk to manage, not a legal regime to satisfy.",
+            delta: "GDPR Art. 6 requires one of six lawful bases (consent, contract, legal obligation, vital interests, public task, legitimate interests) per processing activity. Art. 9 prohibits processing of special-category data unless an enumerated exception applies.",
+            action: "Stand up a privacy-law overlay separate from your AI risk-management activities. Maintain a Record of Processing Activities (Art. 30) that documents the legal basis per processing activity, including AI-system training and inference uses.",
+            cite: "GDPR Arts. 6, 9, 30; NIST AI 600-1 §2.4" },
+          { label: "Data subject rights", title: "Build response workflows for 7 individual rights",
+            base_says: "NIST AI RMF has no data-subject-rights construct. MAP-4.1 acknowledges 'legal and regulatory requirements' broadly but provides no workflow.",
+            delta: "GDPR Arts. 12–23 require concrete response to: access (15), rectification (16), erasure (17), restriction (18), portability (20), objection (21), and human review of automated decisions (22). Default response window: 1 month, extendable by 2 months.",
+            action: "Build a SAR workflow with clock-tracking. Define rectification, deletion, and export procedures per data store — including training datasets and model artefacts where individual data is identifiable.",
+            cite: "GDPR Arts. 12–23; NIST AI RMF MAP-4.1" },
+          { label: "Breach notification", title: "72-hour clock to the supervisory authority",
+            base_says: "NIST AI RMF MANAGE-4.1 covers AI incident response generally; no legal deadline.",
+            delta: "GDPR Art. 33 requires notification to the supervisory authority within 72 hours of awareness of a personal data breach. Art. 34 requires direct communication to data subjects when the breach is likely to result in high risk.",
+            action: "Extend your MG-4.1 AI incident-response plan with a personal-data-breach branch that starts the 72-hour clock on awareness (not discovery). Pre-build the supervisory-authority notification template.",
+            cite: "GDPR Arts. 33, 34; NIST AI RMF MG-4.1" },
+          { label: "Cross-border transfers", title: "Mechanism + Transfer Impact Assessment for each non-EEA destination",
+            base_says: "NIST AI RMF is silent on jurisdictional data flow. NIST AI 600-1 'Value Chain and Component Integration' (§2.12) touches third-party data sources but not cross-border legal mechanisms.",
+            delta: "GDPR Chapter V requires a transfer mechanism for personal data leaving the EEA: adequacy decision (Art. 45), SCCs (Art. 46), BCRs (Art. 47), or derogations (Art. 49). Schrems II requires a Transfer Impact Assessment per destination.",
+            action: "Inventory cross-border data flows including AI training datasets and inference endpoints. Implement appropriate mechanism per destination. Conduct TIA per destination country; document supplementary measures where local law contradicts EU protections.",
+            cite: "GDPR Arts. 45–49; CJEU C-311/18 (Schrems II)" },
+          { label: "DPIA", title: "Data Protection Impact Assessment for high-risk processing",
+            base_says: "NIST AI RMF MAP-5.1 and MAP-5.2 require impact assessment focused on individuals and society — closer in spirit to DPIA than security risk assessment, but scoped to AI harms (bias, accuracy, robustness), not data-subject rights and freedoms in the GDPR sense.",
+            delta: "GDPR Art. 35 requires DPIA for processing likely to result in high risk to data subjects: large-scale special-category, systematic monitoring, automated decisions with legal effect, etc. Specific lists vary by Member State DPA.",
+            action: "Run your MAP-5.1/5.2 impact assessment in parallel with a formal Art. 35 DPIA when personal data is in scope. The DPIA must satisfy the Art. 35(7) content checklist, which goes beyond NIST's impact-assessment guidance. Consult DPA if residual risk remains high.",
+            cite: "GDPR Art. 35; NIST AI RMF MAP-5.1, MAP-5.2" },
+          { label: "DPO", title: "Determine if a Data Protection Officer is required",
+            base_says: "NIST AI RMF GOVERN-2.1 requires roles and responsibilities for AI risk management. No Data Protection Officer role.",
+            delta: "GDPR Arts. 37–39 require DPO appointment for public authorities, large-scale special-category processing, or systematic monitoring of data subjects on a large scale.",
+            action: "Document the DPO-required analysis. If yes, appoint and publish contact details; ensure independence and direct reporting to highest management. Distinct from any AI risk-management role assigned under GV-2.1.",
+            cite: "GDPR Arts. 37–39; NIST AI RMF GV-2.1" },
+          { label: "Privacy by design", title: "Embed PbD into product/feature design gates",
+            base_says: "NIST AI RMF treats 'Privacy-Enhanced' as one of seven Trustworthy AI characteristics (AI RMF §3) and GenAI Profile actions MS-2.10 and MG-2.2 address privacy. Aspirational, not equivalent to Art. 25's binding obligations.",
+            delta: "GDPR Art. 25 requires data protection by design and by default throughout the data lifecycle: data minimization, purpose limitation, pseudonymization where appropriate, default settings that limit processing.",
+            action: "Integrate a binding privacy-review gate into the product/feature design process. The Trustworthy-AI 'Privacy-Enhanced' characteristic should inform, not replace, formal Art. 25 implementation. Capture decisions in design docs reviewable by the DPO.",
+            cite: "GDPR Art. 25; NIST AI RMF §3 (Privacy-Enhanced); NIST AI 600-1 MS-2.10, MG-2.2" },
+          { label: "Processor agreements", title: "Audit vendor contracts for Art. 28 clauses",
+            base_says: "NIST AI RMF GOVERN-6.1 and GV-6.2 require policies and procedures for third-party AI risks. Generic, not privacy-clause-specific.",
+            delta: "GDPR Art. 28 requires specific clauses in processor agreements (processing instructions, confidentiality, security, sub-processors, audit rights, return/deletion, assistance). Art. 26 covers joint-controller arrangements.",
+            action: "Audit existing AI-vendor contracts (foundation-model providers, fine-tuning services, vector-DB providers, etc.) for Art. 28 clauses. For joint-controller relationships, ensure a transparency notice publicly explains roles.",
+            cite: "GDPR Arts. 26, 28; NIST AI RMF GV-6.1, GV-6.2" },
+          { label: "Records of Processing Activities", title: "Stand up and maintain a RoPA",
+            base_says: "NIST AI RMF MAP-1.1 'system characterization' requires AI-system documentation; this is system-keyed, not processing-activity-keyed.",
+            delta: "GDPR Art. 30 requires controllers/processors with ≥250 employees (or any size for high-risk or special-category processing) to maintain RoPA listing purposes, categories, recipients, retention, and security measures.",
+            action: "Build RoPA in spreadsheet or GRC tool as a sibling artifact to your MAP-1.1 AI-system inventory. Make it the canonical inventory referenced by DPIAs, breach analysis, and SARs.",
+            cite: "GDPR Art. 30; NIST AI RMF MAP-1.1" },
+          { label: "Children's data", title: "Age gating and parental consent for under-16s",
+            base_says: "NIST AI RMF doesn't address children specifically. NIST AI 600-1 acknowledges 'vulnerable populations' generically but not a parental-consent mechanism.",
+            delta: "GDPR Art. 8 requires verifiable parental consent for information-society services offered directly to children under 16 (Member States may lower the threshold to 13).",
+            action: "If your AI-powered service may attract children, implement age gating and a parental-consent mechanism. Document the threshold per Member State served.",
+            cite: "GDPR Art. 8" }
         ]
       }
     },
@@ -350,7 +405,8 @@ const CROSSWALK = {
       name: "EU AI Act (Regulation (EU) 2024/1689, as amended by Digital Omnibus VII, 2026-05-07)",
       summary_by_base: {
         soc2:     "SOC 2 doesn't cover AI-specific obligations. The AI Act adds 11 substantive areas, with deadlines pushed in Omnibus VII to December 2, 2027 (standalone high-risk) and August 2, 2028 (embedded high-risk).",
-        iso27001: "ISO 27001:2022 gives you ISMS scaffolding for access, integrity, and risk — useful but not sufficient. The AI Act adds 11 AI-specific obligations. ISO/IEC 42001:2023 is the AI-management standard that complements 27001; the 11 deltas below remain regardless of whether you adopt 42001."
+        iso27001: "ISO 27001:2022 gives you ISMS scaffolding for access, integrity, and risk — useful but not sufficient. The AI Act adds 11 AI-specific obligations. ISO/IEC 42001:2023 is the AI-management standard that complements 27001; the 11 deltas below remain regardless of whether you adopt 42001.",
+        nist_ai_rmf: "NIST AI RMF is the natural foundation pairing for the EU AI Act — industry consensus (GLACIS, EU AI Compass) puts the overlap at ~60–70%. The 11 deltas below are what voluntary NIST guidance leaves uncovered: binding role-specific obligations (provider vs deployer), the four-tier risk classification, formal conformity assessment + CE marking, the Annex IV technical-documentation template, Article 5 prohibited practices (including the Omnibus VII NCII/CSAM additions), and statutory deadlines (2027-12-02 standalone high-risk, 2028-08-02 embedded, 2026-12-02 NCII/CSAM and synthetic-content transparency)."
       },
       themes_by_base: {
         soc2: [
@@ -466,6 +522,63 @@ const CROSSWALK = {
             delta: "AI Act Art. 72 requires AI-specific post-market monitoring (accuracy drift, harm patterns, misuse). Art. 73 requires reporting of serious incidents to the AI Office and national authorities within 15 days (some categories shorter).",
             action: "Set up AI monitoring distinct from operational monitoring. Extend your A.5.24 incident-management plan with an AI-serious-incident branch and the 15-day clock.",
             cite: "AI Act Arts. 72, 73; ISO 27001:2022 A.5.24–5.26, A.8.16" }
+        ],
+        nist_ai_rmf: [
+          { label: "Risk classification", title: "Inventory and classify every AI system under the 4-tier model",
+            base_says: "NIST AI RMF MAP-1.1 ('AI system characterization') and MAP-1.6 ('system map') give you system inventory and use-case framing — but no statutory tier.",
+            delta: "AI Act Art. 6 + Annex III classifies AI systems into four tiers: prohibited (Art. 5), high-risk (Art. 6 + Annex III), limited-risk transparency-only (Art. 50), and minimal-risk. Your obligations depend entirely on classification.",
+            action: "Layer the four-tier classification on top of your MAP-1 system inventory. Document classification rationale per system and revisit when use cases change.",
+            cite: "AI Act Arts. 5, 6, 50; Annex III; NIST AI RMF MAP-1.1, MAP-1.6" },
+          { label: "Prohibited practices", title: "Confirm no in-use AI system falls under Article 5",
+            base_says: "NIST AI 600-1 catalogues 12 GenAI risk categories including 'Dangerous/Violent/Hateful Content' (§2.3), 'Obscene/Degrading/Abusive Content' (§2.11), and 'Harmful Bias or Homogenization' (§2.6) — risks to manage, not categorical prohibitions.",
+            delta: "AI Act Art. 5 prohibits 8+ categories: manipulation/exploitation, social scoring, biometric categorization by race/political/religious belief, emotion inference in workplace/education, real-time biometric ID in public spaces, predictive policing, untargeted scraping for facial recognition databases, and (per Omnibus VII, effective 2026-12-02) NCII and CSAM generation including 'nudifiers'. Prohibited practices in force since 2025-02-02.",
+            action: "Run an Art. 5 audit across every AI use. Use your NIST 600-1 risk-category register as the starting point but treat Art. 5 as a hard block, not a managed risk. Block any system found to fall under Art. 5.",
+            cite: "AI Act Art. 5; Omnibus VII (2026-05-07); NIST AI 600-1 §§2.3, 2.6, 2.11" },
+          { label: "Provider vs deployer", title: "Determine your role per AI system",
+            base_says: "NIST AI RMF doesn't differentiate value-chain roles. NIST AI 600-1 §2.12 ('Value Chain and Component Integration') describes the GenAI value chain but assigns no role-specific obligations.",
+            delta: "AI Act Arts. 16, 25–27 set role-specific obligations. Most enterprises are 'deployers' (Art. 26) of high-risk AI built by others, not 'providers' (Art. 16+). Deployer obligations include: comply with use instructions, monitor operation, notify workers if used at work, and conduct Fundamental Rights Impact Assessment (FRIA, Art. 27) if a public body or covered private deployer.",
+            action: "For each high-risk AI system, document your role. Most likely: deployer. If deployer, conduct FRIA before deployment and meet worker-notification obligations.",
+            cite: "AI Act Arts. 16, 26, 27; NIST AI 600-1 §2.12" },
+          { label: "Conformity assessment", title: "Pre-market assessment for high-risk systems (provider obligation)",
+            base_says: "NIST AI RMF is voluntary. There is no NIST conformity-assessment construct and no CE-marking equivalent.",
+            delta: "AI Act Arts. 43–44 require conformity assessment before placing a high-risk system on the EU market. Most Annex III categories permit internal control; some (biometric ID) require notified body. Omnibus VII deadlines: 2027-12-02 for Annex III standalone, 2028-08-02 for Annex I embedded.",
+            action: "If you are a provider, determine assessment route per system. Schedule against the revised deadlines. Maintain the Annex IV technical file ready for inspection. NIST AI RMF artifacts (MAP/MEASURE/MANAGE records) are useful evidence but do not substitute for the formal procedure.",
+            cite: "AI Act Arts. 43, 44; Annex IV" },
+          { label: "Risk management system", title: "Continuous, iterative AI-specific risk management",
+            base_says: "This is NIST AI RMF's core strength. The four functions (GOVERN, MAP, MEASURE, MANAGE) align meaningfully with AI Act Art. 9 — industry crosswalks (GLACIS, EU AI Compass) document a tight fit.",
+            delta: "AI Act Art. 9 mandates AI risk management throughout the system lifecycle as a binding obligation, not voluntary guidance. Member State enforcement, fines up to €35M or 7% global turnover. NIST's voluntary cadence does not automatically satisfy Art. 9's evidentiary expectations.",
+            action: "Use your existing MAP/MEASURE/MANAGE cycle as the substrate. Add Art. 9-aligned documentation: risk-treatment register with EU-recognized vocabulary, evidence trail per system, residual-risk acceptance signed by named accountable party.",
+            cite: "AI Act Art. 9; NIST AI RMF Core (GV, MP, MS, MG)" },
+          { label: "Training data governance", title: "Document data sources, sampling, and bias examination",
+            base_says: "NIST AI RMF MAP-4 and NIST AI 600-1 MS-2.10 cover data quality, provenance, and bias examination — closely aligned with Art. 10 in substance.",
+            delta: "AI Act Art. 10 requires training, validation, and testing data to be relevant, representative, free of errors, and complete; bias must be examined and mitigated. This is a binding requirement; documentation must be available to market-surveillance authorities.",
+            action: "Use your MAP-4 data documentation as the starting point. Add Art. 10-specific evidence: dataset versioning, bias-examination methodology and results, mitigation steps taken. Where Omnibus VII permits, you may process sensitive personal data specifically for bias detection — document the legal basis under GDPR.",
+            cite: "AI Act Art. 10; Omnibus VII; NIST AI RMF MAP-4; NIST AI 600-1 MS-2.10" },
+          { label: "Technical documentation", title: "Author per the Annex IV template",
+            base_says: "NIST AI RMF GV-1.1 and MAP-1 require AI-system documentation; NIST AI 600-1 GV-1.1 reinforces this for GenAI. Format and scope are at the organization's discretion.",
+            delta: "AI Act Art. 11 + Annex IV requires extensive technical documentation in a specified format (system description, design choices, data used, training methodology, performance metrics, risk management, monitoring, etc.) — the format itself is prescribed.",
+            action: "Author technical documentation per the Annex IV outline. NIST AI RMF artifacts can be referenced as evidence within it, but the Annex IV structure is the regulator's, not yours.",
+            cite: "AI Act Art. 11; Annex IV; NIST AI RMF GV-1.1, MAP-1" },
+          { label: "Logging and traceability", title: "Automatic event logging on high-risk systems",
+            base_says: "NIST AI RMF MS-1.1 covers test/event tracking and MG-3.1 covers monitoring; NIST AI 600-1 MS-2.6 addresses information-integrity event logging. Aligned in spirit with Art. 12.",
+            delta: "AI Act Art. 12 requires automatic logs that preserve traceability for the lifetime of operation — model version, input features, output decisions, and where applicable the natural-person operator. Specific retention and access requirements apply.",
+            action: "Extend your MS-1.1 event tracking to capture AI-specific events meeting Art. 12 retention and access expectations. Verify logs are tamper-evident and queryable by the operator.",
+            cite: "AI Act Art. 12; NIST AI RMF MS-1.1, MG-3.1; NIST AI 600-1 MS-2.6" },
+          { label: "Transparency to users", title: "Disclose AI interaction and AI-generated content",
+            base_says: "'Transparent and Accountable' is one of seven Trustworthy AI characteristics (AI RMF §3); NIST AI 600-1 §2.7 ('Human-AI Configuration') touches user disclosure. Both are general — no machine-readable synthetic-content marker requirement.",
+            delta: "AI Act Art. 50 requires disclosure that users are interacting with an AI system, that content is AI-generated (synthetic content marking), and disclosure of emotion-recognition or biometric-categorization use. Per Omnibus VII, the grace period for synthetic-content transparency dropped from 6 to 3 months, with the deadline now 2026-12-02.",
+            action: "Audit user-facing interfaces for required disclosures. Deploy machine-readable markers (e.g., C2PA, watermarking) for AI-generated content by 2026-12-02.",
+            cite: "AI Act Art. 50; Omnibus VII; NIST AI RMF §3 (Transparent and Accountable); NIST AI 600-1 §2.7" },
+          { label: "Human oversight", title: "Effective human oversight for high-risk systems",
+            base_says: "NIST AI 600-1 §2.7 ('Human-AI Configuration') and MG-3.2 cover operator design, including handoff and intervention. Aligned with Art. 14.",
+            delta: "AI Act Art. 14 requires that high-risk AI be designed for effective oversight: operators must be able to understand the system, monitor it, intervene, and stop it. The 'understand the system' requirement maps poorly to opaque foundation models — providers must furnish sufficient information to the deployer.",
+            action: "Use your MG-3.2 human-AI configuration design as the starting point. Add explicit operator halt authority, training, and a provider-to-deployer information packet sufficient for Art. 14 compliance.",
+            cite: "AI Act Art. 14; NIST AI 600-1 §2.7, MG-3.2" },
+          { label: "Post-market monitoring", title: "AI-specific monitoring and incident reporting",
+            base_says: "NIST AI RMF MG-4.1 covers AI incident response and MEASURE function covers continuous monitoring. Aligned with Art. 72 in spirit; no statutory reporting clock.",
+            delta: "AI Act Art. 72 requires AI-specific post-market monitoring (accuracy drift, harm patterns, misuse). Art. 73 requires reporting of serious incidents to the AI Office and national authorities within 15 days (some categories shorter).",
+            action: "Extend your MEASURE-function monitoring with Art. 72-aligned drift and harm-pattern surveillance. Extend MG-4.1 incident response with the Art. 73 15-day clock and the AI Office / national authority notification path.",
+            cite: "AI Act Arts. 72, 73; NIST AI RMF MEASURE function, MG-4.1" }
         ]
       }
     },
@@ -473,7 +586,8 @@ const CROSSWALK = {
       name: "US HIPAA (45 CFR Parts 160 and 164)",
       summary_by_base: {
         soc2:     "SOC 2 Common Criteria substantially overlap HIPAA Security Rule, but HIPAA adds Privacy Rule, Breach Notification Rule, and specific operational obligations like BAAs and minimum-necessary that SOC 2 does not require.",
-        iso27001: "ISO 27001:2022 has the closest crosswalk of any base framework to the HIPAA Security Rule (BSI's whitepaper documents the overlap in detail). The 10 deltas below are mostly Privacy Rule, Breach Notification Rule, and HIPAA-specific operational obligations the ISMS does not cover."
+        iso27001: "ISO 27001:2022 has the closest crosswalk of any base framework to the HIPAA Security Rule (BSI's whitepaper documents the overlap in detail). The 10 deltas below are mostly Privacy Rule, Breach Notification Rule, and HIPAA-specific operational obligations the ISMS does not cover.",
+        nist_ai_rmf: "NIST AI RMF is an AI risk-management framework — not a healthcare-privacy law and not a security-control framework. It is silent on PHI, the Privacy Rule, the Security Rule, breach notification clocks, BAAs, and minimum-necessary. The natural NIST companion for HIPAA Security Rule mapping is NIST 800-66r2 (HIPAA Security Rule guide), not the AI RMF. All 10 deltas below are net new because NIST AI RMF doesn't address them at all."
       },
       themes_by_base: {
         soc2: [
@@ -579,6 +693,58 @@ const CROSSWALK = {
             delta: "HHS HIPAA Cloud Computing Guidance clarifies that CSPs are business associates even for no-view storage. BAAs must cover all HIPAA-relevant services; de-identified data has narrow exceptions.",
             action: "Confirm CSP BAAs cover all HIPAA-relevant services. Document any no-view configurations and de-identified-data uses alongside your A.5.23 cloud-service register.",
             cite: "HHS HIPAA Cloud Computing Guidance (2016, updated); ISO 27001:2022 A.5.23" }
+        ],
+        nist_ai_rmf: [
+          { label: "Privacy Rule", title: "Adopt the full Privacy Rule control set",
+            base_says: "NIST AI RMF doesn't address PHI or the Privacy Rule. 'Privacy-Enhanced' is a Trustworthy AI characteristic (AI RMF §3) but is silent on Subpart E controls.",
+            delta: "45 CFR Part 164 Subpart E is prescriptive: Notice of Privacy Practices, permitted uses and disclosures, authorization requirements, minimum-necessary standard, individual rights to PHI.",
+            action: "Adopt the full Privacy Rule control set as a HIPAA-specific layer. Publish a Notice of Privacy Practices (per 164.520). Train workforce on permitted uses.",
+            cite: "45 CFR 164.500–164.534" },
+          { label: "Security Rule mapping", title: "Map AI controls + a security framework to HIPAA Security Rule safeguards",
+            base_says: "NIST AI RMF is a risk-management framework, not a security-control framework. It deliberately defers to companion frameworks (NIST CSF, NIST 800-53) for the safeguard catalogue. For HIPAA Security Rule specifically, NIST 800-66r2 is the canonical NIST mapping.",
+            delta: "45 CFR Part 164 Subpart C requires specific administrative, physical, and technical safeguards (some 'required', some 'addressable'). The Security Rule expects a control framework, not a risk framework.",
+            action: "Pair NIST AI RMF with a control framework (NIST CSF, NIST 800-53, ISO 27001) and use NIST 800-66r2 for the explicit HIPAA Security Rule crosswalk. Address the formal Risk Analysis documentation at 164.308(a)(1) directly.",
+            cite: "45 CFR 164.302–164.318; NIST SP 800-66r2 (HIPAA Security Rule)" },
+          { label: "Breach Notification Rule", title: "60-day notification clock to individuals and HHS",
+            base_says: "NIST AI RMF MG-4.1 covers AI incident response generally; no legal breach-notification deadline.",
+            delta: "45 CFR Part 164 Subpart D requires notification to affected individuals within 60 days of discovery, HHS within 60 days for breaches affecting 500+ individuals (otherwise annual log), and prominent media for breaches affecting 500+ residents of a state.",
+            action: "Extend your MG-4.1 AI incident-response plan with a HIPAA-breach branch that starts the 60-day individual and HHS clocks from discovery. Build the breach-assessment workflow that determines 'probability that PHI has been compromised'.",
+            cite: "45 CFR 164.400–164.414; NIST AI RMF MG-4.1" },
+          { label: "Business Associate Agreements", title: "Execute BAAs with every PHI-touching vendor",
+            base_says: "NIST AI RMF GV-6.1 and GV-6.2 require third-party AI risk policies. Generic — no BAA construct.",
+            delta: "HIPAA requires a BAA with each vendor that creates, receives, maintains, or transmits PHI on your behalf. The BAA must include specific HHS-prescribed terms (subcontractor flow-down, breach notification, return/deletion).",
+            action: "Audit AI vendors (foundation-model providers, ML platforms, vector DBs, MLOps tooling) for PHI touchpoints. Execute BAAs mirroring the HHS sample BAA terms (164.504(e)). Track BAA renewals alongside your AI-vendor register.",
+            cite: "45 CFR 164.502(e), 164.504(e); NIST AI RMF GV-6.1, GV-6.2" },
+          { label: "Minimum necessary", title: "Limit uses, disclosures, and requests to minimum necessary",
+            base_says: "NIST AI RMF does not have a minimum-necessary construct. NIST AI 600-1 §2.4 'Data Privacy' touches data minimization at the risk-management level only.",
+            delta: "45 CFR 164.502(b) requires uses, disclosures, and requests of PHI to be limited to the minimum necessary to accomplish the purpose (with carve-outs for treatment, individual access, HHS, and others).",
+            action: "Define minimum-necessary policies per role and use case as a HIPAA-specific overlay on your AI training-data and inference-access controls.",
+            cite: "45 CFR 164.502(b), 164.514(d); NIST AI 600-1 §2.4" },
+          { label: "Patient access rights", title: "30-day SLA for patient access requests",
+            base_says: "NIST AI RMF has no patient/data-subject access construct.",
+            delta: "45 CFR 164.524 requires patient access to PHI within 30 days (one 30-day extension permitted). 164.526 covers amendment; 164.528 covers accounting of disclosures.",
+            action: "Build a patient-request workflow with 30-day clock tracking. Cap fees per OCR guidance (cost-based only). Where AI systems hold PHI (e.g., training set inclusion, generated notes), document the access mechanism.",
+            cite: "45 CFR 164.524, 164.526, 164.528" },
+          { label: "Workforce training and sanctions", title: "HIPAA-specific training program with sanctions tier",
+            base_says: "NIST AI RMF GOVERN-3.2 addresses AI literacy and workforce diversity; not HIPAA-specific.",
+            delta: "45 CFR 164.530(b) requires specific HIPAA workforce training; 164.530(e) requires a sanctions policy for non-compliance with HIPAA policies.",
+            action: "Layer HIPAA-specific training on top of your GV-3.2 AI-literacy program (initial + refresher). Document a sanctions tier (verbal, written, termination) for HIPAA violations.",
+            cite: "45 CFR 164.530(b), 164.530(e); NIST AI RMF GV-3.2" },
+          { label: "Authorization for special uses", title: "Get authorization for marketing, sale of PHI, psychotherapy notes",
+            base_says: "NIST AI RMF doesn't constrain specific PHI uses.",
+            delta: "45 CFR 164.508 requires specific authorization for marketing communications, sale of PHI, and disclosure of psychotherapy notes (with narrow exceptions). Particularly relevant for AI: using PHI to train commercial models likely requires authorization.",
+            action: "If any of these uses occur — including using PHI as AI training data for any non-treatment purpose — build an authorization workflow distinct from consent for treatment/payment/operations.",
+            cite: "45 CFR 164.508" },
+          { label: "Designated officials", title: "Appoint named Privacy Officer and Security Official",
+            base_says: "NIST AI RMF GV-2.1 requires roles and responsibilities for AI risk management. No Privacy Officer or Security Official role.",
+            delta: "45 CFR 164.530(a)(1) requires a Privacy Officer; 164.308(a)(2) requires a Security Official. Names must be available to OCR on request.",
+            action: "Appoint and publish (internally) the names. Document responsibilities. Both can be held by the same person at smaller organizations. Distinct from any AI risk role assigned under GV-2.1.",
+            cite: "45 CFR 164.530(a)(1), 164.308(a)(2); NIST AI RMF GV-2.1" },
+          { label: "Cloud-specific", title: "BAA covers your CSP; no-view services documented",
+            base_says: "NIST AI RMF is silent on the CSP-BAA relationship.",
+            delta: "HHS HIPAA Cloud Computing Guidance clarifies that CSPs are business associates even for no-view storage. BAAs must cover all HIPAA-relevant services; de-identified data has narrow exceptions. For AI specifically: foundation-model APIs that process PHI need BAAs (e.g., HIPAA-compliant LLM endpoints).",
+            action: "Confirm CSP BAAs cover all HIPAA-relevant services, including AI/ML platforms and foundation-model endpoints. Document any no-view configurations and de-identified-data uses.",
+            cite: "HHS HIPAA Cloud Computing Guidance (2016, updated)" }
         ]
       }
     }
