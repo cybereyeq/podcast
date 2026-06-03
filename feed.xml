@@ -20,7 +20,146 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 28 May 2026 11:39:48 +0000</lastBuildDate>
+<lastBuildDate>Wed, 03 Jun 2026 20:43:12 +0000</lastBuildDate>
+<item>
+<title>Episode 24: EUDAMED Live; NIS2 Audit in 33 Days; CMMC at 1% Ready</title>
+<itunes:title>Episode 24: EUDAMED Live; NIS2 Audit in 33 Days; CMMC at 1% Ready</itunes:title>
+<itunes:episode>24</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-06-03.mp3" length="8327469" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-024</guid>
+<itunes:duration>00:08:40</itunes:duration>
+<itunes:summary>EUDAMED is now mandatory in the EU — plus the NIS2 first audit deadline closes June 30, CMMC Phase 2 has just 1% of contractors certified with 166 days to go, and the EU AI Act Omnibus reshuffles high-risk deadlines while leaving August 2 transparency obligations intact.</itunes:summary>
+<description>EUDAMED is now mandatory in the EU — plus the NIS2 first audit deadline closes June 30, CMMC Phase 2 has just 1% of contractors certified with 166 days to go, and the EU AI Act Omnibus reshuffles high-risk deadlines while leaving August 2 transparency obligations intact.</description>
+<content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Episode 24: EUDAMED Live; NIS2 Audit in 33 Days; CMMC at 1% Ready — CyberEyeQ Podcast</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 780px; margin: 0 auto; padding: 24px; background: #0f172a; color: #e2e8f0; }
+  h1 { color: #22d3ee; font-size: 22px; margin-bottom: 4px; }
+  h2 { color: #94a3b8; font-size: 13px; font-weight: 400; margin: 0 0 24px; }
+  h3 { color: #22d3ee; font-size: 16px; margin: 28px 0 10px; border-bottom: 1px solid #1e3a5f; padding-bottom: 6px; }
+  .story { background: #1e293b; border-radius: 8px; padding: 16px; margin-bottom: 14px; border-left: 3px solid #22d3ee; }
+  .story h4 { margin: 0 0 6px; color: #f8fafc; font-size: 15px; }
+  .story p { margin: 0 0 8px; font-size: 14px; color: #cbd5e1; line-height: 1.5; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-bottom: 6px; }
+  .critical { background: #450a0a; color: #fca5a5; }
+  .high { background: #431407; color: #fdba74; }
+  .info { background: #0c1a3d; color: #93c5fd; }
+  .action { background: #1e3a1e; border-radius: 8px; padding: 14px; margin-bottom: 10px; }
+  .action h4 { margin: 0 0 6px; color: #86efac; font-size: 14px; }
+  .action p { margin: 0; font-size: 13px; color: #bbf7d0; line-height: 1.5; }
+  .deadline { display: inline-block; font-weight: 700; color: #fbbf24; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 13px; }
+  th { text-align: left; padding: 8px 10px; background: #1e293b; color: #94a3b8; font-weight: 600; }
+  td { padding: 8px 10px; border-bottom: 1px solid #1e293b; color: #cbd5e1; }
+  a { color: #22d3ee; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #1e293b; font-size: 12px; color: #64748b; }
+</style>
+</head>
+<body>
+<h1>🎙️ Episode 24: EUDAMED Live; NIS2 Audit in 33 Days; CMMC at 1% Ready</h1>
+<h2>CyberEyeQ Weekly Podcast · June 3, 2026 · ~8 min</h2>
+
+<h3>🔍 Top Stories This Week</h3>
+
+<div class="story">
+  <span class="badge critical">CRITICAL · EU · Healthcare</span>
+  <h4>EUDAMED Is Now Mandatory</h4>
+  <p>The EU medical device database (EUDAMED) became mandatory on <span class="deadline">May 28</span>. Any new medical device placed on the EU market requires an active Single Registration Number (SRN). Legacy device deadline: <span class="deadline">November 28, 2026</span>.</p>
+  <p><a href="https://ec.europa.eu/tools/eudamed" target="_blank">EUDAMED portal →</a></p>
+</div>
+
+<div class="story">
+  <span class="badge critical">CRITICAL · EU · Cybersecurity</span>
+  <h4>NIS2 First Compliance Audit — June 30 (33 Days)</h4>
+  <p>The EU's first mandatory NIS2 audit cycle closes <span class="deadline">June 30</span>. Essential entities face fines up to €10M or 2% of global turnover; important entities up to €7M or 1.4%. Germany, France, and the Netherlands are in active enforcement mode. Germany BSI issued 47 formal notices in Q4 2025.</p>
+</div>
+
+<div class="story">
+  <span class="badge critical">CRITICAL · US · Cloud Security</span>
+  <h4>CMMC Phase 2 — 166 Days, 1% Certified</h4>
+  <p>Only 1,042 of 76,598 (~1.4%) required DoD contractors have completed CMMC Level 2 certification. C3PAO assessment backlogs are 6–12 months. Mandatory assessments begin <span class="deadline">November 10, 2026</span>.</p>
+</div>
+
+<div class="story">
+  <span class="badge high">HIGH · EU · AI Governance</span>
+  <h4>EU AI Act Omnibus — What Actually Changed</h4>
+  <p>The May 7 political agreement pushed Annex III high-risk AI to <span class="deadline">December 2, 2027</span> and Annex I systems to <span class="deadline">August 2, 2028</span>. <strong>Not moved:</strong> GPAI obligations and Article 50 transparency requirements remain at <span class="deadline">August 2, 2026</span>. Article 50 consultation closed June 3.</p>
+</div>
+
+<div class="story">
+  <span class="badge info">INFO · US / China · AI Governance</span>
+  <h4>Colorado Scraps AI Law; China Confirms Comprehensive Statute</h4>
+  <p>Colorado Governor Polis signed SB 26-189 (May 14), replacing the SB 24-205 risk-management framework with a disclosure-only ADM regime effective <span class="deadline">January 1, 2027</span>. China's State Council confirmed drafting a unified AI law to consolidate algorithm, generative AI, and anthropomorphic AI rules. China's Anthropomorphic AI Interim Measures take effect <span class="deadline">July 15</span>.</p>
+</div>
+
+<div class="story">
+  <span class="badge high">HIGH · UK · Privacy</span>
+  <h4>UK DUAA Complaint-Handling — June 19 (22 Days)</h4>
+  <p>The Data (Use and Access) Act 2025 requires all UK data controllers to have an operational complaints procedure by <span class="deadline">June 19</span>. Requirements: electronic submission, 30-day acknowledgement, ICO escalation information. No grace period.</p>
+</div>
+
+<h3>⚖️ Enforcement Watch</h3>
+<table>
+  <tr><th>Regulator</th><th>Target</th><th>Amount</th></tr>
+  <tr><td>California AG (CCPA)</td><td>GM — telematics/behavioral data sold without consent</td><td><strong>$12.75M</strong></td></tr>
+  <tr><td>NYDFS</td><td>Delta Dental — 6-month breach notification delay</td><td><strong>$2.25M</strong></td></tr>
+  <tr><td>Ofcom (UK)</td><td>Kick Online Entertainment — first Online Safety Act age-check fine</td><td><strong>£800,000</strong></td></tr>
+  <tr><td>SEC</td><td>Rescinded 54-year-old "no-deny" settlement policy (Rule 202.5e)</td><td>Policy shift</td></tr>
+</table>
+
+<h3>✅ Action Items This Week</h3>
+
+<div class="action">
+  <h4>1. Verify EUDAMED SRN registration (IMMEDIATE)</h4>
+  <p>If you manufacture, distribute, or represent medical devices in the EU, confirm your SRN is live and new device records are in the UDI module. Mandatory from May 28.</p>
+</div>
+
+<div class="action">
+  <h4>2. Start NIS2 gap assessment (33 days to June 30)</h4>
+  <p>Confirm entity classification (essential vs. important), validate ≤24-hour incident reporting workflows, and register with your national competent authority.</p>
+</div>
+
+<div class="action">
+  <h4>3. Contact a C3PAO immediately (166 days to November 10)</h4>
+  <p>DoD contractors with CUI in cloud environments: schedule a readiness assessment now. 6–12 month backlogs mean you're already at risk if you haven't started.</p>
+</div>
+
+<div class="action">
+  <h4>4. Re-scope Colorado AI compliance (effective January 1, 2027)</h4>
+  <p>If you had a program for SB 24-205, pause it. Restart scoping from the new "Automated Decision-Making Technology" definition under SB 26-189.</p>
+</div>
+
+<div class="action">
+  <h4>5. Publish UK DUAA complaints procedure (22 days to June 19)</h4>
+  <p>All UK data controllers must have an operational, published complaints procedure with electronic submission and 30-day acknowledgement. No grace period.</p>
+</div>
+
+<h3>🌐 Resources</h3>
+<ul>
+  <li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689" target="_blank">EU AI Act full text (Regulation 2024/1689)</a></li>
+  <li><a href="https://www.acq.osd.mil/cmmc/" target="_blank">CMMC Program Office (DoD)</a></li>
+  <li><a href="https://ec.europa.eu/tools/eudamed" target="_blank">EUDAMED portal</a></li>
+  <li><a href="https://www.legislation.gov.uk/ukpga/2025/31" target="_blank">UK Data (Use and Access) Act 2025</a></li>
+  <li><a href="https://cybereyeq.github.io/podcast/feed.xml" target="_blank">CyberEyeQ Podcast RSS Feed</a></li>
+</ul>
+
+<div class="footer">
+  <p>CyberEyeQ — Actionable Regulatory Intelligence · <a href="mailto:info@cybereyeq.com">info@cybereyeq.com</a><br>
+  This podcast is for informational purposes only and does not constitute legal advice.</p>
+</div>
+</body>
+</html>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 23: EU AI Act Omnibus Rewrites Deadlines; EUDAMED Live Today; CMMC at 1%</title>
 <itunes:title>Episode 23: EU AI Act Omnibus Rewrites Deadlines; EUDAMED Live Today; CMMC at 1%</itunes:title>
