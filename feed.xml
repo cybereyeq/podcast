@@ -20,7 +20,78 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Wed, 03 Jun 2026 20:43:12 +0000</lastBuildDate>
+<lastBuildDate>Thu, 11 Jun 2026 11:46:21 +0000</lastBuildDate>
+<item>
+<title>Episode 25: Canada's under-16 social ban; CISA's 72-hour patch clock</title>
+<itunes:title>Episode 25: Canada's under-16 social ban; CISA's 72-hour patch clock</itunes:title>
+<itunes:episode>25</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 11 Jun 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-06-11.mp3" length="11648685" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-025</guid>
+<itunes:duration>00:12:08</itunes:duration>
+<itunes:summary>Canada tables Bill C-34 with a 16-year social media minimum age, CISA's BOD 26-04 starts a three-day patch clock for federal agencies, and Brussels publishes the AI-labelling Code of Practice. Plus the five-week deadline corridor: a dozen compliance dates between June 13 and July 18.</itunes:summary>
+<description>Canada tables Bill C-34 with a 16-year social media minimum age, CISA's BOD 26-04 starts a three-day patch clock for federal agencies, and Brussels publishes the AI-labelling Code of Practice. Plus the five-week deadline corridor: a dozen compliance dates between June 13 and July 18.</description>
+<content:encoded><![CDATA[<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 680px; margin: 0 auto; color: #1a1a2e; line-height: 1.6;">
+
+  <h1 style="font-size: 24px; margin: 0 0 4px; color: #1a1a2e;">CyberEyeQ Weekly Podcast — June 11, 2026</h1>
+  <p style="margin: 0 0 20px; color: #64748b; font-size: 14px;">Canada under-16 social ban · CISA 72-hour patches · EU AI-labelling Code · ~9 min listen</p>
+
+  <h2 style="font-size: 18px; border-bottom: 2px solid #22d3ee; padding-bottom: 6px; color: #1a1a2e;">Top 5 stories this week</h2>
+
+  <ol style="padding-left: 20px; margin: 16px 0;">
+    <li style="margin-bottom: 14px;">
+      <strong>Canada tables Bill C-34, the Safe Social Media Act</strong> — 16-year minimum age for social media, mandatory age verification for upload-enabled porn sites, statutory AI-chatbot safety duties, and a new Digital Safety Commission. Second-reading debate begins within weeks.<br>
+      <span style="font-size: 13px;">Sources: <a href="https://www.canada.ca/en/canadian-heritage/news/2026/06/government-of-canada-introduces-legislation-to-make-social-media-services-and-ai-chatbots-safer-for-children.html" style="color: #0e7490;">Canada.ca news release</a> · <a href="https://www.parl.ca/DocumentViewer/en/45-1/bill/C-34/first-reading" style="color: #0e7490;">Parliament of Canada — C-34 first reading</a></span>
+    </li>
+    <li style="margin-bottom: 14px;">
+      <strong>CISA Binding Operational Directive 26-04 starts a 72-hour patch clock</strong> — risk-scored remediation for federal agencies (four criteria: exposure, KEV listing, exploit automation, post-exploitation impact). FedRAMP-hosted systems are in scope, pulling cloud service providers into the blast radius. Agencies have 60 days to update processes, 180 days to meet the timelines.<br>
+      <span style="font-size: 13px;">Sources: <a href="https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk" style="color: #0e7490;">CISA — BOD 26-04</a> · <a href="https://www.cisa.gov/news-events/news/cisa-issues-new-directive-improving-how-federal-agencies-prioritize-mitigation-cyber-vulnerabilities" style="color: #0e7490;">CISA press release</a></span>
+    </li>
+    <li style="margin-bottom: 14px;">
+      <strong>EU publishes final Code of Practice for labelling AI-generated content</strong> — the practical bridge to AI Act Article 50 transparency duties (apply August 2, 2026). Voluntary, but signing brings a presumption-of-conformity pathway. Pre-August-2026 systems' marking grace period was cut from six months to three (lands December 2, 2026).<br>
+      <span style="font-size: 13px;">Sources: <a href="https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content" style="color: #0e7490;">Commission publication</a> · <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1328" style="color: #0e7490;">Commission press release</a></span>
+    </li>
+    <li style="margin-bottom: 14px;">
+      <strong>The five-week deadline corridor</strong> — a dozen-plus hard compliance dates land between June 13 and July 18, including the July 1 quadruple wall: MiCA CASP hard stop, four US state age-verification laws (NE/CT/CO/LA), China outbound-investment regs, and TC260 personal-information standards.
+    </li>
+    <li style="margin-bottom: 14px;">
+      <strong>Enforcement watch</strong> — FTC finalises the Illuminate Education order (10.1M students affected); CNIL fines IQVIA €5M over health-data warehouses; California's record $12.75M CCPA settlement with GM/OnStar is the first enforcement of the data-minimization rule; Ofcom's age-assurance enforcement push widens.
+    </li>
+  </ol>
+
+  <h2 style="font-size: 18px; border-bottom: 2px solid #22d3ee; padding-bottom: 6px; color: #1a1a2e;">Compliance action items</h2>
+
+  <table style="width: 100%; border-collapse: collapse; font-size: 14px; margin: 16px 0;">
+    <tr style="background: #f1f5f9;">
+      <th style="text-align: left; padding: 8px; border: 1px solid #e2e8f0;">Action</th>
+      <th style="text-align: left; padding: 8px; border: 1px solid #e2e8f0;">Deadline</th>
+    </tr>
+    <tr><td style="padding: 8px; border: 1px solid #e2e8f0;">File Basel III "Endgame, Take Two" comment letters (Fed/OCC/FDIC)</td><td style="padding: 8px; border: 1px solid #e2e8f0;">June 18</td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #e2e8f0;">Deploy UK DUAA data-protection complaints-handling procedure (no SME exemption)</td><td style="padding: 8px; border: 1px solid #e2e8f0;">June 19</td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #e2e8f0;">EU AI Act high-risk classification guidelines — consultation closes</td><td style="padding: 8px; border: 1px solid #e2e8f0;">June 23</td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #e2e8f0;">Australian search engines deploy age assurance (eSafety Phase 2)</td><td style="padding: 8px; border: 1px solid #e2e8f0;">June 27</td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #e2e8f0;">NIS2 first compliance audit deadline · FedRAMP CR26 finalization</td><td style="padding: 8px; border: 1px solid #e2e8f0;">June 30</td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #e2e8f0;">MiCA CASP hard stop — confirm licence or execute orderly EU client exit</td><td style="padding: 8px; border: 1px solid #e2e8f0;">July 1</td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #e2e8f0;">Review generative-AI pipelines against EU marking Code; sign-or-alternative decision</td><td style="padding: 8px; border: 1px solid #e2e8f0;">By August 2</td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #e2e8f0;">Federal CSPs: map CONMON/vulnerability feeds to BOD 26-04's four risk criteria</td><td style="padding: 8px; border: 1px solid #e2e8f0;">Before August 9</td></tr>
+  </table>
+
+  <h2 style="font-size: 18px; border-bottom: 2px solid #22d3ee; padding-bottom: 6px; color: #1a1a2e;">Resources</h2>
+
+  <ul style="padding-left: 20px; margin: 16px 0; font-size: 14px;">
+    <li style="margin-bottom: 6px;"><a href="https://cybereyeq.github.io/podcast/" style="color: #0e7490;">All episodes &amp; show notes</a></li>
+    <li style="margin-bottom: 6px;"><a href="https://cybereyeq.github.io/podcast/feed.xml" style="color: #0e7490;">Podcast RSS feed</a></li>
+    <li style="margin-bottom: 6px;"><a href="https://cybereyeq.github.io/podcast/calendar/" style="color: #0e7490;">2026 Regtech Deadline Calendar</a></li>
+    <li style="margin-bottom: 6px;"><a href="mailto:info@cybereyeq.com" style="color: #0e7490;">Questions, feedback, or Pro access</a></li>
+  </ul>
+
+  <p style="font-size: 12px; color: #94a3b8; margin-top: 24px;">CyberEyeQ — Actionable Regulatory Intelligence. This episode is for informational purposes only and does not constitute legal advice.</p>
+</div>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 24: EUDAMED Live; NIS2 Audit in 33 Days; CMMC at 1% Ready</title>
 <itunes:title>Episode 24: EUDAMED Live; NIS2 Audit in 33 Days; CMMC at 1% Ready</itunes:title>
