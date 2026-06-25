@@ -95,6 +95,14 @@
       "filename": "podcast-2026-06-18.mp3",
       "summary": "The EU Parliament voted to delay the AI Act's high-risk rules to 2027-2028, but the August 2 transparency duties still stand. Plus a dense corridor of July 1 deadlines: MiCA's crypto hard stop, EU ESG ratings, US state AI and age laws, and two new China PIPL standards.",
       "show_notes_html": "podcast-2026-06-18.html"
+    },
+    {
+      "number": 27,
+      "title": "Episode 27: EU AI Act signoff nears; June 30 deadline wall",
+      "date": "2026-06-25",
+      "filename": "podcast-2026-06-25.mp3",
+      "summary": "The Council of the EU is set to adopt the AI Act Digital Omnibus on June 29, the last step before the deferred high-risk dates are fixed in law. But twin June 30 deadlines (NIS2 first audits, FedRAMP CR26) and a July 1 wall across China, Vietnam, Connecticut and Tennessee leave no breathing room.",
+      "show_notes_html": "podcast-2026-06-25.html"
     }
   ]
 }
