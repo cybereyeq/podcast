@@ -111,6 +111,14 @@
       "filename": "podcast-2026-07-02.mp3",
       "summary": "The year's biggest compliance wave hit on July 1, with at least nine regimes taking effect across Connecticut, Utah, Arkansas, Tennessee, Vietnam and China. The calendar barely lets up: UK BNPL and China's anthropomorphic-AI rules land July 15, and the EU AI Act's transparency duties and GPAI enforcement go live August 2.",
       "show_notes_html": "podcast-2026-07-02.html"
+    },
+    {
+      "number": 29,
+      "title": "Episode 29: SCOTUS clears app-store age checks; seven deadlines in three weeks",
+      "date": "2026-07-09",
+      "filename": "podcast-2026-07-09.mp3",
+      "summary": "The Supreme Court declined to block Texas's app-store age-verification law on 6 July, the first appellate green light for device-level age checks in the US, even as a federal judge enjoined Nebraska's parallel mandate days earlier. China's Order No. 24 imposes mandatory annual data risk assessments from 20 August, and seven hard deadlines land between today and 2 August.",
+      "show_notes_html": "podcast-2026-07-09.html"
     }
   ]
 }
