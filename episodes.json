@@ -119,6 +119,14 @@
       "filename": "podcast-2026-07-09.mp3",
       "summary": "The Supreme Court declined to block Texas's app-store age-verification law on 6 July, the first appellate green light for device-level age checks in the US, even as a federal judge enjoined Nebraska's parallel mandate days earlier. China's Order No. 24 imposes mandatory annual data risk assessments from 20 August, and seven hard deadlines land between today and 2 August.",
       "show_notes_html": "podcast-2026-07-09.html"
+    },
+    {
+      "number": 30,
+      "title": "Episode 30: Pentagon suspends CMMC Phase II; regulators start fining",
+      "date": "2026-07-16",
+      "filename": "podcast-2026-07-16.mp3",
+      "summary": "The Department of War suspended CMMC Phase II on 13 July, cancelling the 10 November C3PAO assessment mandate for 120,000 defence suppliers \u2014 but Phase I self-assessments and DFARS 252.204-7012 survive untouched. Meanwhile Ofcom issued its largest age-check fine yet, the UK put AWS, Google, Microsoft and Oracle under financial supervision, and the Commission asked the CJEU to start charging four member states daily penalties over NIS2.",
+      "show_notes_html": "podcast-2026-07-16.html"
     }
   ]
 }

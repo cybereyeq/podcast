@@ -20,7 +20,107 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 09 Jul 2026 14:36:01 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 14:56:42 +0000</lastBuildDate>
+<item>
+<title>Episode 30: Pentagon suspends CMMC Phase II; regulators start fining</title>
+<itunes:title>Episode 30: Pentagon suspends CMMC Phase II; regulators start fining</itunes:title>
+<itunes:episode>30</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 16 Jul 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-07-16.mp3" length="7581741" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-030</guid>
+<itunes:duration>00:07:54</itunes:duration>
+<itunes:summary>The Department of War suspended CMMC Phase II on 13 July, cancelling the 10 November C3PAO assessment mandate for 120,000 defence suppliers — but Phase I self-assessments and DFARS 252.204-7012 survive untouched. Meanwhile Ofcom issued its largest age-check fine yet, the UK put AWS, Google, Microsoft and Oracle under financial supervision, and the Commission asked the CJEU to start charging four member states daily penalties over NIS2.</itunes:summary>
+<description>The Department of War suspended CMMC Phase II on 13 July, cancelling the 10 November C3PAO assessment mandate for 120,000 defence suppliers — but Phase I self-assessments and DFARS 252.204-7012 survive untouched. Meanwhile Ofcom issued its largest age-check fine yet, the UK put AWS, Google, Microsoft and Oracle under financial supervision, and the Commission asked the CJEU to start charging four member states daily penalties over NIS2.</description>
+<content:encoded><![CDATA[<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;line-height:1.6;color:#1a1a1a;max-width:680px;margin:0 auto;">
+
+  <p style="font-size:15px;color:#555;margin:0 0 24px 0;">
+    <strong>CyberEyeQ Weekly — Episode 30</strong> · 16 July 2026 · ~8 min<br>
+    The Pentagon hits pause on CMMC — and three regulators start writing cheques.
+  </p>
+
+  <h2 style="font-size:20px;border-bottom:2px solid #034ea1;padding-bottom:6px;margin:28px 0 16px 0;">This Week's Top 5</h2>
+
+  <h3 style="font-size:17px;margin:20px 0 6px 0;">1. The Pentagon suspended CMMC Phase II</h3>
+  <p style="margin:0 0 12px 0;">
+    The Department of War <a href="https://www.war.gov/News/Releases/Release/Article/4542329/forging-the-arsenal-of-freedom-department-of-war-suspends-cmmc-phase-ii-require/" style="color:#034ea1;">suspended CMMC Phase II with immediate effect</a> on 13 July, cancelling the 10 November C3PAO assessment mandate that 120,000 defence suppliers had been budgeting for, and opening a 60-day reform review.
+    Under <a href="https://dodcio.defense.gov/Portals/0/Documents/Library/ImplementingSuspensionCMMC-PhaseII.pdf" style="color:#034ea1;">implementing memorandum 26-P-1023</a>, programme managers may designate <strong>only</strong> Level 1 (Self) or Level 2 (Self); Level 2 (C3PAO) and Level 3 (DIBCAC) designations are prohibited during the suspension, with no waivers.
+    <strong>What survives:</strong> Phase I self-assessments, NIST SP 800-171 Rev 2, and DFARS 252.204-7012 are untouched. This is acquisition discretion over which clauses go into contracts — not a repeal of the underlying rule.
+  </p>
+
+  <h3 style="font-size:17px;margin:20px 0 6px 0;">2. Ofcom's largest age-assurance fine yet</h3>
+  <p style="margin:0 0 12px 0;">
+    Ofcom <a href="https://www.ofcom.org.uk/online-safety/protecting-children/ofcom-fines-porn-company-630000-for-age-check-failings" style="color:#034ea1;">fined fapello.com's provider £630,000</a> — £600,000 for failing to deploy highly effective age assurance under the Online Safety Act, plus £30,000 for ignoring a statutory information request.
+  </p>
+
+  <h3 style="font-size:17px;margin:20px 0 6px 0;">3. The UK put four hyperscalers under financial supervision</h3>
+  <p style="margin:0 0 12px 0;">
+    On 10 July HM Treasury made its <a href="https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-overseeing-critical-third-parties-announced-by-hmt" style="color:#034ea1;">first designations</a> under the FSMA 2023 Critical Third Parties regime — AWS EMEA SARL, Google Cloud EMEA Ltd, Microsoft Ireland Operations Ltd and Oracle Corporation UK Ltd. On 13 July the Critical Third Parties (Designation) Regulations 2026 came into effect and the Bank of England, PRA and FCA jointly began oversight.
+    The quiet significance is jurisdictional: for the first time UK regulators can look directly at a hyperscaler's resilience rather than at their supervised firms' contracts with one.
+  </p>
+
+  <h3 style="font-size:17px;margin:20px 0 6px 0;">4. Four member states referred to the CJEU over NIS2</h3>
+  <p style="margin:0 0 12px 0;">
+    On 8 July the Commission <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1499" style="color:#034ea1;">referred Ireland, Spain, France and the Netherlands to the Court of Justice</a> for failing to notify NIS2 transposition measures — more than 20 months past the 17 October 2024 deadline — and asked the Court to impose a lump sum plus daily penalties until full transposition is notified.
+  </p>
+
+  <h3 style="font-size:17px;margin:20px 0 6px 0;">5. California DROP deletions start 1 August</h3>
+  <p style="margin:0 0 12px 0;">
+    Registered data brokers must <a href="https://privacy.ca.gov/drop-for-data-brokers/" style="color:#034ea1;">process DROP deletion requests</a> from 1 August and at least once every 45 days thereafter, under the Delete Act and its <a href="https://cppa.ca.gov/regulations/pdf/data_broker_drop_reg.pdf" style="color:#034ea1;">DROP implementing regulations</a>.
+    The penalty is <strong>$200 per day, per missed request</strong>, plus investigation and administrative costs. More than 300,000 Californians had signed up as of 2 June — the first cycle will not be a token volume.
+  </p>
+
+  <h2 style="font-size:20px;border-bottom:2px solid #034ea1;padding-bottom:6px;margin:32px 0 16px 0;">Compliance Actions &amp; Deadlines</h2>
+
+  <table style="width:100%;border-collapse:collapse;font-size:15px;">
+    <tr style="background:#f4f6f8;">
+      <th style="text-align:left;padding:8px;border:1px solid #dde;">Deadline</th>
+      <th style="text-align:left;padding:8px;border:1px solid #dde;">Action</th>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #dde;white-space:nowrap;"><strong>22 Jul</strong><br><span style="color:#777;font-size:13px;">18:00 CEST</span></td>
+      <td style="padding:8px;border:1px solid #dde;">Email the <a href="https://digital-strategy.ec.europa.eu/en/library/how-sign-code-practice-transparency-ai-generated-content" style="color:#034ea1;">EU Transparency Code signatory form</a> to the AI Office to appear in the initial-signatories list, published ahead of the Article 50 marking and labelling duties applying 2 August.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #dde;white-space:nowrap;"><strong>1 Aug</strong></td>
+      <td style="padding:8px;border:1px solid #dde;">Test your DROP deletion pipeline end-to-end in the sandbox — download, hash, match, delete, report back. Then diarise the 45-day cycle.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #dde;white-space:nowrap;"><strong>14 Aug</strong></td>
+      <td style="padding:8px;border:1px solid #dde;">CMMC reform Request for Information closes — an opportunity to shape what Phase II becomes.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #dde;white-space:nowrap;"><strong>Now</strong></td>
+      <td style="padding:8px;border:1px solid #dde;">Check every active DoD solicitation for Level 2 (C3PAO) designations. Contracting officers must strip them out under memo 26-P-1023 — but the amendment will not chase itself. Keep your Rev 2 self-assessment, SPRS score and SSP current.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #dde;white-space:nowrap;"><strong>Live 13 Jul</strong></td>
+      <td style="padding:8px;border:1px solid #dde;">Reconcile your UK cloud concentration-risk register, exit plans and incident-reporting paths against the new CTP designations.</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #dde;white-space:nowrap;"><strong>Live 15 Jul</strong></td>
+      <td style="padding:8px;border:1px solid #dde;">Determine whether any service falls inside <a href="https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm" style="color:#034ea1;">CAC Order No. 21</a>'s "continuous emotional interaction" scope. Customer service, Q&amp;A, work assistants and education are expressly outside it.</td>
+    </tr>
+  </table>
+
+  <h2 style="font-size:20px;border-bottom:2px solid #034ea1;padding-bottom:6px;margin:32px 0 16px 0;">Resources</h2>
+  <ul style="padding-left:20px;margin:0 0 12px 0;">
+    <li style="margin-bottom:6px;"><a href="https://dodcio.defense.gov/Portals/0/Documents/Library/ImplementingSuspensionCMMC-PhaseII.pdf" style="color:#034ea1;">Implementing memorandum 26-P-1023 (CMMC Phase II suspension)</a></li>
+    <li style="margin-bottom:6px;"><a href="https://cppa.ca.gov/regulations/pdf/data_broker_reg_delete_act_statute_eff_20260101.pdf" style="color:#034ea1;">California Delete Act statute (effective 1 Jan 2026)</a></li>
+    <li style="margin-bottom:6px;"><a href="https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/07/two-home-improvement-companies-fined-370-000-for-nuisance-calls-targeting-vulnerable-people/" style="color:#034ea1;">ICO: £370,000 in PECR nuisance-call fines</a></li>
+    <li style="margin-bottom:6px;"><a href="https://www.ftc.gov/news-events/news/press-releases/2026/07/rentgrow-pay-225-million-settle-ftc-allegations-company-violated-fair-credit-reporting-act-ftc-act" style="color:#034ea1;">FTC: RentGrow $2.25M FCRA settlement</a></li>
+    <li style="margin-bottom:6px;"><a href="https://www.cybereyeq.com/p/cybereyeq-weekly-compliance-deadlines-july-2026-2026-07-09" style="color:#034ea1;">← Last week's briefing</a></li>
+  </ul>
+
+  <p style="font-size:13px;color:#777;border-top:1px solid #e5e5e5;padding-top:14px;margin-top:28px;">
+    <strong>CyberEyeQ</strong> — <em>Actionable Regulatory Intelligence</em>. Every source above links to the issuing authority's own text. Where a date or figure is disputed, we say so rather than pick one.
+  </p>
+
+</div>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 29: SCOTUS clears app-store age checks; seven deadlines in three weeks</title>
 <itunes:title>Episode 29: SCOTUS clears app-store age checks; seven deadlines in three weeks</itunes:title>
