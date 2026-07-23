@@ -20,7 +20,105 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 16 Jul 2026 14:56:42 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 14:51:36 +0000</lastBuildDate>
+<item>
+<title>Episode 31: The 2 August Wall: AI Act Article 50</title>
+<itunes:title>Episode 31: The 2 August Wall: AI Act Article 50</itunes:title>
+<itunes:episode>31</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-07-23.mp3" length="9366573" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-031</guid>
+<itunes:duration>00:09:45</itunes:duration>
+<itunes:summary>Ten days from a cluster of hard deadlines: the EU AI Act's Article 50 transparency duties and GPAI fines begin 2 August, California's Delete Act clock starts 1 August, and FedRAMP Ready retires 28 July. Plus France's under-15 social media ban, a $1.07B Medicaid deferral, Korea's PIPC fines, China's IPv6 mandate and the FCC's Covered List order.</itunes:summary>
+<description>Ten days from a cluster of hard deadlines: the EU AI Act's Article 50 transparency duties and GPAI fines begin 2 August, California's Delete Act clock starts 1 August, and FedRAMP Ready retires 28 July. Plus France's under-15 social media ban, a $1.07B Medicaid deferral, Korea's PIPC fines, China's IPv6 mandate and the FCC's Covered List order.</description>
+<content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CyberEyeQ Weekly Podcast — Episode 31 (23 July 2026)</title>
+</head>
+<body style="margin:0;padding:0;background:#0b1220;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a2233;">
+<div style="max-width:680px;margin:0 auto;background:#ffffff;">
+
+  <div style="background:#0b1220;color:#ffffff;padding:28px 28px 24px;">
+    <div style="font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:#7fb0ff;font-weight:600;">CyberEyeQ Weekly Podcast &middot; Episode 31</div>
+    <h1 style="margin:8px 0 6px;font-size:26px;line-height:1.25;">The 2 August Wall: AI Act Article 50</h1>
+    <div style="font-size:14px;color:#b9c6de;">Thursday, 23 July 2026 &middot; ~8 min &middot; Actionable Regulatory Intelligence</div>
+  </div>
+
+  <div style="padding:24px 28px;">
+    <p style="font-size:16px;line-height:1.6;margin:0 0 18px;">Ten days out, a cluster of hard deadlines converges on the same week. This episode walks through the six that matter most &mdash; from the EU AI Act's Article&nbsp;50 transparency duties to California's Delete Act clock and FedRAMP Ready's retirement &mdash; plus France's under-15 social media ban, a $1.07B Medicaid deferral, and China's five-year IPv6 mandate.</p>
+
+    <h2 style="font-size:19px;border-bottom:2px solid #eef2f8;padding-bottom:8px;margin:26px 0 14px;">Top Stories &amp; Sources</h2>
+
+    <div style="margin-bottom:16px;">
+      <div style="font-weight:700;font-size:16px;">1. EU AI Act &mdash; Article 50 transparency + GPAI enforcement (2 Aug)</div>
+      <p style="font-size:15px;line-height:1.55;margin:5px 0 6px;color:#333;">Marking/disclosure duties for chatbots, synthetic media, emotion-recognition and biometric-categorisation systems begin 2 Aug 2026; Commission GPAI penalty powers (up to &euro;15M / 3% turnover) switch on the same day. Article 50(2) marking-and-detection is deferred to 2 Dec 2026 for systems placed on the market before 2 Aug.</p>
+      <a href="https://artificialintelligenceact.eu/article/50/" style="color:#1a5fd0;font-size:14px;">artificialintelligenceact.eu &mdash; Article 50</a>
+    </div>
+
+    <div style="margin-bottom:16px;">
+      <div style="font-weight:700;font-size:16px;">2. France &mdash; under-15 social media ban adopted (21 Jul)</div>
+      <p style="font-size:15px;line-height:1.55;margin:5px 0 6px;color:#333;">Parliament definitively adopted the ban 21 Jul 2026 (Assembly 279&ndash;81). New accounts blocked from 1 Sep 2026, existing accounts from 1 Jan 2027. Adopted but not promulgated &mdash; gated on a likely Conseil constitutionnel referral and a TRIS standstill running to 10 Aug 2026 (EC detailed opinion issued 6 Jul).</p>
+      <a href="https://www.touteleurope.eu/" style="color:#1a5fd0;font-size:14px;">Touteleurope.eu / Assemblée nationale (LCP)</a>
+    </div>
+
+    <div style="margin-bottom:16px;">
+      <div style="font-weight:700;font-size:16px;">3. California Delete Act (DROP) &mdash; 45-day duty binds (1 Aug)</div>
+      <p style="font-size:15px;line-height:1.55;margin:5px 0 6px;color:#333;">Registered data brokers must process deletion requests received via the CPPA's DROP portal at least every 45 days from 1 Aug 2026. Calendar-driven, not release-driven.</p>
+      <a href="https://cppa.ca.gov/data_broker_registry/" style="color:#1a5fd0;font-size:14px;">cppa.ca.gov &mdash; DROP / Data Broker Registry</a>
+    </div>
+
+    <div style="margin-bottom:16px;">
+      <div style="font-weight:700;font-size:16px;">4. FedRAMP Ready retires (28 Jul)</div>
+      <p style="font-size:15px;line-height:1.55;margin:5px 0 6px;color:#333;">No new Ready submissions after 28 Jul 2026; existing Ready listings convert to Legacy. Rev5 Ready holders must reach full Certification by the later of their next annual assessment expiry or 17 Nov 2026.</p>
+      <a href="https://www.fedramp.gov/" style="color:#1a5fd0;font-size:14px;">fedramp.gov</a>
+    </div>
+
+    <div style="margin-bottom:16px;">
+      <div style="font-weight:700;font-size:16px;">5. HHS/CMS defer ~$1.07B Medicaid matching funds (21 Jul)</div>
+      <p style="font-size:15px;line-height:1.55;margin:5px 0 6px;color:#333;">~$867.5M deferred to California and $199M to Minnesota after focused financial reviews flagged high-risk claims. Deferrals, not permanent cuts; HHS signaled broader CMS/OIG exclusion authority.</p>
+      <a href="https://www.hhs.gov/about/news/index.html" style="color:#1a5fd0;font-size:14px;">hhs.gov &mdash; Newsroom (release 2026-07-21)</a>
+    </div>
+
+    <h2 style="font-size:19px;border-bottom:2px solid #eef2f8;padding-bottom:8px;margin:26px 0 14px;">Also This Week</h2>
+    <ul style="font-size:15px;line-height:1.6;color:#333;padding-left:20px;margin:0 0 8px;">
+      <li><strong>Korea PIPC</strong> fined three firms KRW 706M (8 Jul); 10%-of-turnover punitive regime commences 11 Sep.</li>
+      <li><strong>China</strong> Central Cyberspace Commission published its IPv6 Implementation Plan 2026&ndash;2030 (36 tasks) on 21 Jul.</li>
+      <li><strong>FCC</strong> voted a Third Report &amp; Order closing the Covered List "component-part loophole" (22 Jul); adopted text/effective dates pending.</li>
+      <li><strong>NIS2:</strong> Germany BSI registration grace closes 31 Jul; Netherlands Cyberbeveiligingswet in force 15 Aug.</li>
+    </ul>
+
+    <h2 style="font-size:19px;border-bottom:2px solid #eef2f8;padding-bottom:8px;margin:26px 0 14px;">Compliance Action Items</h2>
+    <table style="width:100%;border-collapse:collapse;font-size:14px;">
+      <tr style="background:#f4f7fc;">
+        <th style="text-align:left;padding:8px;border-bottom:1px solid #e2e8f2;">Deadline</th>
+        <th style="text-align:left;padding:8px;border-bottom:1px solid #e2e8f2;">Action</th>
+      </tr>
+      <tr><td style="padding:8px;border-bottom:1px solid #eef2f8;white-space:nowrap;"><strong>28 Jul</strong></td><td style="padding:8px;border-bottom:1px solid #eef2f8;">CSPs on a Ready listing: file FedRAMP conversion plans this week.</td></tr>
+      <tr><td style="padding:8px;border-bottom:1px solid #eef2f8;white-space:nowrap;"><strong>1 Aug</strong></td><td style="padding:8px;border-bottom:1px solid #eef2f8;">Stand up recurring 45-day DROP deletion workflow for every registered broker entity.</td></tr>
+      <tr><td style="padding:8px;border-bottom:1px solid #eef2f8;white-space:nowrap;"><strong>2 Aug</strong></td><td style="padding:8px;border-bottom:1px solid #eef2f8;">Map each AI feature to its Article 50(1)/(2)/(4) duty; confirm marking, disclosure &amp; GPAI documentation posture.</td></tr>
+      <tr><td style="padding:8px;border-bottom:1px solid #eef2f8;white-space:nowrap;"><strong>mid-Aug</strong></td><td style="padding:8px;border-bottom:1px solid #eef2f8;">Build a point-of-creation age gate for French new accounts ahead of 1 Sep; document the DPIA.</td></tr>
+      <tr><td style="padding:8px;border-bottom:1px solid #eef2f8;white-space:nowrap;"><strong>ongoing</strong></td><td style="padding:8px;border-bottom:1px solid #eef2f8;">Inventory IPv6 gaps (China-facing apps/cloud/GenAI filings); track FCC adopted text and NIS2 transposition per jurisdiction.</td></tr>
+    </table>
+
+    <h2 style="font-size:19px;border-bottom:2px solid #eef2f8;padding-bottom:8px;margin:26px 0 14px;">Resources</h2>
+    <p style="font-size:15px;line-height:1.6;margin:0;">Full written brief and the complete five-step action list (CyberEyeQ Pro): <a href="https://www.cybereyeq.com" style="color:#1a5fd0;">cybereyeq.com</a></p>
+
+    <p style="font-size:12px;color:#8a97ad;margin:22px 0 0;line-height:1.5;">Sources are primary/authoritative regulator publications verified 23 July 2026. Item 5 (HHS Medicaid deferral) quotes the HHS release; FCC Third R&amp;O adopted text and effective dates were pending at publication.</p>
+  </div>
+
+  <div style="background:#0b1220;padding:16px 28px;font-size:12px;color:#8ea0c4;">CyberEyeQ Weekly &middot; Issue #29 companion podcast &middot; &copy; 2026 CyberEyeQ</div>
+
+</div>
+</body>
+</html>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 30: Pentagon suspends CMMC Phase II; regulators start fining</title>
 <itunes:title>Episode 30: Pentagon suspends CMMC Phase II; regulators start fining</itunes:title>
