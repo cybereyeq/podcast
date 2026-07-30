@@ -20,7 +20,82 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 23 Jul 2026 14:51:36 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Jul 2026 12:11:39 +0000</lastBuildDate>
+<item>
+<title>Episode 32: The Wall Hits This Weekend</title>
+<itunes:title>Episode 32: The Wall Hits This Weekend</itunes:title>
+<itunes:episode>32</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 30 Jul 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-07-30.mp3" length="10743981" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-032</guid>
+<itunes:duration>00:11:11</itunes:duration>
+<itunes:summary>August's regulatory wall is now three days out and no longer one wall but a cluster across five jurisdictions: EU AI Act Article 50 transparency and GPAI fines start 2 August, California's Delete Act DROP deletion duty binds 1 August, and Germany's BSI NIS2 registration expectation closes 31 July. Plus three new laws — Ireland's AI Act statute, New Jersey's algorithmic-rent ban, and a CISA KEV addition — and the FedRAMP 20x Class A on-ramp opening 3 August.</itunes:summary>
+<description>August's regulatory wall is now three days out and no longer one wall but a cluster across five jurisdictions: EU AI Act Article 50 transparency and GPAI fines start 2 August, California's Delete Act DROP deletion duty binds 1 August, and Germany's BSI NIS2 registration expectation closes 31 July. Plus three new laws — Ireland's AI Act statute, New Jersey's algorithmic-rent ban, and a CISA KEV addition — and the FedRAMP 20x Class A on-ramp opening 3 August.</description>
+<content:encoded><![CDATA[<div style="max-width:720px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a2233;line-height:1.6;">
+
+  <div style="background:#0d1b2a;color:#fff;padding:22px 24px;border-radius:10px;">
+    <div style="font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:#7fb3d5;">CyberEyeQ Weekly · Episode 32</div>
+    <h1 style="margin:6px 0 4px;font-size:24px;line-height:1.25;">The Wall Hits This Weekend</h1>
+    <div style="font-size:14px;color:#c7d3df;">Thursday, 30 July 2026 · ~8 min · Actionable Regulatory Intelligence</div>
+  </div>
+
+  <p style="margin:20px 0;">Ten days ago we flagged an August wall. It is now three days away — and no longer a single wall but a cluster of hard gates across five jurisdictions. This episode walks the deadlines that bind this weekend and the three new laws that just landed, with what to do about each.</p>
+
+  <h2 style="font-size:19px;border-bottom:2px solid #0d1b2a;padding-bottom:6px;margin-top:28px;">Top 5 Stories</h2>
+
+  <ol style="padding-left:20px;">
+    <li style="margin-bottom:14px;"><strong>EU AI Act Article 50 transparency + GPAI fining powers apply (2 Aug).</strong> Interactive systems must disclose AI interaction, generative outputs must be machine-readably marked, and deepfakes labelled. The Commission's power to fine general-purpose AI providers up to €15M or 3% of worldwide turnover switches on the same day. A narrow grace period defers only the Article 50(2) marking duty for pre-market systems to 2 Dec 2026.<br><a href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act" style="color:#1560bd;">European Commission — Article 50 transparency FAQ</a></li>
+
+    <li style="margin-bottom:14px;"><strong>California Delete Act (DROP) deletion-processing duty binds (1 Aug).</strong> Every registered California data broker must access DROP at least every 45 days, match and delete relevant personal information including inferences, cascade the instruction to service providers, and report each request's status within the window. Non-compliance runs at $200 per day, per unhandled deletion request. 300,000+ Californians enrolled; 600+ brokers registered.<br><a href="https://privacy.ca.gov/drop-for-data-brokers/" style="color:#1560bd;">CPPA — DROP for Data Brokers</a></li>
+
+    <li style="margin-bottom:14px;"><strong>Germany BSI NIS2 registration expectation closes (31 Jul).</strong> Following a BSI letter to industry, in-scope entities are expected to have registered by 31 July, after which non-registration becomes an enforcement priority. §65 BSIG fines reach €500,000 plus management personal liability.<br><a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/Registrierungspflicht/registrierungspflicht_node.html" style="color:#1560bd;">BSI — NIS-2 Registrierungspflicht</a></li>
+
+    <li style="margin-bottom:14px;"><strong>Ireland enacts its AI Act implementing law.</strong> The Regulation of Artificial Intelligence Act 2026 (Act No. 31 of 2026), signed 21 July, establishes the AI Office of Ireland nine days before the AI Act applies and slots sectoral regulators into the enforcement architecture.<br><a href="https://data.oireachtas.ie/ie/oireachtas/bill/2026/69" style="color:#1560bd;">Oireachtas — Regulation of Artificial Intelligence Bill 2026</a></li>
+
+    <li style="margin-bottom:14px;"><strong>FedRAMP 20x Class A pipeline opens (3 Aug).</strong> With FedRAMP Ready retired to Legacy on 28 July, the Class A Program Certification path — no agency sponsor required, assessed against 25 mandatory rules with a current SOC 2 Type II as the evidentiary spine — is the first authorization on-ramp under CR26. Class B/C pipelines open 31 August.<br><a href="https://www.fedramp.gov/" style="color:#1560bd;">FedRAMP.gov</a></li>
+  </ol>
+
+  <h2 style="font-size:19px;border-bottom:2px solid #0d1b2a;padding-bottom:6px;margin-top:28px;">Compliance Action Items</h2>
+
+  <table style="width:100%;border-collapse:collapse;font-size:14px;">
+    <thead>
+      <tr style="background:#0d1b2a;color:#fff;text-align:left;">
+        <th style="padding:8px 10px;">Deadline</th><th style="padding:8px 10px;">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #dfe6ee;"><td style="padding:8px 10px;white-space:nowrap;"><strong>31 Jul</strong></td><td style="padding:8px 10px;">Complete BSI NIS2 registration for German in-scope entities; document management-body sign-off on risk measures.</td></tr>
+      <tr style="border-bottom:1px solid #dfe6ee;background:#f6f9fc;"><td style="padding:8px 10px;white-space:nowrap;"><strong>1 Aug</strong></td><td style="padding:8px 10px;">Stand up the DROP pull-match-delete-report 45-day cycle for registered California data brokers.</td></tr>
+      <tr style="border-bottom:1px solid #dfe6ee;"><td style="padding:8px 10px;white-space:nowrap;"><strong>1 Aug</strong></td><td style="padding:8px 10px;">Build the Connecticut CTDPA profiling impact assessment (SB 1295) — distinct from your data-protection assessment.</td></tr>
+      <tr style="border-bottom:1px solid #dfe6ee;background:#f6f9fc;"><td style="padding:8px 10px;white-space:nowrap;"><strong>2 Aug</strong></td><td style="padding:8px 10px;">Ship EU AI Act Article 50 disclosures and marking across chatbots, GenAI, deepfake and biometric systems.</td></tr>
+      <tr style="border-bottom:1px solid #dfe6ee;"><td style="padding:8px 10px;white-space:nowrap;"><strong>3 Aug</strong></td><td style="padding:8px 10px;">Decide your FedRAMP 20x pipeline — confirm SOC 2 Type II currency for Class A, or assess Class B/C by 31 Aug.</td></tr>
+    </tbody>
+  </table>
+
+  <h2 style="font-size:19px;border-bottom:2px solid #0d1b2a;padding-bottom:6px;margin-top:28px;">Also This Week</h2>
+  <ul style="padding-left:20px;">
+    <li style="margin-bottom:8px;">New Jersey's FAIR Act (signed 20 July) makes algorithmic rent-setting a state antitrust violation, effective 1 July 2027. <a href="https://www.nj.gov/governor/news/2026/20260720a.shtml" style="color:#1560bd;">NJ Governor's Office</a></li>
+    <li style="margin-bottom:8px;">CISA added an actively-exploited Cisco firewall flaw to the KEV catalog (29 July). <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" style="color:#1560bd;">CISA KEV Catalog</a></li>
+    <li style="margin-bottom:8px;">DOJ Antitrust filed a proposed judgment over an alleged HSR "gun-jumping" structure (Edwards Lifesciences / Genesis MedTech); Tunney Act comment period closes ~21 Sept. <a href="https://www.federalregister.gov/documents/2026/07/23/2026-14935/united-states-v-edwards-lifesciences-corp-and-genesis-medtech-group-limited-proposed-final-judgment" style="color:#1560bd;">Federal Register</a></li>
+    <li style="margin-bottom:8px;">OCC ordered BSA/AML remediation at United Texas Bank (docket AA-ENF-2026-29). <a href="https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-59.html" style="color:#1560bd;">OCC news release</a></li>
+    <li style="margin-bottom:8px;">China's CAC Internet Information Services rewrite (94 articles) closes for comment 2 Aug. <a href="https://www.cac.gov.cn/2026-07/03/c_1784822399677167.htm" style="color:#1560bd;">CAC notice</a></li>
+  </ul>
+
+  <h2 style="font-size:19px;border-bottom:2px solid #0d1b2a;padding-bottom:6px;margin-top:28px;">Resources</h2>
+  <ul style="padding-left:20px;">
+    <li style="margin-bottom:8px;">Full written edition: <a href="https://cybereyeq.com" style="color:#1560bd;">CyberEyeQ Weekly — Issue #30</a></li>
+    <li style="margin-bottom:8px;">All episodes &amp; RSS: <a href="https://cybereyeq.github.io/podcast/" style="color:#1560bd;">cybereyeq.github.io/podcast</a></li>
+    <li style="margin-bottom:8px;">Questions or corrections: <a href="mailto:info@cybereyeq.com" style="color:#1560bd;">info@cybereyeq.com</a></li>
+  </ul>
+
+  <p style="font-size:12px;color:#6b7785;margin-top:26px;border-top:1px solid #dfe6ee;padding-top:14px;">CyberEyeQ — Actionable Regulatory Intelligence. Compiled from primary regulatory sources for information only; not legal advice. Verify every item against the issuing authority before acting.</p>
+
+</div>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 31: The 2 August Wall: AI Act Article 50</title>
 <itunes:title>Episode 31: The 2 August Wall: AI Act Article 50</itunes:title>

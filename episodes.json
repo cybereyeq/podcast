@@ -135,6 +135,14 @@
       "filename": "podcast-2026-07-23.mp3",
       "summary": "Ten days from a cluster of hard deadlines: the EU AI Act's Article 50 transparency duties and GPAI fines begin 2 August, California's Delete Act clock starts 1 August, and FedRAMP Ready retires 28 July. Plus France's under-15 social media ban, a $1.07B Medicaid deferral, Korea's PIPC fines, China's IPv6 mandate and the FCC's Covered List order.",
       "show_notes_html": "podcast-2026-07-23.html"
+    },
+    {
+      "number": 32,
+      "title": "Episode 32: The Wall Hits This Weekend",
+      "date": "2026-07-30",
+      "filename": "podcast-2026-07-30.mp3",
+      "summary": "August's regulatory wall is now three days out and no longer one wall but a cluster across five jurisdictions: EU AI Act Article 50 transparency and GPAI fines start 2 August, California's Delete Act DROP deletion duty binds 1 August, and Germany's BSI NIS2 registration expectation closes 31 July. Plus three new laws \u2014 Ireland's AI Act statute, New Jersey's algorithmic-rent ban, and a CISA KEV addition \u2014 and the FedRAMP 20x Class A on-ramp opening 3 August.",
+      "show_notes_html": "podcast-2026-07-30.html"
     }
   ]
 }
