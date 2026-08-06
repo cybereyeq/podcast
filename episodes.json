@@ -143,6 +143,14 @@
       "filename": "podcast-2026-07-30.mp3",
       "summary": "August's regulatory wall is now three days out and no longer one wall but a cluster across five jurisdictions: EU AI Act Article 50 transparency and GPAI fines start 2 August, California's Delete Act DROP deletion duty binds 1 August, and Germany's BSI NIS2 registration expectation closes 31 July. Plus three new laws \u2014 Ireland's AI Act statute, New Jersey's algorithmic-rent ban, and a CISA KEV addition \u2014 and the FedRAMP 20x Class A on-ramp opening 3 August.",
       "show_notes_html": "podcast-2026-07-30.html"
+    },
+    {
+      "number": 33,
+      "title": "Episode 33: EU AI Act Enforcement Goes Live",
+      "date": "2026-08-06",
+      "filename": "podcast-2026-08-06.mp3",
+      "summary": "EU AI Act enforcement went live on 2 August: the AI Office can now supervise and fine general-purpose AI model providers. Plus two deadlines within a fortnight (Netherlands NIS2 on 15 August, China's Order No. 24 on 20 August), the EU Cyber Resilience Act reporting duty from 11 September, and the FTC's health-data case against Hims & Hers.",
+      "show_notes_html": "podcast-2026-08-06.html"
     }
   ]
 }
