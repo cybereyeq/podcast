@@ -20,7 +20,70 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 06 Aug 2026 11:57:06 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 14:35:56 +0000</lastBuildDate>
+<item>
+<title>Episode 34: China's Data Clock Starts, Two Regimes Loom</title>
+<itunes:title>Episode 34: China's Data Clock Starts, Two Regimes Loom</itunes:title>
+<itunes:episode>34</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-08-20.mp3" length="8199597" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-034</guid>
+<itunes:duration>00:08:32</itunes:duration>
+<itunes:summary>China's Network Data Security Risk Assessment Measures (Order No. 24) enter into force today, imposing an annual assessment-and-filing duty on handlers of important data. Plus a 11 September double gate — EU Cyber Resilience Act Article 14 reporting and South Korea's PIPA overhaul with 10%-of-turnover fines — California's first data-broker fines under the CCPA and Delete Act, AB 1651 on the Governor's desk, and France's teen social-media ban struck down.</itunes:summary>
+<description>China's Network Data Security Risk Assessment Measures (Order No. 24) enter into force today, imposing an annual assessment-and-filing duty on handlers of important data. Plus a 11 September double gate — EU Cyber Resilience Act Article 14 reporting and South Korea's PIPA overhaul with 10%-of-turnover fines — California's first data-broker fines under the CCPA and Delete Act, AB 1651 on the Governor's desk, and France's teen social-media ban struck down.</description>
+<content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CyberEyeQ Weekly Podcast — Episode 34 (2026-08-20)</title>
+<style>
+body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1a1a2e;max-width:760px;margin:0 auto;padding:24px}
+h1{font-size:1.5rem;margin-bottom:.2rem}h2{font-size:1.15rem;margin-top:1.6rem;border-bottom:2px solid #e0e0ef;padding-bottom:.3rem}
+.sub{color:#555;font-size:.95rem;margin-top:0}
+.story{margin:0 0 1rem}.story b{color:#0d1b4c}
+a{color:#1450c8;text-decoration:none}a:hover{text-decoration:underline}
+.deadline{background:#fff6e5;border-left:4px solid #f0a500;padding:.5rem .8rem;margin:.5rem 0;border-radius:4px}
+.actions li{margin-bottom:.5rem}
+footer{margin-top:2rem;font-size:.85rem;color:#666;border-top:1px solid #ddd;padding-top:1rem}
+</style></head><body>
+<h1>CyberEyeQ Weekly Podcast — Episode 34</h1>
+<p class="sub">China's Data-Risk Clock Starts; Two Regimes Loom · Thursday, 20 August 2026 · ~8 min</p>
+
+<p>One obligation switched on this week and two more came into view. Here are the top stories, with primary sources and what to do about them. Full brief and every source in the <a href="https://cybereyeq.beehiiv.com">CyberEyeQ newsletter</a>.</p>
+
+<h2>Top Stories</h2>
+
+<div class="story"><b>1. China Order No. 24 in force today.</b> The Network Data Security Risk Assessment Measures (CAC/MIIT/MPS, issued 18 Jun 2026) take effect <b>20 Aug 2026</b>. Handlers of "important data" owe a documented annual risk assessment, filed with their sector regulator within 20 working days and retained 3 years. Source: <a href="https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm">CAC Order No. 24</a>.</div>
+
+<div class="story"><b>2. EU Cyber Resilience Act Article 14 reporting begins 11 Sep.</b> Manufacturers of products with digital elements must report actively exploited vulnerabilities and severe incidents via ENISA's Single Reporting Platform: early warning in 24h, full notification in 72h, final report within 14 days. Sources: <a href="https://digital-strategy.ec.europa.eu/en/policies/cra-reporting">EC CRA reporting</a> · <a href="https://www.enisa.europa.eu/topics/product-security-and-certification/single-reporting-platform-srp">ENISA SRP</a>.</div>
+
+<div class="story"><b>3. South Korea PIPA overhaul takes effect 11 Sep.</b> A punitive fine track reaching 10% of total annual turnover (for intentional/grossly-negligent repeat conduct, breaches affecting 10M+ individuals, or corrective-order non-compliance); the business owner/representative is named ultimately responsible; CPO appointments at large-scale controllers need board approval and PIPC reporting. Source: <a href="https://www.pipc.go.kr/eng/">PIPC (Korea)</a>.</div>
+
+<div class="story"><b>4. California's first data-broker fines under both the CCPA and the Delete Act.</b> LocateSmarter LLC — $116,490 (failure to register by 31 Jan 2026; requiring last-4 SSN before opt-out); Cybba, Inc. — $52,400. Source: <a href="https://privacy.ca.gov/2026/08/calprivacy-brings-first-action-against-a-data-broker-under-both-the-ccpa-and-the-delete-act/">CalPrivacy</a>.</div>
+
+<div class="story"><b>5. AB 1651 on California's Governor's desk.</b> Presented 10 Aug; the 12-day gubernatorial clock expires on or about <b>22 Aug 2026</b>. From 1 Jan 2028 it would require the State Bar to disclose AI-generated content in the bar exam and study materials — and human revision does not extinguish the duty. Source: Assembly Daily Summary (10 Aug 2026), Senate Judiciary analysis.</div>
+
+<p><i>Also this week:</i> France's Conseil constitutionnel struck down the operative under-15 social-media ban (decision No. 2026-911 DC, 14 Aug), voiding the 2026–27 start dates; the CFTC proposed easing fund-adviser registration (Release 9284-26); the UK PSR Confirmation of Payee consultation closes today; the US stablecoin-issuer CIP proposed rule closes 21 Aug.</p>
+
+<h2>Compliance Action Items &amp; Deadlines</h2>
+<div class="deadline"><b>Now (in force 20 Aug):</b> Confirm China "important data" exposure; stand up an annual assessment methodology; identify your sector-regulator filing channel by <b>19 Sep</b>.</div>
+<div class="deadline"><b>~22 Aug:</b> Watch AB 1651 for signature, veto, or default enactment.</div>
+<div class="deadline"><b>21 Aug:</b> US stablecoin-issuer CIP proposed-rule comments close.</div>
+<div class="deadline"><b>11 Sep:</b> EU CRA Article 14 reporting begins — build the 24h/72h/14-day runbook and test ENISA SRP access. Korea PIPA takes effect — re-map penalty exposure to the 10%-turnover band; calendar board approval/PIPC reporting for CPO appointments.</div>
+<div class="deadline"><b>~2 Oct (verify FR pub date):</b> CFTC CPO/CTA exemption NPRM comments due.</div>
+
+<h2>Resources</h2>
+<ul>
+<li><a href="https://cybereyeq.beehiiv.com">CyberEyeQ Weekly newsletter</a> — full brief and all sources for Issue #32.</li>
+<li>Primary authorities linked inline above (CAC, EC, ENISA, PIPC, CalPrivacy, CFTC).</li>
+</ul>
+
+<footer>CyberEyeQ Weekly Podcast · Episode 34 · 20 August 2026. Actionable regulatory intelligence. This episode is generated from CyberEyeQ Weekly Issue #32; figures are drawn from primary sources and re-verified against issuing authorities.</footer>
+</body></html>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 33: EU AI Act Enforcement Goes Live</title>
 <itunes:title>Episode 33: EU AI Act Enforcement Goes Live</itunes:title>
