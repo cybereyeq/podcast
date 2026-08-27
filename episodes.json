@@ -159,6 +159,14 @@
       "filename": "podcast-2026-08-20.mp3",
       "summary": "China's Network Data Security Risk Assessment Measures (Order No. 24) enter into force today, imposing an annual assessment-and-filing duty on handlers of important data. Plus a 11 September double gate \u2014 EU Cyber Resilience Act Article 14 reporting and South Korea's PIPA overhaul with 10%-of-turnover fines \u2014 California's first data-broker fines under the CCPA and Delete Act, AB 1651 on the Governor's desk, and France's teen social-media ban struck down.",
       "show_notes_html": "podcast-2026-08-20.html"
+    },
+    {
+      "number": 35,
+      "title": "Episode 35: September's Deadline Wall: FedRAMP, Korea, Alabama",
+      "date": "2026-08-27",
+      "filename": "podcast-2026-08-27.mp3",
+      "summary": "A wall of September compliance deadlines lands inside three weeks: FedRAMP 20x Class B and C pipelines open 31 August, Korea's PIPA overhaul brings ten-percent-of-turnover fines and CEO liability on 11 September, and Alabama's subpoena to OpenAI sets a 14 September production clock. Plus a new actively-exploited Citrix NetScaler KEV, China's small-processor rules, California's AB 2392, and a withdrawn federal fair-lending statement.",
+      "show_notes_html": "podcast-2026-08-27.html"
     }
   ]
 }
