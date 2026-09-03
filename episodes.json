@@ -167,6 +167,14 @@
       "filename": "podcast-2026-08-27.mp3",
       "summary": "A wall of September compliance deadlines lands inside three weeks: FedRAMP 20x Class B and C pipelines open 31 August, Korea's PIPA overhaul brings ten-percent-of-turnover fines and CEO liability on 11 September, and Alabama's subpoena to OpenAI sets a 14 September production clock. Plus a new actively-exploited Citrix NetScaler KEV, China's small-processor rules, California's AB 2392, and a withdrawn federal fair-lending statement.",
       "show_notes_html": "podcast-2026-08-27.html"
+    },
+    {
+      "number": 36,
+      "title": "Episode 36: The 11 September Wall: CRA and Korea",
+      "date": "2026-09-03",
+      "filename": "podcast-2026-09-03.mp3",
+      "summary": "Two flagship regimes switch on the same day, 11 September: the EU Cyber Resilience Act's 24-hour vulnerability reporting to ENISA, and South Korea's amended PIPA with fines up to ten percent of turnover and personal CEO liability. Plus closing comment windows for the Fed's AML/CFT NPRM (8 Sep) and China's Large PI Processor draft (7 Sep), a $36,400 CalPrivacy fine against data broker SalesIntel, and seven new actively-exploited CVEs in CISA's KEV catalog.",
+      "show_notes_html": "podcast-2026-09-03.html"
     }
   ]
 }
