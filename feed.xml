@@ -20,7 +20,111 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 03 Sep 2026 15:03:14 +0000</lastBuildDate>
+<lastBuildDate>Thu, 10 Sep 2026 11:54:49 +0000</lastBuildDate>
+<item>
+<title>Episode 37: California Licenses the First AI Auditors</title>
+<itunes:title>Episode 37: California Licenses the First AI Auditors</itunes:title>
+<itunes:episode>37</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-09-10.mp3" length="6773805" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-037</guid>
+<itunes:duration>00:07:03</itunes:duration>
+<itunes:summary>California becomes the first jurisdiction anywhere to license the people who audit AI, signing SB 813 and AB 1405 into law on 9 September — regulating the auditors rather than the AI systems themselves. It lands in the same 72 hours as the EU Cyber Resilience Act's Article 14 incident reporting (11 Sep), Korea's amended PIPA with personal CEO liability and fines up to ten percent of turnover (11 Sep), the EU Data Act's data-access-by-design trigger (12 Sep), and a FinCEN alert mapping nearly $13 billion in crypto scam-center fraud.</itunes:summary>
+<description>California becomes the first jurisdiction anywhere to license the people who audit AI, signing SB 813 and AB 1405 into law on 9 September — regulating the auditors rather than the AI systems themselves. It lands in the same 72 hours as the EU Cyber Resilience Act's Article 14 incident reporting (11 Sep), Korea's amended PIPA with personal CEO liability and fines up to ten percent of turnover (11 Sep), the EU Data Act's data-access-by-design trigger (12 Sep), and a FinCEN alert mapping nearly $13 billion in crypto scam-center fraud.</description>
+<content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CyberEyeQ Weekly Podcast — Episode 37 (10 Sep 2026)</title>
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1a1a2e;max-width:720px;margin:0 auto;padding:24px;background:#fff;}
+  h1{font-size:1.6em;color:#16213e;margin-bottom:.2em;}
+  h2{font-size:1.2em;color:#0f3460;border-bottom:2px solid #e2e8f0;padding-bottom:.3em;margin-top:1.8em;}
+  .meta{color:#64748b;font-size:.9em;margin-bottom:1.5em;}
+  .story{margin-bottom:1.2em;}
+  .story .tag{display:inline-block;font-size:.75em;font-weight:600;color:#0f3460;background:#e8eefc;border-radius:4px;padding:2px 8px;margin-right:6px;}
+  .deadline{color:#b91c1c;font-weight:600;}
+  a{color:#0f3460;}
+  table{border-collapse:collapse;width:100%;font-size:.9em;margin:1em 0;}
+  th,td{border:1px solid #e2e8f0;padding:6px 10px;text-align:left;}
+  th{background:#f1f5f9;}
+  .disclaimer{color:#94a3b8;font-size:.8em;margin-top:2em;border-top:1px solid #e2e8f0;padding-top:1em;}
+</style>
+</head>
+<body>
+<h1>CyberEyeQ Weekly Podcast — Episode 37</h1>
+<div class="meta">Thursday, 10 September 2026 · ~8 min · Actionable Regulatory Intelligence<br>Companion to Weekly Briefing Issue #35 (4–10 September 2026)</div>
+
+<p>This week California became the first jurisdiction anywhere to license the people who audit AI, signing SB 813 and AB 1405 into law — landing in the same 72 hours as two of the year's hardest EU and Korean deadlines and a $13 billion money-laundering signal from FinCEN.</p>
+
+<h2>Top Stories</h2>
+
+<div class="story">
+  <span class="tag">AI Governance · California</span>
+  <strong>California licenses the first AI auditors.</strong> Governor Newsom signed SB 813 and AB 1405 on 9 September — the first US statutes to regulate <em>who</em> may assess AI systems. SB 813 creates independent verification organizations; AB 1405 establishes a state registry for AI auditors. Conducting a covered audit without registration becomes a prohibited act from 1 January 2029.
+  <br><a href="https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/">Governor of California — signing release</a> · <a href="https://legiscan.com/CA/bill/SB813/2025">SB 813</a> · <a href="https://legiscan.com/CA/bill/AB1405/2025">AB 1405</a>
+</div>
+
+<div class="story">
+  <span class="tag">Cybersecurity · EU</span>
+  <strong>EU Cyber Resilience Act — Article 14 reporting goes live. <span class="deadline">Due 11 Sep</span></strong> Manufacturers of products with digital elements must report actively exploited vulnerabilities and severe incidents on a 24h / 72h / 14-day clock through ENISA's Single Reporting Platform, which launches the same day. Scope reaches products already on the market, plus software components and remote data-processing solutions.
+  <br><a href="https://digital-strategy.ec.europa.eu/en/policies/cra-reporting">European Commission — CRA reporting guidance</a>
+</div>
+
+<div class="story">
+  <span class="tag">Privacy · South Korea</span>
+  <strong>Korea's amended PIPA takes effect. <span class="deadline">Due 11 Sep</span></strong> The amendment names the CEO as ultimately responsible for data-protection compliance and adds a punitive fine track of up to 10% of total annual turnover for the most serious systemic failures, alongside the existing 3% baseline.
+  <br><a href="https://www.pipc.go.kr/eng/">PIPC — Korea Personal Information Protection Commission</a>
+</div>
+
+<div class="story">
+  <span class="tag">Cloud · EU</span>
+  <strong>EU Data Act — data-access-by-design attaches to connected products. <span class="deadline">Due 12 Sep</span></strong> Under Regulation (EU) 2023/2854 Art. 3(1), connected products newly placed on the EU market must be designed so in-use and readily available data are directly accessible to the user by default.
+  <br><a href="https://eur-lex.europa.eu/eli/reg/2023/2854/oj">EUR-Lex — Regulation (EU) 2023/2854 (Data Act)</a>
+</div>
+
+<div class="story">
+  <span class="tag">Financial · US</span>
+  <strong>FinCEN flags nearly $13B in crypto "scam center" fraud.</strong> FIN-2026-Alert005 (3 September) maps roughly $12.7 billion tied to overseas scam-center fraud from BSA filings (Sep 2023–Dec 2025). No new obligation, but examiners will expect the red-flag typologies folded into transaction monitoring and SAR narratives, and 314(b) sharing reassessed.
+  <br><a href="https://www.fincen.gov/news/news-releases/fincen-identifies-nearly-13-billion-linked-suspected-digital-asset-scams">FinCEN — news release</a>
+</div>
+
+<h2>Enforcement Watch</h2>
+<ul>
+  <li><strong>Spain AEPD fines Yoti €950,000</strong> — vendor pulled its Digital ID app from Spanish stores (effective 10 Sep) rather than add a non-biometric path. <a href="https://www.aepd.es/documento/ps-00164-2025.pdf">Resolución PS/00164/2025</a></li>
+  <li><strong>CNIL fines Hôpital Privé de la Loire €500,000</strong> — GDPR Arts. 32/34, after a 2025 intrusion reached ~524,867 patient records via remote access with no VPN and no MFA. <a href="https://www.cnil.fr/fr/sanction-hopital-prive-loire">CNIL — sanction</a></li>
+</ul>
+
+<h2>Deadline Watch</h2>
+<table>
+<tr><th>Date</th><th>What</th><th>Where</th></tr>
+<tr><td>11 Sep</td><td>CRA Article 14 reporting mandatory; ENISA SRP live</td><td>EU</td></tr>
+<tr><td>11 Sep</td><td>Amended PIPA in force — CEO liability, 10%-turnover fines</td><td>South Korea</td></tr>
+<tr><td>12 Sep</td><td>EU Data Act Art. 3(1) data-access-by-design trigger</td><td>EU</td></tr>
+<tr><td>14 Sep</td><td>Alabama AG subpoena — OpenAI document production due</td><td>US-AL</td></tr>
+<tr><td>16 Sep</td><td>FDA reclassification of ISH companion-diagnostic systems to Class II</td><td>US</td></tr>
+<tr><td>23 Sep</td><td>Colorado AG ADMT & Chatbot Safety — revised proposed rule due</td><td>US-CO</td></tr>
+<tr><td>30 Sep</td><td>UK cryptoasset authorization window opens</td><td>UK</td></tr>
+<tr><td>1 Oct</td><td>MPS Order No. 176 police cyberspace-inspection measures</td><td>China</td></tr>
+<tr><td>1 Oct</td><td>Connecticut PA 26-15 (SB 5) — AEDT notice + whistleblower channels</td><td>US-CT</td></tr>
+<tr><td>13 Nov</td><td>India DPDP Rules 2025 Rule 4 — Consent Manager registration opens</td><td>India</td></tr>
+</table>
+
+<h2>Resources</h2>
+<ul>
+  <li><a href="https://cybereyeq.beehiiv.com/">CyberEyeQ Weekly Briefing</a> — the full newsletter this episode is based on</li>
+  <li><a href="https://cybereyeq.github.io/podcast/">CyberEyeQ Podcast feed &amp; 2026 deadline calendar</a></li>
+</ul>
+
+<p class="disclaimer">CyberEyeQ — Actionable Regulatory Intelligence. For informational purposes only; not legal advice. Always consult qualified counsel for compliance decisions.</p>
+</body>
+</html>
+]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 36: The 11 September Wall: CRA and Korea</title>
 <itunes:title>Episode 36: The 11 September Wall: CRA and Korea</itunes:title>

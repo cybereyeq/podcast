@@ -175,6 +175,14 @@
       "filename": "podcast-2026-09-03.mp3",
       "summary": "Two flagship regimes switch on the same day, 11 September: the EU Cyber Resilience Act's 24-hour vulnerability reporting to ENISA, and South Korea's amended PIPA with fines up to ten percent of turnover and personal CEO liability. Plus closing comment windows for the Fed's AML/CFT NPRM (8 Sep) and China's Large PI Processor draft (7 Sep), a $36,400 CalPrivacy fine against data broker SalesIntel, and seven new actively-exploited CVEs in CISA's KEV catalog.",
       "show_notes_html": "podcast-2026-09-03.html"
+    },
+    {
+      "number": 37,
+      "title": "Episode 37: California Licenses the First AI Auditors",
+      "date": "2026-09-10",
+      "filename": "podcast-2026-09-10.mp3",
+      "summary": "California becomes the first jurisdiction anywhere to license the people who audit AI, signing SB 813 and AB 1405 into law on 9 September \u2014 regulating the auditors rather than the AI systems themselves. It lands in the same 72 hours as the EU Cyber Resilience Act's Article 14 incident reporting (11 Sep), Korea's amended PIPA with personal CEO liability and fines up to ten percent of turnover (11 Sep), the EU Data Act's data-access-by-design trigger (12 Sep), and a FinCEN alert mapping nearly $13 billion in crypto scam-center fraud.",
+      "show_notes_html": "podcast-2026-09-10.html"
     }
   ]
 }
