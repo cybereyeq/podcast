@@ -1,5 +1,60 @@
 # Crosswalk — changelog
 
+## v1.0 — 2026-09-12
+
+Three new targets. 102 → **201** delta cards; 9 → 18 pairings.
+
+| New target | Primary sources read for this build |
+|---|---|
+| **EU NIS2** — Directive (EU) 2022/2555 | EUR-Lex full text: Arts. 2, 3, 20, 21, 22, 23, 32, 33, 34, 41, Annexes I–II |
+| **EU DORA** — Regulation (EU) 2022/2554 | EUR-Lex full text: Arts. 2, 5, 6–14, 16, 18, 19, 24, 25, 26, 28, 30, 31, 35, 42, 64 + Commission Delegated Regulation (EU) 2025/301 Art. 5 |
+| **US CCPA/CPRA** — Cal. Civ. Code 1798.100 et seq. | leginfo full text: 1798.100, .120, .121, .130, .135, .140, .150, .155 + the CPPA's own announcement of the approved Cyber/Risk/ADMT regulations |
+
+Eleven cards per new target, per base. Each carries a `When:` line, as v0.9 established.
+
+### Facts that shaped the cards
+
+- **NIS2 is a directive, and that is the headline.** Art. 41 set 18 Oct 2024 as the application
+  date, but the binding text is each national transposing act and those landed anywhere from
+  Oct 2024 (BE, IT) to **1 Oct 2026** (AT) — with DE 6 Dec 2025, HR 1 Jan 2026, SE 15 Jan 2026,
+  PL 3 Apr 2026, NL 15 Aug 2026 in between. A whole card is given to this, and every other NIS2
+  card's `When:` line repeats the caveat. The Jan 2026 amending proposal is carried as a `Watch:`
+  note, explicitly flagged as not law.
+- **Reporting clocks are the sharpest deltas.** NIS2 Art. 23(4): 24-hour early warning, 72-hour
+  notification, final report within one month (trust service providers notify at 24h, not 72h).
+  DORA via RTS (EU) 2025/301 Art. 5: initial notification within **four hours of classification**
+  and no later than 24 hours from awareness, intermediate within 72 hours of that, final within one
+  month — with the weekend/bank-holiday relief expressly unavailable to credit institutions, CCPs,
+  trading venues and NIS2 essential/important entities.
+- **California's new regulations are the live story.** OAL-approved 22 Sep 2025, effective
+  1 Jan 2026: risk assessments run from 1 Jan 2026 with attestations due to the Agency by
+  1 Apr 2028; cybersecurity-audit certifications are revenue-tiered at 1 Apr 2028 (over $100M),
+  1 Apr 2029 ($50–100M), 1 Apr 2030 (under $50M); ADMT for significant decisions bites
+  1 Jan 2027.
+- **Sensitive personal information now includes neural data** (Cal. Civ. Code 1798.140(ae)(1)(G)).
+- **The two CCPA enforcement routes differ on cure.** 1798.150's private right of action carries a
+  30-day cure opportunity; 1798.155 administrative enforcement, as amended by AB 137
+  (Stats. 2025, ch. 20), carries none.
+- **DORA Art. 5(2)'s budget limb** — the management body must allocate and periodically review
+  resilience budget — is called out, because it has no analogue in any base framework.
+
+### Pairings worth knowing about
+
+ISO 27001 → NIS2 is the strongest overlap anywhere on this page: Art. 21(2) reads like an Annex A
+summary. SOC 2 → CCPA cybersecurity audits is the one CCPA obligation where an existing attestation
+programme is a real head start. NIST AI RMF → CCPA ADMT is the only place the AI RMF carries
+substantive weight against a target — and it still gives you no notice, opt-out or access right.
+
+### Also
+
+- `meta.verified_against` extended from 13 to **26** registry entries, including the eight national
+  NIS2 transposing acts the Transposition-reality card names, and regenerated directly from
+  `registry.json` rather than transcribed.
+- Picker, page title, meta description and social cards updated for six targets.
+
+Verified before publish: all 18 pairings render, 201 cards, 201 `When:` lines, no JS errors, no
+horizontal overflow at 390px, deep links resolve, and `check_crosswalk_drift.py` returns clean.
+
 ## v0.9 — 2026-09-12
 
 First content revision since the v0.8 launch (2026-05-21). 93 → 102 delta cards.

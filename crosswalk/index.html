@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Crosswalk — SOC 2, ISO 27001 or NIST AI RMF → GDPR, AI Act, HIPAA — CybereyeQ</title>
+<title>Crosswalk — SOC 2, ISO 27001 or NIST AI RMF → GDPR, AI Act, NIS2, DORA, HIPAA, CCPA — CybereyeQ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Already have SOC 2, ISO 27001, or NIST AI RMF? See exactly what GDPR, the EU AI Act, and HIPAA add on top — theme by theme, with article citations.">
+<meta name="description" content="Already have SOC 2, ISO 27001, or NIST AI RMF? See exactly what GDPR, the EU AI Act, NIS2, DORA, HIPAA and CCPA/CPRA add on top — theme by theme, with article citations and the date each obligation applies.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://cybereyeq.github.io/podcast/crosswalk/">
-<meta property="og:title" content="Crosswalk — SOC 2, ISO 27001 or NIST AI RMF → GDPR, AI Act, HIPAA">
-<meta property="og:description" content="What does GDPR add on top of SOC 2, ISO 27001, or NIST AI RMF? Or the AI Act? Or HIPAA? See the delta, theme by theme, with article citations.">
+<meta property="og:title" content="Crosswalk — SOC 2, ISO 27001 or NIST AI RMF → GDPR, AI Act, NIS2, DORA, HIPAA, CCPA">
+<meta property="og:description" content="What do GDPR, the EU AI Act, NIS2, DORA, HIPAA or CCPA/CPRA add on top of SOC 2, ISO 27001 or NIST AI RMF? See the delta, theme by theme, with article citations and applicability dates.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://cybereyeq.github.io/podcast/crosswalk/">
 <style>
@@ -205,10 +205,10 @@
 </head>
 <body>
   <h1>Crosswalk</h1>
-  <p class="sub">Already have SOC 2, ISO 27001, or NIST AI RMF? See exactly what GDPR, the EU AI Act, and HIPAA add on top — theme by theme, with article citations, and with the date each obligation actually bites. Updated 2026-09-12.</p>
+  <p class="sub">Already have SOC&nbsp;2, ISO&nbsp;27001, or NIST AI RMF? See exactly what GDPR, the EU AI Act, NIS2, DORA, HIPAA and CCPA/CPRA add on top — theme by theme, with article citations, and with the date each obligation actually bites. Updated 2026-09-12.</p>
 
   <div class="banner">
-    <b>v0.9 preview release.</b> Three base frameworks (SOC&nbsp;2, ISO&nbsp;27001, NIST AI RMF) &times; three targets (GDPR, EU AI Act, HIPAA) = 102 delta cards, each now carrying an <b>applicability date</b> so you can tell a live obligation from a 2027 one. Content is editorially reviewed against primary sources but is not exhaustive, and it is not legal advice. Spot something off? Email <a href="mailto:info@cybereyeq.com">info@cybereyeq.com</a> &mdash; corrections become public commits.
+    <b>v1.0.</b> Three base frameworks (SOC&nbsp;2, ISO&nbsp;27001, NIST AI RMF) &times; six targets (GDPR, EU AI Act, NIS2, DORA, HIPAA, CCPA/CPRA) = 201 delta cards, each carrying an <b>applicability date</b> so you can tell a live obligation from a 2028 one. Editorially reviewed against primary sources &mdash; EUR-Lex, the Federal Register, HHS, and the California codes &mdash; but not exhaustive, and not legal advice. Spot something off? Email <a href="mailto:info@cybereyeq.com">info@cybereyeq.com</a> &mdash; corrections become public commits.
   </div>
 
   <div class="picker">
@@ -226,7 +226,10 @@
         <select id="target">
           <option value="gdpr">EU GDPR</option>
           <option value="ai_act">EU AI Act</option>
+          <option value="nis2">EU NIS2</option>
+          <option value="dora">EU DORA</option>
           <option value="hipaa">US HIPAA</option>
+          <option value="ccpa">US CCPA / CPRA</option>
         </select>
       </div>
     </div>
@@ -243,7 +246,7 @@
 
   <div class="signup">
     <h2>Keep this current</h2>
-    <p>The deltas below move: the EU AI Act high-risk regime slipped to December 2027, the HIPAA Security Rule rewrite is still sitting as a proposal, and the EU&ndash;US transfer position is under active question. CybereyeQ tracks those changes and mails the ones that alter an obligation.</p>
+    <p>The deltas below move. The EU AI Act high-risk regime slipped to December 2027; California&rsquo;s ADMT rules bite in January 2027 and its cybersecurity-audit certifications from April 2028; NIS2 is still arriving country by country, with Austria&rsquo;s act in force this October. CybereyeQ tracks those changes and mails the ones that alter an obligation.</p>
     <p class="cta"><a href="https://www.cybereyeq.com/subscribe">Subscribe to the CybereyeQ briefing &rarr;</a></p>
     <p class="fineprint">For an offline copy of any pairing, use <b>Print / Save as PDF</b> above &mdash; the page is print-styled and prints only the delta cards.</p>
   </div>
@@ -1253,10 +1256,955 @@ const CROSSWALK = {
         ]
       },
       "registry_id": "US-HIPAA"
+    },
+    "nis2": {
+      "name": "EU NIS2 (Directive (EU) 2022/2555)",
+      "registry_id": "EU-NIS2",
+      "summary_by_base": {
+        "soc2": "SOC 2 Common Criteria and NIS2's Article 21(2) baseline overlap more than any other pairing on this page — incident handling, business continuity, access control, vendor management all have SOC 2 analogues. The deltas are the things an attestation cannot give you: NIS2 is a law with named deadlines, personal liability for your management body, and a 24-hour clock. And it is a directive, so the obligation you actually owe is written in each Member State's transposing act, not in the text below.",
+        "iso27001": "ISO 27001:2022 is the closest fit of any base framework to NIS2 — the Article 21(2) list reads like an Annex A summary, and several Member States accept an ISMS as evidence of the technical measures. What an ISMS does not carry: the statutory reporting clocks, the management-body liability and training duty, national registration, and supervisory powers that reach individual managers. Note too that NIS2 is transposed, so your obligation is national law.",
+        "nist_ai_rmf": "NIST AI RMF is an AI risk-management framework. NIS2 is a general cybersecurity law about network and information systems, and it does not have an AI chapter. Almost nothing transfers: every delta below is net new, and you will need a security framework — ISO 27001 or SOC 2 — underneath before the AI RMF adds anything here at all."
+      },
+      "themes_by_base": {
+        "soc2": [
+          {
+            "label": "Scope and registration",
+            "title": "Work out whether you are an essential or an important entity, then register",
+            "base_says": "SOC 2 scope is whatever you put in the system description. NIS2 scope is set by law, by sector and headcount.",
+            "delta": "Arts. 2 and 3 with Annexes I and II bring in medium-sized and larger entities across 18 sectors, and some entities regardless of size. The essential/important split decides your supervisory regime: essential entities face proactive supervision, important entities largely ex-post. Most Member States also run a registration portal with its own deadline, separate from the substantive obligations.",
+            "action": "Classify each legal entity per Member State — the answer differs by country, because transposing acts widen scope (Poland reclassified manufacturing as essential; Sweden applies whole-entity scope). Register by each national deadline; missing registration is an independent infringement.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 2, 3; Annexes I, II"
+          },
+          {
+            "label": "Management liability",
+            "title": "Your management body approves the measures — and can be held liable for failures",
+            "base_says": "SOC 2 CC1.2 expects board oversight of internal control. It does not create personal liability for anyone.",
+            "delta": "Art. 20(1) requires management bodies of essential and important entities to approve the Art. 21 cybersecurity risk-management measures, oversee their implementation, and it makes them liable for the entity's infringements of that Article. Art. 32(6) lets supervisory authorities temporarily prohibit an individual from exercising managerial functions in an essential entity.",
+            "action": "Put the measures in front of the board or equivalent body, minute the approval, and record the oversight cadence. An approval you cannot evidence is the exposure here, and it is personal, not just corporate.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 20(1), 32"
+          },
+          {
+            "label": "Management training",
+            "title": "Board-level cybersecurity training is a legal requirement, not good practice",
+            "base_says": "SOC 2 covers workforce security awareness. It says nothing about training the board itself.",
+            "delta": "Art. 20(2) requires members of the management body to follow training so they can identify risks and assess cybersecurity risk-management practices and their impact on the entity's services. The same provision encourages — but does not require — equivalent training for employees.",
+            "action": "Schedule and record management-body training with content matched to your services, not a generic awareness module. Keep the attendance records; this is one of the easiest things for a supervisor to ask for and one of the most commonly missing.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 20(2)"
+          },
+          {
+            "label": "The Article 21(2) baseline",
+            "title": "Ten measures you must be able to evidence, on an all-hazards basis",
+            "base_says": "A mature SOC 2 programme covers most of the ten, but the mapping is yours to make and yours to defend — no auditor does it for you.",
+            "delta": "Art. 21(2) sets a minimum list: (a) risk analysis and information system security policies; (b) incident handling; (c) business continuity including backup management, disaster recovery and crisis management; (d) supply chain security; (e) security in acquisition, development and maintenance including vulnerability handling and disclosure; (f) policies to assess the effectiveness of the measures; (g) basic cyber hygiene and training; (h) cryptography and encryption policies; (i) human resources security, access control and asset management; (j) multi-factor or continuous authentication, secured voice/video/text and secured emergency communications, where appropriate.",
+            "action": "Map your existing control set onto the ten points and write down where each is evidenced. Points (f), (j) and the crisis-management half of (c) are where mature programmes most often come up short.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 21(1), 21(2)(a)–(j)"
+          },
+          {
+            "label": "Supply chain security",
+            "title": "Assess each direct supplier, not the category",
+            "base_says": "SOC 2 vendor management typically relies on collecting the vendor's own report. NIS2 asks what you concluded about that specific supplier.",
+            "delta": "Art. 21(2)(d) requires security measures covering the relationship with each direct supplier and service provider. Art. 21(3) requires you to take into account the vulnerabilities specific to each direct supplier, the overall quality of their products and cybersecurity practices including secure development procedures, and the results of Union-level coordinated security risk assessments of critical supply chains carried out under Art. 22(1).",
+            "action": "Move from tier-based vendor questionnaires to a per-supplier assessment for anything touching your in-scope services, and build a route for the Art. 22 coordinated assessments to reach your procurement decisions rather than sitting unread.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 21(2)(d), 21(3), 22"
+          },
+          {
+            "label": "Incident reporting clock",
+            "title": "24 hours, 72 hours, then a final report within one month",
+            "base_says": "SOC 2 requires an incident response process. It sets no external deadline, so a SOC 2-shaped process typically has no 24-hour gate in it at all.",
+            "delta": "Art. 23(4) sets a staged clock for any significant incident: an early warning within 24 hours of becoming aware, flagging whether it is suspected to be malicious or to have cross-border impact; an incident notification within 72 hours with an initial severity and impact assessment and any indicators of compromise; an intermediate report on request; and a final report no later than one month after the notification, covering severity and impact, root cause, mitigations applied, and cross-border impact. An incident is significant under Art. 23(3) if it has caused or can cause severe operational disruption or financial loss, or considerable material or non-material damage to others. Trust service providers notify within 24 hours, not 72.",
+            "action": "Build significance triage that can run inside 24 hours and produce a defensible answer, then pre-draft the three submissions. Decide now, in writing, what 'becoming aware' means in your organisation — that single definition sets every downstream deadline.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 23(3), 23(4)"
+          },
+          {
+            "label": "Telling your customers",
+            "title": "Notify service recipients — of incidents, and of significant cyber threats",
+            "base_says": "SOC 2 leaves customer communication to your contracts.",
+            "delta": "Art. 23(1) requires you, where appropriate, to notify recipients of your services without undue delay of significant incidents likely to adversely affect the provision of those services. Art. 23(2) goes further: where applicable you must tell potentially affected recipients about measures or remedies they can take against a significant cyber threat, and where appropriate about the threat itself — even with no incident at all.",
+            "action": "Write the customer-notification path into the incident runbook alongside the regulator path, with pre-approved wording. The threat-notification duty has no trigger event to prompt it, so assign it an owner or it will not happen.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 23(1), 23(2)"
+          },
+          {
+            "label": "Effectiveness and correction",
+            "title": "Prove the measures work, and fix gaps without waiting for the audit cycle",
+            "base_says": "A Type II report is exactly this kind of evidence over a period — the closest thing any base framework here offers to Art. 21(2)(f).",
+            "delta": "Art. 21(2)(f) requires policies and procedures to assess the effectiveness of the cybersecurity risk-management measures — not merely that they exist. Art. 21(4) requires an entity that finds it does not comply to take all necessary, appropriate and proportionate corrective measures without undue delay.",
+            "action": "Stand up measurable effectiveness testing — control testing, exercises, technical validation — on a defined cadence, and a corrective-action route that does not wait for the annual audit. Self-identified non-compliance carries a statutory duty to act immediately.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 21(2)(f), 21(4)"
+          },
+          {
+            "label": "Cryptography and authentication",
+            "title": "MFA, encryption and secured communications as named baseline items",
+            "base_says": "Logical access and encryption sit in CC6. Out-of-band emergency communications rarely appear in a SOC 2 system description.",
+            "delta": "Art. 21(2)(h) requires policies and procedures on the use of cryptography and, where appropriate, encryption. Art. 21(2)(j) names multi-factor or continuous authentication, secured voice, video and text communications, and secured emergency communication systems within the entity, where appropriate.",
+            "action": "Document the 'where appropriate' judgement rather than leaving it implicit — a supervisor will ask why a system is outside MFA. The emergency-communications limb is routinely forgotten: you need a way to coordinate when your primary systems are the thing that is down.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 21(2)(h), 21(2)(j)"
+          },
+          {
+            "label": "Supervision and fines",
+            "title": "Supervisory powers reach further than the fine",
+            "base_says": "A clean SOC 2 report is not a defence and carries no weight with a supervisory authority.",
+            "delta": "Arts. 32 and 33 give supervisory authorities inspections, security audits, targeted security scans, requests for evidence and binding instructions — applied proactively to essential entities and ex post to important entities. Art. 34(4) sets fines for essential entities at a maximum of at least EUR 10 000 000 or 2 % of total worldwide annual turnover, whichever is higher; Art. 34(5) sets EUR 7 000 000 or 1,4 % for important entities. Fines sit on top of the other measures, which for essential entities can include suspending a certification or authorisation and barring an individual from managerial functions.",
+            "action": "Keep the evidence pack — approvals, training records, the Art. 21(2) mapping, incident files — in a state you could hand over on request. For essential entities assume a knock on the door rather than a complaint-driven visit.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 32, 33, 34(4), 34(5)"
+          },
+          {
+            "label": "Transposition reality",
+            "title": "The directive is not your obligation — twenty-seven national acts are",
+            "base_says": "A single SOC 2 report covering the group tells you nothing about which national regimes you have entered.",
+            "delta": "NIS2 is a directive: Art. 41 required Member States to adopt transposing measures by 17 Oct 2024 and apply them from 18 Oct 2024, but delivery has been very uneven. Belgium and Italy were in force in Oct 2024; Germany followed on 6 Dec 2025, Sweden on 15 Jan 2026, Croatia on 1 Jan 2026, Poland on 3 Apr 2026, the Netherlands on 15 Aug 2026, and Austria's NISG 2026 enters force on 1 Oct 2026. Several countries faced Commission infringement action, and national acts widen scope, set their own registration deadlines and add their own measure lists (Italy: 43 measures for essential entities, 37 for important; Poland: full compliance by 3 Apr 2027).",
+            "action": "Build the compliance plan per Member State, not per group. Track each transposing act's own in-force date, registration deadline and grace period — the gap between the earliest and latest is now close to two years.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41), but what binds you is the national transposing law, and those range from Oct 2024 (BE, IT) to 1 Oct 2026 (AT). Check the date for every Member State you operate in.",
+            "cite": "NIS2 Art. 41; national transposing acts",
+            "watch": "The Commission proposed a directive amending NIS2 on 20 Jan 2026 as part of the cybersecurity simplification package — jurisdictional simplification, a new SME-equivalent tier, harmonised EU ransomware reporting and harmonised technical measures. It is a proposal; trialogue agreement is expected no earlier than 2027, and nothing in it changes what you owe today."
+          }
+        ],
+        "iso27001": [
+          {
+            "label": "Scope and registration",
+            "title": "Work out whether you are an essential or an important entity, then register",
+            "base_says": "Your ISMS scope statement is yours to draw. NIS2 scope is not negotiable and may be wider than your certificate.",
+            "delta": "Arts. 2 and 3 with Annexes I and II bring in medium-sized and larger entities across 18 sectors, and some entities regardless of size. The essential/important split decides your supervisory regime: essential entities face proactive supervision, important entities largely ex-post. Most Member States also run a registration portal with its own deadline, separate from the substantive obligations.",
+            "action": "Classify each legal entity per Member State — the answer differs by country, because transposing acts widen scope (Poland reclassified manufacturing as essential; Sweden applies whole-entity scope). Register by each national deadline; missing registration is an independent infringement.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 2, 3; Annexes I, II"
+          },
+          {
+            "label": "Management liability",
+            "title": "Your management body approves the measures — and can be held liable for failures",
+            "base_says": "ISO 27001 Clause 5.1 requires top-management leadership and commitment — a management-system duty, not a legal one with personal consequences.",
+            "delta": "Art. 20(1) requires management bodies of essential and important entities to approve the Art. 21 cybersecurity risk-management measures, oversee their implementation, and it makes them liable for the entity's infringements of that Article. Art. 32(6) lets supervisory authorities temporarily prohibit an individual from exercising managerial functions in an essential entity.",
+            "action": "Put the measures in front of the board or equivalent body, minute the approval, and record the oversight cadence. An approval you cannot evidence is the exposure here, and it is personal, not just corporate.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 20(1), 32"
+          },
+          {
+            "label": "Management training",
+            "title": "Board-level cybersecurity training is a legal requirement, not good practice",
+            "base_says": "ISO 27001 Clause 7.2 and A.6.3 cover competence and awareness across the organisation; directors are rarely in the population your ISMS actually trains.",
+            "delta": "Art. 20(2) requires members of the management body to follow training so they can identify risks and assess cybersecurity risk-management practices and their impact on the entity's services. The same provision encourages — but does not require — equivalent training for employees.",
+            "action": "Schedule and record management-body training with content matched to your services, not a generic awareness module. Keep the attendance records; this is one of the easiest things for a supervisor to ask for and one of the most commonly missing.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 20(2)"
+          },
+          {
+            "label": "The Article 21(2) baseline",
+            "title": "Ten measures you must be able to evidence, on an all-hazards basis",
+            "base_says": "Annex A covers the ten points well: A.5.24–5.26 incident handling, A.5.29–5.30 continuity, A.5.19–5.22 supply chain, A.8.8 vulnerabilities, A.8.24 cryptography, A.5.15/A.8.5 access.",
+            "delta": "Art. 21(2) sets a minimum list: (a) risk analysis and information system security policies; (b) incident handling; (c) business continuity including backup management, disaster recovery and crisis management; (d) supply chain security; (e) security in acquisition, development and maintenance including vulnerability handling and disclosure; (f) policies to assess the effectiveness of the measures; (g) basic cyber hygiene and training; (h) cryptography and encryption policies; (i) human resources security, access control and asset management; (j) multi-factor or continuous authentication, secured voice/video/text and secured emergency communications, where appropriate.",
+            "action": "Map your existing control set onto the ten points and write down where each is evidenced. Points (f), (j) and the crisis-management half of (c) are where mature programmes most often come up short.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 21(1), 21(2)(a)–(j)"
+          },
+          {
+            "label": "Supply chain security",
+            "title": "Assess each direct supplier, not the category",
+            "base_says": "A.5.19–A.5.22 cover supplier relationships and ICT supply chain well; the delta is the Art. 22 coordinated-assessment input and the per-supplier specificity.",
+            "delta": "Art. 21(2)(d) requires security measures covering the relationship with each direct supplier and service provider. Art. 21(3) requires you to take into account the vulnerabilities specific to each direct supplier, the overall quality of their products and cybersecurity practices including secure development procedures, and the results of Union-level coordinated security risk assessments of critical supply chains carried out under Art. 22(1).",
+            "action": "Move from tier-based vendor questionnaires to a per-supplier assessment for anything touching your in-scope services, and build a route for the Art. 22 coordinated assessments to reach your procurement decisions rather than sitting unread.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 21(2)(d), 21(3), 22"
+          },
+          {
+            "label": "Incident reporting clock",
+            "title": "24 hours, 72 hours, then a final report within one month",
+            "base_says": "A.5.24–A.5.26 give you the process. The statutory clock, the significance test and the report contents are all new.",
+            "delta": "Art. 23(4) sets a staged clock for any significant incident: an early warning within 24 hours of becoming aware, flagging whether it is suspected to be malicious or to have cross-border impact; an incident notification within 72 hours with an initial severity and impact assessment and any indicators of compromise; an intermediate report on request; and a final report no later than one month after the notification, covering severity and impact, root cause, mitigations applied, and cross-border impact. An incident is significant under Art. 23(3) if it has caused or can cause severe operational disruption or financial loss, or considerable material or non-material damage to others. Trust service providers notify within 24 hours, not 72.",
+            "action": "Build significance triage that can run inside 24 hours and produce a defensible answer, then pre-draft the three submissions. Decide now, in writing, what 'becoming aware' means in your organisation — that single definition sets every downstream deadline.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 23(3), 23(4)"
+          },
+          {
+            "label": "Telling your customers",
+            "title": "Notify service recipients — of incidents, and of significant cyber threats",
+            "base_says": "The ISMS covers communication planning (Clause 7.4) but sets no duty to warn customers about threats you have not suffered.",
+            "delta": "Art. 23(1) requires you, where appropriate, to notify recipients of your services without undue delay of significant incidents likely to adversely affect the provision of those services. Art. 23(2) goes further: where applicable you must tell potentially affected recipients about measures or remedies they can take against a significant cyber threat, and where appropriate about the threat itself — even with no incident at all.",
+            "action": "Write the customer-notification path into the incident runbook alongside the regulator path, with pre-approved wording. The threat-notification duty has no trigger event to prompt it, so assign it an owner or it will not happen.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 23(1), 23(2)"
+          },
+          {
+            "label": "Effectiveness and correction",
+            "title": "Prove the measures work, and fix gaps without waiting for the audit cycle",
+            "base_says": "Clause 9.1 monitoring and measurement plus Clause 10.2 nonconformity and corrective action line up well; the delta is 'without undue delay' rather than at the next management review.",
+            "delta": "Art. 21(2)(f) requires policies and procedures to assess the effectiveness of the cybersecurity risk-management measures — not merely that they exist. Art. 21(4) requires an entity that finds it does not comply to take all necessary, appropriate and proportionate corrective measures without undue delay.",
+            "action": "Stand up measurable effectiveness testing — control testing, exercises, technical validation — on a defined cadence, and a corrective-action route that does not wait for the annual audit. Self-identified non-compliance carries a statutory duty to act immediately.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 21(2)(f), 21(4)"
+          },
+          {
+            "label": "Cryptography and authentication",
+            "title": "MFA, encryption and secured communications as named baseline items",
+            "base_says": "A.8.24 cryptography and A.8.5 secure authentication cover most of it; the secured-emergency-communications limb is the usual gap.",
+            "delta": "Art. 21(2)(h) requires policies and procedures on the use of cryptography and, where appropriate, encryption. Art. 21(2)(j) names multi-factor or continuous authentication, secured voice, video and text communications, and secured emergency communication systems within the entity, where appropriate.",
+            "action": "Document the 'where appropriate' judgement rather than leaving it implicit — a supervisor will ask why a system is outside MFA. The emergency-communications limb is routinely forgotten: you need a way to coordinate when your primary systems are the thing that is down.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 21(2)(h), 21(2)(j)"
+          },
+          {
+            "label": "Supervision and fines",
+            "title": "Supervisory powers reach further than the fine",
+            "base_says": "Certification may help evidence the technical measures in some Member States, but it does not discharge the obligation or cap the fine.",
+            "delta": "Arts. 32 and 33 give supervisory authorities inspections, security audits, targeted security scans, requests for evidence and binding instructions — applied proactively to essential entities and ex post to important entities. Art. 34(4) sets fines for essential entities at a maximum of at least EUR 10 000 000 or 2 % of total worldwide annual turnover, whichever is higher; Art. 34(5) sets EUR 7 000 000 or 1,4 % for important entities. Fines sit on top of the other measures, which for essential entities can include suspending a certification or authorisation and barring an individual from managerial functions.",
+            "action": "Keep the evidence pack — approvals, training records, the Art. 21(2) mapping, incident files — in a state you could hand over on request. For essential entities assume a knock on the door rather than a complaint-driven visit.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 32, 33, 34(4), 34(5)"
+          },
+          {
+            "label": "Transposition reality",
+            "title": "The directive is not your obligation — twenty-seven national acts are",
+            "base_says": "One certificate, twenty-seven regimes. Your ISMS can be the common substrate, but the obligations are national.",
+            "delta": "NIS2 is a directive: Art. 41 required Member States to adopt transposing measures by 17 Oct 2024 and apply them from 18 Oct 2024, but delivery has been very uneven. Belgium and Italy were in force in Oct 2024; Germany followed on 6 Dec 2025, Sweden on 15 Jan 2026, Croatia on 1 Jan 2026, Poland on 3 Apr 2026, the Netherlands on 15 Aug 2026, and Austria's NISG 2026 enters force on 1 Oct 2026. Several countries faced Commission infringement action, and national acts widen scope, set their own registration deadlines and add their own measure lists (Italy: 43 measures for essential entities, 37 for important; Poland: full compliance by 3 Apr 2027).",
+            "action": "Build the compliance plan per Member State, not per group. Track each transposing act's own in-force date, registration deadline and grace period — the gap between the earliest and latest is now close to two years.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41), but what binds you is the national transposing law, and those range from Oct 2024 (BE, IT) to 1 Oct 2026 (AT). Check the date for every Member State you operate in.",
+            "cite": "NIS2 Art. 41; national transposing acts",
+            "watch": "The Commission proposed a directive amending NIS2 on 20 Jan 2026 as part of the cybersecurity simplification package — jurisdictional simplification, a new SME-equivalent tier, harmonised EU ransomware reporting and harmonised technical measures. It is a proposal; trialogue agreement is expected no earlier than 2027, and nothing in it changes what you owe today."
+          }
+        ],
+        "nist_ai_rmf": [
+          {
+            "label": "Scope and registration",
+            "title": "Work out whether you are an essential or an important entity, then register",
+            "base_says": "NIST AI RMF has no notion of regulated scope at all — it applies to whatever you choose to apply it to.",
+            "delta": "Arts. 2 and 3 with Annexes I and II bring in medium-sized and larger entities across 18 sectors, and some entities regardless of size. The essential/important split decides your supervisory regime: essential entities face proactive supervision, important entities largely ex-post. Most Member States also run a registration portal with its own deadline, separate from the substantive obligations.",
+            "action": "Classify each legal entity per Member State — the answer differs by country, because transposing acts widen scope (Poland reclassified manufacturing as essential; Sweden applies whole-entity scope). Register by each national deadline; missing registration is an independent infringement.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 2, 3; Annexes I, II"
+          },
+          {
+            "label": "Management liability",
+            "title": "Your management body approves the measures — and can be held liable for failures",
+            "base_says": "NIST AI RMF GOVERN 2 assigns accountability structures, but nothing in a voluntary framework reaches an individual manager.",
+            "delta": "Art. 20(1) requires management bodies of essential and important entities to approve the Art. 21 cybersecurity risk-management measures, oversee their implementation, and it makes them liable for the entity's infringements of that Article. Art. 32(6) lets supervisory authorities temporarily prohibit an individual from exercising managerial functions in an essential entity.",
+            "action": "Put the measures in front of the board or equivalent body, minute the approval, and record the oversight cadence. An approval you cannot evidence is the exposure here, and it is personal, not just corporate.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 20(1), 32"
+          },
+          {
+            "label": "Management training",
+            "title": "Board-level cybersecurity training is a legal requirement, not good practice",
+            "base_says": "NIST AI RMF GOVERN 4 pushes a risk-aware culture, but has no director-training requirement.",
+            "delta": "Art. 20(2) requires members of the management body to follow training so they can identify risks and assess cybersecurity risk-management practices and their impact on the entity's services. The same provision encourages — but does not require — equivalent training for employees.",
+            "action": "Schedule and record management-body training with content matched to your services, not a generic awareness module. Keep the attendance records; this is one of the easiest things for a supervisor to ask for and one of the most commonly missing.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 20(2)"
+          },
+          {
+            "label": "The Article 21(2) baseline",
+            "title": "Ten measures you must be able to evidence, on an all-hazards basis",
+            "base_says": "None of the ten are addressed by the AI RMF. This list is the security baseline you need in place before any AI-specific framework is worth anything.",
+            "delta": "Art. 21(2) sets a minimum list: (a) risk analysis and information system security policies; (b) incident handling; (c) business continuity including backup management, disaster recovery and crisis management; (d) supply chain security; (e) security in acquisition, development and maintenance including vulnerability handling and disclosure; (f) policies to assess the effectiveness of the measures; (g) basic cyber hygiene and training; (h) cryptography and encryption policies; (i) human resources security, access control and asset management; (j) multi-factor or continuous authentication, secured voice/video/text and secured emergency communications, where appropriate.",
+            "action": "Map your existing control set onto the ten points and write down where each is evidenced. Points (f), (j) and the crisis-management half of (c) are where mature programmes most often come up short.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 21(1), 21(2)(a)–(j)"
+          },
+          {
+            "label": "Supply chain security",
+            "title": "Assess each direct supplier, not the category",
+            "base_says": "GOVERN 6 addresses third-party risk for AI systems only, and offers nothing on general ICT supply chain.",
+            "delta": "Art. 21(2)(d) requires security measures covering the relationship with each direct supplier and service provider. Art. 21(3) requires you to take into account the vulnerabilities specific to each direct supplier, the overall quality of their products and cybersecurity practices including secure development procedures, and the results of Union-level coordinated security risk assessments of critical supply chains carried out under Art. 22(1).",
+            "action": "Move from tier-based vendor questionnaires to a per-supplier assessment for anything touching your in-scope services, and build a route for the Art. 22 coordinated assessments to reach your procurement decisions rather than sitting unread.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 21(2)(d), 21(3), 22"
+          },
+          {
+            "label": "Incident reporting clock",
+            "title": "24 hours, 72 hours, then a final report within one month",
+            "base_says": "MANAGE 4.1 covers post-deployment monitoring and response for AI systems; it carries no regulatory reporting deadline.",
+            "delta": "Art. 23(4) sets a staged clock for any significant incident: an early warning within 24 hours of becoming aware, flagging whether it is suspected to be malicious or to have cross-border impact; an incident notification within 72 hours with an initial severity and impact assessment and any indicators of compromise; an intermediate report on request; and a final report no later than one month after the notification, covering severity and impact, root cause, mitigations applied, and cross-border impact. An incident is significant under Art. 23(3) if it has caused or can cause severe operational disruption or financial loss, or considerable material or non-material damage to others. Trust service providers notify within 24 hours, not 72.",
+            "action": "Build significance triage that can run inside 24 hours and produce a defensible answer, then pre-draft the three submissions. Decide now, in writing, what 'becoming aware' means in your organisation — that single definition sets every downstream deadline.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 23(3), 23(4)"
+          },
+          {
+            "label": "Telling your customers",
+            "title": "Notify service recipients — of incidents, and of significant cyber threats",
+            "base_says": "Not addressed.",
+            "delta": "Art. 23(1) requires you, where appropriate, to notify recipients of your services without undue delay of significant incidents likely to adversely affect the provision of those services. Art. 23(2) goes further: where applicable you must tell potentially affected recipients about measures or remedies they can take against a significant cyber threat, and where appropriate about the threat itself — even with no incident at all.",
+            "action": "Write the customer-notification path into the incident runbook alongside the regulator path, with pre-approved wording. The threat-notification duty has no trigger event to prompt it, so assign it an owner or it will not happen.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 23(1), 23(2)"
+          },
+          {
+            "label": "Effectiveness and correction",
+            "title": "Prove the measures work, and fix gaps without waiting for the audit cycle",
+            "base_says": "The MEASURE function is about AI system performance and trustworthiness, not security control effectiveness.",
+            "delta": "Art. 21(2)(f) requires policies and procedures to assess the effectiveness of the cybersecurity risk-management measures — not merely that they exist. Art. 21(4) requires an entity that finds it does not comply to take all necessary, appropriate and proportionate corrective measures without undue delay.",
+            "action": "Stand up measurable effectiveness testing — control testing, exercises, technical validation — on a defined cadence, and a corrective-action route that does not wait for the annual audit. Self-identified non-compliance carries a statutory duty to act immediately.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 21(2)(f), 21(4)"
+          },
+          {
+            "label": "Cryptography and authentication",
+            "title": "MFA, encryption and secured communications as named baseline items",
+            "base_says": "Not addressed.",
+            "delta": "Art. 21(2)(h) requires policies and procedures on the use of cryptography and, where appropriate, encryption. Art. 21(2)(j) names multi-factor or continuous authentication, secured voice, video and text communications, and secured emergency communication systems within the entity, where appropriate.",
+            "action": "Document the 'where appropriate' judgement rather than leaving it implicit — a supervisor will ask why a system is outside MFA. The emergency-communications limb is routinely forgotten: you need a way to coordinate when your primary systems are the thing that is down.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Art. 21(2)(h), 21(2)(j)"
+          },
+          {
+            "label": "Supervision and fines",
+            "title": "Supervisory powers reach further than the fine",
+            "base_says": "No relevance to NIS2 supervision.",
+            "delta": "Arts. 32 and 33 give supervisory authorities inspections, security audits, targeted security scans, requests for evidence and binding instructions — applied proactively to essential entities and ex post to important entities. Art. 34(4) sets fines for essential entities at a maximum of at least EUR 10 000 000 or 2 % of total worldwide annual turnover, whichever is higher; Art. 34(5) sets EUR 7 000 000 or 1,4 % for important entities. Fines sit on top of the other measures, which for essential entities can include suspending a certification or authorisation and barring an individual from managerial functions.",
+            "action": "Keep the evidence pack — approvals, training records, the Art. 21(2) mapping, incident files — in a state you could hand over on request. For essential entities assume a knock on the door rather than a complaint-driven visit.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41) — but the binding text is your national transposing law, in force anywhere from Oct 2024 to Oct 2026.",
+            "cite": "NIS2 Arts. 32, 33, 34(4), 34(5)"
+          },
+          {
+            "label": "Transposition reality",
+            "title": "The directive is not your obligation — twenty-seven national acts are",
+            "base_says": "Not applicable.",
+            "delta": "NIS2 is a directive: Art. 41 required Member States to adopt transposing measures by 17 Oct 2024 and apply them from 18 Oct 2024, but delivery has been very uneven. Belgium and Italy were in force in Oct 2024; Germany followed on 6 Dec 2025, Sweden on 15 Jan 2026, Croatia on 1 Jan 2026, Poland on 3 Apr 2026, the Netherlands on 15 Aug 2026, and Austria's NISG 2026 enters force on 1 Oct 2026. Several countries faced Commission infringement action, and national acts widen scope, set their own registration deadlines and add their own measure lists (Italy: 43 measures for essential entities, 37 for important; Poland: full compliance by 3 Apr 2027).",
+            "action": "Build the compliance plan per Member State, not per group. Track each transposing act's own in-force date, registration deadline and grace period — the gap between the earliest and latest is now close to two years.",
+            "when": "Directive applicable since 18 Oct 2024 (Art. 41), but what binds you is the national transposing law, and those range from Oct 2024 (BE, IT) to 1 Oct 2026 (AT). Check the date for every Member State you operate in.",
+            "cite": "NIS2 Art. 41; national transposing acts",
+            "watch": "The Commission proposed a directive amending NIS2 on 20 Jan 2026 as part of the cybersecurity simplification package — jurisdictional simplification, a new SME-equivalent tier, harmonised EU ransomware reporting and harmonised technical measures. It is a proposal; trialogue agreement is expected no earlier than 2027, and nothing in it changes what you owe today."
+          }
+        ]
+      }
+    },
+    "ccpa": {
+      "name": "US California CCPA/CPRA (Cal. Civ. Code 1798.100 et seq.)",
+      "registry_id": "US-CCPA-CPRA",
+      "summary_by_base": {
+        "soc2": "SOC 2 is a security attestation; the CCPA is a consumer-rights statute with an enforcement agency attached. The overlap is narrow — the CCPA's only security duty is the reasonable-security duty that the private right of action hangs off. Everything else below is consumer-facing machinery SOC 2 never asks about. The new CPPA regulations, effective 1 Jan 2026, are the first part of this regime where a SOC 2 programme genuinely helps.",
+        "iso27001": "ISO 27001:2022 A.5.34 tells you to identify applicable PII requirements; it does not tell you what California's are. ISO/IEC 27701 gets you closer on privacy management, but the CCPA's shape — opt-out rather than consent, a statutory response clock, an agency with audit and ADMT rules — has no ISO analogue. Your ISMS does most of the work on exactly one of the deltas below: the cybersecurity audit.",
+        "nist_ai_rmf": "NIST AI RMF is a voluntary AI risk framework, and the CCPA is not an AI law — but as of the CPPA's ADMT regulations it is the closest thing California has to one for automated decisions about consumers. That single card is where the AI RMF helps. Every other delta below is net new: the AI RMF is silent on consumer rights, opt-outs, sensitive personal information, service-provider contracts and statutory response clocks."
+      },
+      "themes_by_base": {
+        "soc2": [
+          {
+            "label": "Who is covered",
+            "title": "Three alternative thresholds — and the one most people misread is the second",
+            "base_says": "SOC 2 applicability is a commercial decision. CCPA applicability is a statutory test you can fail without noticing.",
+            "delta": "Section 1798.140(d) covers a for-profit entity doing business in California that determines the purposes and means of processing and meets any one of: annual gross revenue over $25,000,000 in the preceding calendar year, as adjusted for inflation by the Agency under 1798.199.95(d); buying, selling or sharing the personal information of 100,000 or more consumers or households a year; or deriving 50 % or more of annual revenue from selling or sharing personal information. Entities under common control with shared branding are swept in too. 'Consumer' means any California resident, including your own employees and B2B contacts.",
+            "action": "Test all three limbs annually and write down the answer. The 100,000 limb catches consumer apps and ad-tech-heavy sites with modest revenue, and 'sharing' means cross-context behavioural advertising — so ordinary retargeting can put you over it.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.140(d), 1798.199.95(d)"
+          },
+          {
+            "label": "Notice at collection",
+            "title": "Tell people at or before collection — categories, purposes and retention",
+            "base_says": "The SOC 2 Privacy category expects notice, but not this content and not at this granularity.",
+            "delta": "Section 1798.100(a) requires notice at or before the point of collection of the categories of personal information collected, the purposes for which they are used, whether the information is sold or shared, and the retention period for each category — or, if that is impossible, the criteria used to set it. Section 1798.130(a)(5) requires the same content in the privacy policy, updated at least every 12 months.",
+            "action": "Build a data inventory that can produce per-category purposes and retention, because the notice cannot be written without it. Retention is the limb most privacy policies still fudge, and it is the one that is easiest for a regulator to check against reality.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.100(a), 1798.130(a)(5)"
+          },
+          {
+            "label": "Consumer rights clock",
+            "title": "45 days to answer, extendable once by 45 days",
+            "base_says": "SOC 2's privacy criteria mention access and correction in principle; there is no clock and no verification standard.",
+            "delta": "Sections 1798.100, .105, .106, .110 and .115 give rights to know, delete, correct and know about sale or sharing. Section 1798.130(a)(2) requires you to act within 45 days of a verifiable consumer request, extendable once by a further 45 days on notice to the consumer inside the first period. Verification does not extend the clock. Section 1798.130(a)(1) requires at least two submission methods including a toll-free number — online-only businesses with a direct consumer relationship may offer an email address instead.",
+            "action": "Instrument the clock from receipt, not from verification, and make the extension a deliberate notified step rather than a silent slip. Deletion and correction have to reach every system and every service provider, which is where most programmes actually fail.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.100, 1798.105, 1798.106, 1798.110, 1798.115, 1798.130(a)"
+          },
+          {
+            "label": "Opt-out of sale and sharing",
+            "title": "A link, or the two alternatives — and 'sharing' is broader than selling",
+            "base_says": "Not addressed. Nothing in the Common Criteria looks at your advertising stack.",
+            "delta": "Section 1798.120 gives consumers the right to direct a business not to sell or share their personal information; 'sharing' is defined to cover disclosure for cross-context behavioural advertising, whether or not money changes hands. Section 1798.135 requires a clear and conspicuous 'Do Not Sell or Share My Personal Information' link on the homepage — or, as alternatives, a single opt-out link, or processing opt-out preference signals in a frictionless manner in place of the link.",
+            "action": "Audit every tag and pixel and decide, per vendor, whether the disclosure is a sale, a share, or a service-provider disclosure — the contract determines which. Most retargeting and measurement integrations are 'sharing' unless the contract makes the recipient a service provider.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.120, 1798.135, 1798.140(ad)"
+          },
+          {
+            "label": "Opt-out preference signals",
+            "title": "Honour Global Privacy Control as a valid opt-out",
+            "base_says": "Not addressed.",
+            "delta": "Section 1798.135(b) and the CCPA regulations require a business to treat an opt-out preference signal sent by a consumer's platform, technology or browser — in practice Global Privacy Control — as a valid request to opt out of sale and sharing for that browser or device, and for the consumer if known. A business that processes the signal in a frictionless manner may rely on it instead of posting the opt-out links.",
+            "action": "Test that the signal actually suppresses downstream tags, rather than only flipping a consent banner's state. This is straightforward to test from the outside, which is precisely why it has featured in enforcement.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.135(b); CCPA Regulations (Cal. Code Regs. tit. 11, div. 6)"
+          },
+          {
+            "label": "Sensitive personal information",
+            "title": "A right to limit — and the category now includes neural data",
+            "base_says": "SOC 2 has confidentiality and privacy criteria but no special-category concept.",
+            "delta": "Section 1798.121 gives consumers the right to limit use and disclosure of sensitive personal information to what is necessary to perform the services, with a 'Limit the Use of My Sensitive Personal Information' link where the right applies. Section 1798.140(ae) defines the category: government identifiers; account log-in or financial/card numbers with credentials; precise geolocation; racial or ethnic origin, citizenship or immigration status, religious or philosophical beliefs, or union membership; the contents of mail, email and texts where you are not the intended recipient; genetic data; neural data; biometric information processed to identify a consumer; and health, sex life or sexual orientation information.",
+            "action": "Tag sensitive categories in the inventory and separate 'necessary to provide the service' uses from everything else, because that line is what the limitation right actually operates on. Neural data was added by statute and is easy to miss if your mapping predates it.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.121, 1798.140(ae)"
+          },
+          {
+            "label": "Service provider contracts",
+            "title": "The contract is what makes a disclosure not a sale",
+            "base_says": "SOC 2 vendor management asks whether you assess vendors, not whether specific clauses are present.",
+            "delta": "Section 1798.100(d) requires a contract with every service provider, contractor and third party that obliges them to comply with the CCPA, grants you rights to ensure compliant processing, requires notice if they can no longer meet the obligations, and permits you to take reasonable steps to stop and remediate unauthorised use. Without those terms the disclosure is a sale or share, with all the opt-out machinery that follows.",
+            "action": "Paper every vendor that receives personal information, and treat the contract as the control it actually is. A missing clause silently converts an ordinary vendor disclosure into a sale you have not disclosed and cannot let consumers opt out of.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.100(d), 1798.140(ag), 1798.140(j)"
+          },
+          {
+            "label": "Risk assessments",
+            "title": "Assess before high-risk processing — and file with the Agency",
+            "base_says": "SOC 2 covers risk assessment at entity level (CC3), not per-processing-activity privacy risk.",
+            "delta": "The CPPA's regulations on CCPA updates, cybersecurity audits, risk assessments, ADMT and insurance were approved by the Office of Administrative Law on 22 Sep 2025 and took effect on 1 Jan 2026. Risk assessments are required for processing that presents significant risk to consumer privacy — including selling or sharing, processing sensitive personal information, and using ADMT for significant decisions. Compliance runs from 1 Jan 2026, with attestations and summary information due to the Agency by 1 Apr 2028.",
+            "action": "Start the assessments now and keep them in a comparable format: the 2028 filing is an attestation plus summary, so an inconsistent back catalogue becomes a problem at submission rather than at assessment time. A GDPR DPIA is a reasonable starting template but not a substitute — the triggers and required content differ.",
+            "when": "Live now. Obligation runs from 1 Jan 2026; first attestations and summaries due to the CPPA by 1 Apr 2028.",
+            "cite": "Cal. Code Regs. tit. 11, div. 6 (approved 22 Sep 2025, effective 1 Jan 2026)"
+          },
+          {
+            "label": "Cybersecurity audits",
+            "title": "An annual audit with a certification filed on a revenue-tiered schedule",
+            "base_says": "This is the one CCPA obligation where a SOC 2 Type II programme is a real head start — independent, periodic, evidence-based. Confirm scope and components line up.",
+            "delta": "The same regulations require businesses whose processing presents significant risk to consumer security to complete an annual cybersecurity audit and file a certification with the Agency. The schedule is tiered by revenue: first certification by 1 Apr 2028 for businesses over $100 million, 1 Apr 2029 for $50–100 million, and 1 Apr 2030 for under $50 million. The audit must be thorough and independent, and cover the specified components.",
+            "action": "Map your existing SOC 2 or ISO evidence onto the required audit components now and find the gaps while the deadline is still years out. Independence is the constraint that usually forces a change — the audit cannot simply be your internal security team's self-assessment.",
+            "when": "Live now, with staged filings: first certification 1 Apr 2028 (revenue over $100M), 1 Apr 2029 ($50–100M), 1 Apr 2030 (under $50M).",
+            "cite": "Cal. Code Regs. tit. 11, div. 6 (cybersecurity audit regulations)"
+          },
+          {
+            "label": "Automated decisionmaking",
+            "title": "Pre-use notice, opt-out and access for significant decisions",
+            "base_says": "Not addressed.",
+            "delta": "The ADMT regulations cover automated decisionmaking technology used to make a significant decision about a consumer — the examples the Agency gives include decisions on financial or lending services, housing, education, employment or independent contracting opportunities, and healthcare services. Requirements include a pre-use notice, a right to opt out of the processing subject to defined exceptions, and a right to access meaningful information about how the technology was applied to the consumer. Compliance for significant decisions begins 1 Jan 2027.",
+            "action": "Inventory every model and rules engine in a decision path that touches a Californian, and decide which are making a 'significant decision' — the answer usually includes systems nobody thinks of as AI. Building the opt-out is the long pole: a human alternative path has to exist and has to work.",
+            "when": "Not yet. Compliance for significant decisions begins 1 Jan 2027.",
+            "cite": "Cal. Code Regs. tit. 11, div. 6 (ADMT regulations); Cal. Civ. Code 1798.185(a)(15)"
+          },
+          {
+            "label": "Enforcement exposure",
+            "title": "Two separate routes — and only one of them gives you a chance to cure",
+            "base_says": "A SOC 2 report is evidence you can point to on reasonable security. It is not a safe harbour.",
+            "delta": "Section 1798.150 gives consumers a private right of action for a breach of nonencrypted, nonredacted personal information caused by a failure to maintain reasonable security, with statutory damages of $100 to $750 per consumer per incident or actual damages, whichever is greater — subject to a 30-day cure opportunity on written notice where a cure is possible. Administrative enforcement under Section 1798.155 is separate: fines of up to $2,500 per violation, or $7,500 per intentional violation or one involving a consumer the business knows is under 16, brought by the CPPA, with no cure right in the statute as amended.",
+            "action": "Note the asymmetry when you plan: the breach class action can be headed off by a cure, the agency action cannot, and 'per violation' in a consumer-facing defect means per consumer. Encryption and redaction are what take the private right of action off the table.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.150, 1798.155 (as amended by Stats. 2025, ch. 20 (AB 137))"
+          }
+        ],
+        "iso27001": [
+          {
+            "label": "Who is covered",
+            "title": "Three alternative thresholds — and the one most people misread is the second",
+            "base_says": "Your ISMS scope has no bearing on whether the CCPA applies to you.",
+            "delta": "Section 1798.140(d) covers a for-profit entity doing business in California that determines the purposes and means of processing and meets any one of: annual gross revenue over $25,000,000 in the preceding calendar year, as adjusted for inflation by the Agency under 1798.199.95(d); buying, selling or sharing the personal information of 100,000 or more consumers or households a year; or deriving 50 % or more of annual revenue from selling or sharing personal information. Entities under common control with shared branding are swept in too. 'Consumer' means any California resident, including your own employees and B2B contacts.",
+            "action": "Test all three limbs annually and write down the answer. The 100,000 limb catches consumer apps and ad-tech-heavy sites with modest revenue, and 'sharing' means cross-context behavioural advertising — so ordinary retargeting can put you over it.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.140(d), 1798.199.95(d)"
+          },
+          {
+            "label": "Notice at collection",
+            "title": "Tell people at or before collection — categories, purposes and retention",
+            "base_says": "A.5.34 points at the obligation without specifying it.",
+            "delta": "Section 1798.100(a) requires notice at or before the point of collection of the categories of personal information collected, the purposes for which they are used, whether the information is sold or shared, and the retention period for each category — or, if that is impossible, the criteria used to set it. Section 1798.130(a)(5) requires the same content in the privacy policy, updated at least every 12 months.",
+            "action": "Build a data inventory that can produce per-category purposes and retention, because the notice cannot be written without it. Retention is the limb most privacy policies still fudge, and it is the one that is easiest for a regulator to check against reality.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.100(a), 1798.130(a)(5)"
+          },
+          {
+            "label": "Consumer rights clock",
+            "title": "45 days to answer, extendable once by 45 days",
+            "base_says": "Nothing in Annex A operates a statutory response deadline.",
+            "delta": "Sections 1798.100, .105, .106, .110 and .115 give rights to know, delete, correct and know about sale or sharing. Section 1798.130(a)(2) requires you to act within 45 days of a verifiable consumer request, extendable once by a further 45 days on notice to the consumer inside the first period. Verification does not extend the clock. Section 1798.130(a)(1) requires at least two submission methods including a toll-free number — online-only businesses with a direct consumer relationship may offer an email address instead.",
+            "action": "Instrument the clock from receipt, not from verification, and make the extension a deliberate notified step rather than a silent slip. Deletion and correction have to reach every system and every service provider, which is where most programmes actually fail.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.100, 1798.105, 1798.106, 1798.110, 1798.115, 1798.130(a)"
+          },
+          {
+            "label": "Opt-out of sale and sharing",
+            "title": "A link, or the two alternatives — and 'sharing' is broader than selling",
+            "base_says": "Not addressed.",
+            "delta": "Section 1798.120 gives consumers the right to direct a business not to sell or share their personal information; 'sharing' is defined to cover disclosure for cross-context behavioural advertising, whether or not money changes hands. Section 1798.135 requires a clear and conspicuous 'Do Not Sell or Share My Personal Information' link on the homepage — or, as alternatives, a single opt-out link, or processing opt-out preference signals in a frictionless manner in place of the link.",
+            "action": "Audit every tag and pixel and decide, per vendor, whether the disclosure is a sale, a share, or a service-provider disclosure — the contract determines which. Most retargeting and measurement integrations are 'sharing' unless the contract makes the recipient a service provider.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.120, 1798.135, 1798.140(ad)"
+          },
+          {
+            "label": "Opt-out preference signals",
+            "title": "Honour Global Privacy Control as a valid opt-out",
+            "base_says": "Not addressed.",
+            "delta": "Section 1798.135(b) and the CCPA regulations require a business to treat an opt-out preference signal sent by a consumer's platform, technology or browser — in practice Global Privacy Control — as a valid request to opt out of sale and sharing for that browser or device, and for the consumer if known. A business that processes the signal in a frictionless manner may rely on it instead of posting the opt-out links.",
+            "action": "Test that the signal actually suppresses downstream tags, rather than only flipping a consent banner's state. This is straightforward to test from the outside, which is precisely why it has featured in enforcement.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.135(b); CCPA Regulations (Cal. Code Regs. tit. 11, div. 6)"
+          },
+          {
+            "label": "Sensitive personal information",
+            "title": "A right to limit — and the category now includes neural data",
+            "base_says": "A.5.12 classification is a framework for this, not a definition of it.",
+            "delta": "Section 1798.121 gives consumers the right to limit use and disclosure of sensitive personal information to what is necessary to perform the services, with a 'Limit the Use of My Sensitive Personal Information' link where the right applies. Section 1798.140(ae) defines the category: government identifiers; account log-in or financial/card numbers with credentials; precise geolocation; racial or ethnic origin, citizenship or immigration status, religious or philosophical beliefs, or union membership; the contents of mail, email and texts where you are not the intended recipient; genetic data; neural data; biometric information processed to identify a consumer; and health, sex life or sexual orientation information.",
+            "action": "Tag sensitive categories in the inventory and separate 'necessary to provide the service' uses from everything else, because that line is what the limitation right actually operates on. Neural data was added by statute and is easy to miss if your mapping predates it.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.121, 1798.140(ae)"
+          },
+          {
+            "label": "Service provider contracts",
+            "title": "The contract is what makes a disclosure not a sale",
+            "base_says": "A.5.19–A.5.22 cover supplier agreements generally; these are named statutory terms.",
+            "delta": "Section 1798.100(d) requires a contract with every service provider, contractor and third party that obliges them to comply with the CCPA, grants you rights to ensure compliant processing, requires notice if they can no longer meet the obligations, and permits you to take reasonable steps to stop and remediate unauthorised use. Without those terms the disclosure is a sale or share, with all the opt-out machinery that follows.",
+            "action": "Paper every vendor that receives personal information, and treat the contract as the control it actually is. A missing clause silently converts an ordinary vendor disclosure into a sale you have not disclosed and cannot let consumers opt out of.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.100(d), 1798.140(ag), 1798.140(j)"
+          },
+          {
+            "label": "Risk assessments",
+            "title": "Assess before high-risk processing — and file with the Agency",
+            "base_says": "Clause 6.1 risk assessment is the right muscle, aimed at a different risk — security to the organisation rather than privacy risk to the consumer.",
+            "delta": "The CPPA's regulations on CCPA updates, cybersecurity audits, risk assessments, ADMT and insurance were approved by the Office of Administrative Law on 22 Sep 2025 and took effect on 1 Jan 2026. Risk assessments are required for processing that presents significant risk to consumer privacy — including selling or sharing, processing sensitive personal information, and using ADMT for significant decisions. Compliance runs from 1 Jan 2026, with attestations and summary information due to the Agency by 1 Apr 2028.",
+            "action": "Start the assessments now and keep them in a comparable format: the 2028 filing is an attestation plus summary, so an inconsistent back catalogue becomes a problem at submission rather than at assessment time. A GDPR DPIA is a reasonable starting template but not a substitute — the triggers and required content differ.",
+            "when": "Live now. Obligation runs from 1 Jan 2026; first attestations and summaries due to the CPPA by 1 Apr 2028.",
+            "cite": "Cal. Code Regs. tit. 11, div. 6 (approved 22 Sep 2025, effective 1 Jan 2026)"
+          },
+          {
+            "label": "Cybersecurity audits",
+            "title": "An annual audit with a certification filed on a revenue-tiered schedule",
+            "base_says": "A certified ISMS with Clause 9.2 internal audit and external surveillance audits covers much of the machinery; check the component list against your Statement of Applicability.",
+            "delta": "The same regulations require businesses whose processing presents significant risk to consumer security to complete an annual cybersecurity audit and file a certification with the Agency. The schedule is tiered by revenue: first certification by 1 Apr 2028 for businesses over $100 million, 1 Apr 2029 for $50–100 million, and 1 Apr 2030 for under $50 million. The audit must be thorough and independent, and cover the specified components.",
+            "action": "Map your existing SOC 2 or ISO evidence onto the required audit components now and find the gaps while the deadline is still years out. Independence is the constraint that usually forces a change — the audit cannot simply be your internal security team's self-assessment.",
+            "when": "Live now, with staged filings: first certification 1 Apr 2028 (revenue over $100M), 1 Apr 2029 ($50–100M), 1 Apr 2030 (under $50M).",
+            "cite": "Cal. Code Regs. tit. 11, div. 6 (cybersecurity audit regulations)"
+          },
+          {
+            "label": "Automated decisionmaking",
+            "title": "Pre-use notice, opt-out and access for significant decisions",
+            "base_says": "Not addressed; ISO/IEC 42001 is the closer standard if you hold it.",
+            "delta": "The ADMT regulations cover automated decisionmaking technology used to make a significant decision about a consumer — the examples the Agency gives include decisions on financial or lending services, housing, education, employment or independent contracting opportunities, and healthcare services. Requirements include a pre-use notice, a right to opt out of the processing subject to defined exceptions, and a right to access meaningful information about how the technology was applied to the consumer. Compliance for significant decisions begins 1 Jan 2027.",
+            "action": "Inventory every model and rules engine in a decision path that touches a Californian, and decide which are making a 'significant decision' — the answer usually includes systems nobody thinks of as AI. Building the opt-out is the long pole: a human alternative path has to exist and has to work.",
+            "when": "Not yet. Compliance for significant decisions begins 1 Jan 2027.",
+            "cite": "Cal. Code Regs. tit. 11, div. 6 (ADMT regulations); Cal. Civ. Code 1798.185(a)(15)"
+          },
+          {
+            "label": "Enforcement exposure",
+            "title": "Two separate routes — and only one of them gives you a chance to cure",
+            "base_says": "Certification is similarly useful evidence of reasonable security, and similarly not a defence.",
+            "delta": "Section 1798.150 gives consumers a private right of action for a breach of nonencrypted, nonredacted personal information caused by a failure to maintain reasonable security, with statutory damages of $100 to $750 per consumer per incident or actual damages, whichever is greater — subject to a 30-day cure opportunity on written notice where a cure is possible. Administrative enforcement under Section 1798.155 is separate: fines of up to $2,500 per violation, or $7,500 per intentional violation or one involving a consumer the business knows is under 16, brought by the CPPA, with no cure right in the statute as amended.",
+            "action": "Note the asymmetry when you plan: the breach class action can be headed off by a cure, the agency action cannot, and 'per violation' in a consumer-facing defect means per consumer. Encryption and redaction are what take the private right of action off the table.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.150, 1798.155 (as amended by Stats. 2025, ch. 20 (AB 137))"
+          }
+        ],
+        "nist_ai_rmf": [
+          {
+            "label": "Who is covered",
+            "title": "Three alternative thresholds — and the one most people misread is the second",
+            "base_says": "No applicability concept at all.",
+            "delta": "Section 1798.140(d) covers a for-profit entity doing business in California that determines the purposes and means of processing and meets any one of: annual gross revenue over $25,000,000 in the preceding calendar year, as adjusted for inflation by the Agency under 1798.199.95(d); buying, selling or sharing the personal information of 100,000 or more consumers or households a year; or deriving 50 % or more of annual revenue from selling or sharing personal information. Entities under common control with shared branding are swept in too. 'Consumer' means any California resident, including your own employees and B2B contacts.",
+            "action": "Test all three limbs annually and write down the answer. The 100,000 limb catches consumer apps and ad-tech-heavy sites with modest revenue, and 'sharing' means cross-context behavioural advertising — so ordinary retargeting can put you over it.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.140(d), 1798.199.95(d)"
+          },
+          {
+            "label": "Notice at collection",
+            "title": "Tell people at or before collection — categories, purposes and retention",
+            "base_says": "Not addressed.",
+            "delta": "Section 1798.100(a) requires notice at or before the point of collection of the categories of personal information collected, the purposes for which they are used, whether the information is sold or shared, and the retention period for each category — or, if that is impossible, the criteria used to set it. Section 1798.130(a)(5) requires the same content in the privacy policy, updated at least every 12 months.",
+            "action": "Build a data inventory that can produce per-category purposes and retention, because the notice cannot be written without it. Retention is the limb most privacy policies still fudge, and it is the one that is easiest for a regulator to check against reality.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.100(a), 1798.130(a)(5)"
+          },
+          {
+            "label": "Consumer rights clock",
+            "title": "45 days to answer, extendable once by 45 days",
+            "base_says": "Not addressed.",
+            "delta": "Sections 1798.100, .105, .106, .110 and .115 give rights to know, delete, correct and know about sale or sharing. Section 1798.130(a)(2) requires you to act within 45 days of a verifiable consumer request, extendable once by a further 45 days on notice to the consumer inside the first period. Verification does not extend the clock. Section 1798.130(a)(1) requires at least two submission methods including a toll-free number — online-only businesses with a direct consumer relationship may offer an email address instead.",
+            "action": "Instrument the clock from receipt, not from verification, and make the extension a deliberate notified step rather than a silent slip. Deletion and correction have to reach every system and every service provider, which is where most programmes actually fail.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.100, 1798.105, 1798.106, 1798.110, 1798.115, 1798.130(a)"
+          },
+          {
+            "label": "Opt-out of sale and sharing",
+            "title": "A link, or the two alternatives — and 'sharing' is broader than selling",
+            "base_says": "Not addressed.",
+            "delta": "Section 1798.120 gives consumers the right to direct a business not to sell or share their personal information; 'sharing' is defined to cover disclosure for cross-context behavioural advertising, whether or not money changes hands. Section 1798.135 requires a clear and conspicuous 'Do Not Sell or Share My Personal Information' link on the homepage — or, as alternatives, a single opt-out link, or processing opt-out preference signals in a frictionless manner in place of the link.",
+            "action": "Audit every tag and pixel and decide, per vendor, whether the disclosure is a sale, a share, or a service-provider disclosure — the contract determines which. Most retargeting and measurement integrations are 'sharing' unless the contract makes the recipient a service provider.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.120, 1798.135, 1798.140(ad)"
+          },
+          {
+            "label": "Opt-out preference signals",
+            "title": "Honour Global Privacy Control as a valid opt-out",
+            "base_says": "Not addressed.",
+            "delta": "Section 1798.135(b) and the CCPA regulations require a business to treat an opt-out preference signal sent by a consumer's platform, technology or browser — in practice Global Privacy Control — as a valid request to opt out of sale and sharing for that browser or device, and for the consumer if known. A business that processes the signal in a frictionless manner may rely on it instead of posting the opt-out links.",
+            "action": "Test that the signal actually suppresses downstream tags, rather than only flipping a consent banner's state. This is straightforward to test from the outside, which is precisely why it has featured in enforcement.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.135(b); CCPA Regulations (Cal. Code Regs. tit. 11, div. 6)"
+          },
+          {
+            "label": "Sensitive personal information",
+            "title": "A right to limit — and the category now includes neural data",
+            "base_says": "Not addressed.",
+            "delta": "Section 1798.121 gives consumers the right to limit use and disclosure of sensitive personal information to what is necessary to perform the services, with a 'Limit the Use of My Sensitive Personal Information' link where the right applies. Section 1798.140(ae) defines the category: government identifiers; account log-in or financial/card numbers with credentials; precise geolocation; racial or ethnic origin, citizenship or immigration status, religious or philosophical beliefs, or union membership; the contents of mail, email and texts where you are not the intended recipient; genetic data; neural data; biometric information processed to identify a consumer; and health, sex life or sexual orientation information.",
+            "action": "Tag sensitive categories in the inventory and separate 'necessary to provide the service' uses from everything else, because that line is what the limitation right actually operates on. Neural data was added by statute and is easy to miss if your mapping predates it.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.121, 1798.140(ae)"
+          },
+          {
+            "label": "Service provider contracts",
+            "title": "The contract is what makes a disclosure not a sale",
+            "base_says": "GOVERN 6.1 and 6.2 address third-party AI risk only.",
+            "delta": "Section 1798.100(d) requires a contract with every service provider, contractor and third party that obliges them to comply with the CCPA, grants you rights to ensure compliant processing, requires notice if they can no longer meet the obligations, and permits you to take reasonable steps to stop and remediate unauthorised use. Without those terms the disclosure is a sale or share, with all the opt-out machinery that follows.",
+            "action": "Paper every vendor that receives personal information, and treat the contract as the control it actually is. A missing clause silently converts an ordinary vendor disclosure into a sale you have not disclosed and cannot let consumers opt out of.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.100(d), 1798.140(ag), 1798.140(j)"
+          },
+          {
+            "label": "Risk assessments",
+            "title": "Assess before high-risk processing — and file with the Agency",
+            "base_says": "MAP 5.1 and 5.2 on impact characterisation are genuinely useful input for the ADMT-triggered assessments.",
+            "delta": "The CPPA's regulations on CCPA updates, cybersecurity audits, risk assessments, ADMT and insurance were approved by the Office of Administrative Law on 22 Sep 2025 and took effect on 1 Jan 2026. Risk assessments are required for processing that presents significant risk to consumer privacy — including selling or sharing, processing sensitive personal information, and using ADMT for significant decisions. Compliance runs from 1 Jan 2026, with attestations and summary information due to the Agency by 1 Apr 2028.",
+            "action": "Start the assessments now and keep them in a comparable format: the 2028 filing is an attestation plus summary, so an inconsistent back catalogue becomes a problem at submission rather than at assessment time. A GDPR DPIA is a reasonable starting template but not a substitute — the triggers and required content differ.",
+            "when": "Live now. Obligation runs from 1 Jan 2026; first attestations and summaries due to the CPPA by 1 Apr 2028.",
+            "cite": "Cal. Code Regs. tit. 11, div. 6 (approved 22 Sep 2025, effective 1 Jan 2026)"
+          },
+          {
+            "label": "Cybersecurity audits",
+            "title": "An annual audit with a certification filed on a revenue-tiered schedule",
+            "base_says": "No help here. You need a security framework underneath.",
+            "delta": "The same regulations require businesses whose processing presents significant risk to consumer security to complete an annual cybersecurity audit and file a certification with the Agency. The schedule is tiered by revenue: first certification by 1 Apr 2028 for businesses over $100 million, 1 Apr 2029 for $50–100 million, and 1 Apr 2030 for under $50 million. The audit must be thorough and independent, and cover the specified components.",
+            "action": "Map your existing SOC 2 or ISO evidence onto the required audit components now and find the gaps while the deadline is still years out. Independence is the constraint that usually forces a change — the audit cannot simply be your internal security team's self-assessment.",
+            "when": "Live now, with staged filings: first certification 1 Apr 2028 (revenue over $100M), 1 Apr 2029 ($50–100M), 1 Apr 2030 (under $50M).",
+            "cite": "Cal. Code Regs. tit. 11, div. 6 (cybersecurity audit regulations)"
+          },
+          {
+            "label": "Automated decisionmaking",
+            "title": "Pre-use notice, opt-out and access for significant decisions",
+            "base_says": "The best fit anywhere on this page: GOVERN 1.1 inventory, MAP 2.3 and 3.4 on context and impact, MEASURE 2.11 on fairness and MANAGE 2.2 give you the substance. The AI RMF still gives you no notice, no opt-out and no access right — those are legal duties with a date.",
+            "delta": "The ADMT regulations cover automated decisionmaking technology used to make a significant decision about a consumer — the examples the Agency gives include decisions on financial or lending services, housing, education, employment or independent contracting opportunities, and healthcare services. Requirements include a pre-use notice, a right to opt out of the processing subject to defined exceptions, and a right to access meaningful information about how the technology was applied to the consumer. Compliance for significant decisions begins 1 Jan 2027.",
+            "action": "Inventory every model and rules engine in a decision path that touches a Californian, and decide which are making a 'significant decision' — the answer usually includes systems nobody thinks of as AI. Building the opt-out is the long pole: a human alternative path has to exist and has to work.",
+            "when": "Not yet. Compliance for significant decisions begins 1 Jan 2027.",
+            "cite": "Cal. Code Regs. tit. 11, div. 6 (ADMT regulations); Cal. Civ. Code 1798.185(a)(15)"
+          },
+          {
+            "label": "Enforcement exposure",
+            "title": "Two separate routes — and only one of them gives you a chance to cure",
+            "base_says": "No bearing.",
+            "delta": "Section 1798.150 gives consumers a private right of action for a breach of nonencrypted, nonredacted personal information caused by a failure to maintain reasonable security, with statutory damages of $100 to $750 per consumer per incident or actual damages, whichever is greater — subject to a 30-day cure opportunity on written notice where a cure is possible. Administrative enforcement under Section 1798.155 is separate: fines of up to $2,500 per violation, or $7,500 per intentional violation or one involving a consumer the business knows is under 16, brought by the CPPA, with no cure right in the statute as amended.",
+            "action": "Note the asymmetry when you plan: the breach class action can be headed off by a cure, the agency action cannot, and 'per violation' in a consumer-facing defect means per consumer. Encryption and redaction are what take the private right of action off the table.",
+            "when": "In force. CCPA as amended by the CPRA has applied since 1 Jan 2023.",
+            "cite": "Cal. Civ. Code 1798.150, 1798.155 (as amended by Stats. 2025, ch. 20 (AB 137))"
+          }
+        ]
+      }
+    },
+    "dora": {
+      "name": "EU DORA (Regulation (EU) 2022/2554)",
+      "registry_id": "EU-DORA",
+      "summary_by_base": {
+        "soc2": "SOC 2 and DORA both care about availability, incident response and vendor oversight, so the engineering overlap is real. The deltas are regulatory in nature: DORA is a directly applicable regulation with four-hour reporting, a mandated register of your ICT contracts, named contractual clauses, three-yearly threat-led penetration testing, and a management body that bears ultimate responsibility by statute. And it lands on you as a financial entity — being your customer's vendor does not put you outside it if you are in Art. 2 scope.",
+        "iso27001": "ISO 27001:2022 gives you most of the ICT risk-management substrate DORA Chapter II asks for, and ISO 22301 covers the continuity limb. What no ISMS gives you: the statutory reporting clocks, the register of information, the Art. 30 contract terms, TLPT on a three-year cycle, and the oversight regime that reaches your critical providers directly.",
+        "nist_ai_rmf": "NIST AI RMF is an AI risk framework and DORA is an operational-resilience regulation for financial entities; there is no meaningful overlap. Every delta below is net new. If you are in DORA scope you need a security and resilience framework — ISO 27001 plus ISO 22301, or an equivalent — underneath before the AI RMF is worth anything here."
+      },
+      "themes_by_base": {
+        "soc2": [
+          {
+            "label": "Scope",
+            "title": "Twenty categories of financial entity — and your ICT providers get pulled in behind you",
+            "base_says": "SOC 2 scope is what you define it to be; DORA scope is defined by what you are.",
+            "delta": "Art. 2 applies DORA to some twenty categories of financial entity: credit institutions, payment and e-money institutions, investment firms, crypto-asset service providers, central securities depositories, central counterparties, trading venues, trade repositories, insurance and reinsurance undertakings and intermediaries, institutions for occupational retirement provision, credit rating agencies, administrators of critical benchmarks, crowdfunding providers, securitisation repositories and ICT third-party service providers. Proportionality applies — microenterprises and certain small entities get a simplified framework under Art. 16 — but the regulation, not a national act, is what binds.",
+            "action": "Confirm the category for each legal entity and whether Art. 16's simplified framework applies; the answer changes the whole compliance burden. If you sell ICT services into financial entities, expect DORA obligations to arrive through your contracts even where you are not directly in scope.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 2, 16"
+          },
+          {
+            "label": "Management body accountability",
+            "title": "Ultimate responsibility for ICT risk sits with the management body, by statute",
+            "base_says": "CC1.2 expects board oversight of internal control in general terms, with nothing like this enumerated list.",
+            "delta": "Art. 5(2) requires the management body to define, approve, oversee and be responsible for all arrangements in the ICT risk management framework, and specifically to bear ultimate responsibility for managing ICT risk; set roles and responsibilities for all ICT functions; set and approve the digital operational resilience strategy including the ICT risk tolerance level; approve and periodically review the ICT business continuity policy and response and recovery plans; approve ICT internal audit plans; allocate and periodically review the budget for resilience needs including security awareness and resilience training; approve and review the policy on ICT third-party arrangements; and put in place corporate reporting channels.",
+            "action": "Turn Art. 5(2)'s list into a standing board agenda with minuted approvals and review dates. The budget limb at 5(2)(g) is unusual and easy to miss: the management body has to actively allocate and review resilience spend, and be able to show it did.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 5(2)(a)–(i)"
+          },
+          {
+            "label": "ICT risk management framework",
+            "title": "A documented framework covering identify, protect, detect, respond and recover",
+            "base_says": "The availability criteria plus CC7 cover a good share of the detect/respond/recover substance; the framework document and the strategy are new.",
+            "delta": "Arts. 6 to 16 require a documented ICT risk management framework, reviewed at least annually and after major incidents: identification of ICT-supported business functions, assets and dependencies (Art. 8); protection and prevention (Art. 9); detection mechanisms with defined alert thresholds (Art. 10); an ICT business continuity policy with response and recovery plans and defined recovery objectives (Art. 11); backup and restoration with separate environments (Art. 12); learning and evolving, including post-incident reviews (Art. 13); crisis communication (Art. 14). Art. 6(8) requires a digital operational resilience strategy stating the risk tolerance level.",
+            "action": "Treat the resilience strategy and the risk tolerance statement as the load-bearing documents — they are the ones supervisors read first, and most firms have the underlying controls without ever having written the strategy that explains them.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 6–14"
+          },
+          {
+            "label": "Incident classification",
+            "title": "Classify every ICT incident against six statutory criteria",
+            "base_says": "Severity taxonomies in SOC 2 programmes are self-defined; these six are prescribed.",
+            "delta": "Art. 18(1) requires financial entities to classify ICT-related incidents and determine impact against: the number and relevance of clients or financial counterparts affected and the transactions affected, plus any reputational impact; the duration including service downtime; geographical spread, particularly whether more than two Member States are affected; data losses touching availability, authenticity, integrity or confidentiality; the criticality of the services affected; and the economic impact in absolute and relative terms. Art. 18(2) requires cyber threats to be classified as significant on similar criteria.",
+            "action": "Encode the six criteria and the materiality thresholds into the incident tool itself, so classification happens as data is captured rather than in a meeting. The clock in the next card starts from classification, so a slow classification step is a compliance risk in its own right.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 18"
+          },
+          {
+            "label": "Incident reporting clock",
+            "title": "Four hours from classification, 72 hours, then one month",
+            "base_says": "SOC 2 requires incident response with no external deadline; nothing in a SOC 2-shaped process runs on four hours.",
+            "delta": "Art. 19(4) requires an initial notification, an intermediate report and a final report for major ICT-related incidents, with the time limits set by Commission Delegated Regulation (EU) 2025/301. Art. 5 of that RTS: the initial notification as early as possible and in any case within four hours of classifying the incident as major, and no later than 24 hours from becoming aware of it; the intermediate report within 72 hours of the initial notification, even if nothing has changed, with updates without undue delay and in any case once regular activities are recovered; the final report no later than one month after the intermediate or latest updated intermediate report. If you classify late, the four-hour clock still runs from classification. Deadlines falling on a weekend or bank holiday may move to noon the next working day — but not for credit institutions, CCPs, trading-venue operators, or entities that are also essential or important under NIS2.",
+            "action": "The four-hour limb is the one that breaks existing processes: it is short enough that the submission has to be drafted by the responders, not routed through legal review. Pre-build the templates from Art. 20, name a submitter per jurisdiction, and rehearse it.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 19(4); Commission Delegated Regulation (EU) 2025/301, Art. 5"
+          },
+          {
+            "label": "Client notification",
+            "title": "Tell affected clients without undue delay",
+            "base_says": "Customer communication is left to your contracts.",
+            "delta": "Art. 19(3) requires that where a major ICT-related incident has an impact on the financial interests of clients, the financial entity informs those clients without undue delay as soon as it becomes aware, and tells them what has been done to mitigate the adverse effects. For a significant cyber threat, potentially affected clients must where applicable be told about protection measures they might take.",
+            "action": "Run the client-communications path in parallel with the regulator path, not after it. The trigger is financial interests of clients, which is a different and often earlier test than the one that makes an incident 'major' for reporting purposes.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 19(3)"
+          },
+          {
+            "label": "Resilience testing programme",
+            "title": "A risk-based testing programme, with every critical system tested yearly",
+            "base_says": "SOC 2 may include penetration testing as a control, but there is no prescribed test menu or annual coverage rule.",
+            "delta": "Art. 24 requires a digital operational resilience testing programme as an integral part of the ICT risk management framework, risk-based and proportionate, with independent testers and a process for prioritising and remediating findings. Art. 25 lists the test types — vulnerability assessments and scans, open-source analyses, network security assessments, gap analyses, physical security reviews, questionnaires and scanning software, source code reviews where feasible, scenario-based tests, compatibility testing, performance testing, end-to-end testing and penetration testing — and requires ICT systems supporting critical or important functions to be tested at least yearly.",
+            "action": "Write the programme down as a programme, with coverage tracked against your critical-function inventory. Firms usually do most of these tests already and cannot show which critical systems were covered in the last twelve months, which is the actual finding.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 24, 25"
+          },
+          {
+            "label": "Threat-led penetration testing",
+            "title": "TLPT at least every three years, on live production systems",
+            "base_says": "Nothing comparable — a SOC 2 penetration test is not performed against a threat-intelligence-led scenario on production.",
+            "delta": "Art. 26(1) requires identified financial entities — other than microenterprises and certain Art. 16 entities — to carry out advanced testing by means of threat-led penetration testing at least every three years, with the competent authority able to require a different frequency based on risk profile. Art. 26(2) requires the test to cover several or all critical or important functions and to be performed on live production systems, with the scope validated by the competent authority. Art. 26(3) requires ICT third-party providers in scope to participate, and you retain full responsibility for compliance.",
+            "action": "Budget for it as a multi-month regulated exercise rather than an annual pen test — scope validation, threat intelligence, red teaming and closure. Get the participation clause into provider contracts before you need it; retrofitting consent from a large cloud provider is the usual delay.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 26"
+          },
+          {
+            "label": "Register of information",
+            "title": "A maintained register of every ICT contractual arrangement",
+            "base_says": "A vendor list is not this. Nothing in SOC 2 requires a regulator-ready register or annual submission.",
+            "delta": "Art. 28(3) requires financial entities to maintain and update, at entity level and at sub-consolidated and consolidated levels, a register of information on all contractual arrangements for ICT services from third-party providers, distinguishing those supporting critical or important functions from those that do not. You must report at least yearly to the competent authority on new arrangements, provider categories, contract types and the services and functions provided, make the full register or specified sections available on request, and inform the authority in good time of any planned arrangement covering a critical or important function and when a function becomes critical or important.",
+            "action": "The register is a structured regulatory submission, not a spreadsheet of vendors — populate it from contract and architecture data with owners for each field. The forward-looking notice duty means procurement has to tell the regulator-facing function before signing, which is a process change most firms have to make explicitly.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 28(3)"
+          },
+          {
+            "label": "Contractual provisions",
+            "title": "Named clauses in every ICT contract — and more of them for critical functions",
+            "base_says": "SOC 2 vendor management does not specify contract terms.",
+            "delta": "Art. 30(1) requires rights and obligations to be clearly allocated in writing, in one document including the service level agreements. Art. 30(2) sets the minimum terms for every ICT contract: a complete description of functions and services, whether subcontracting of a critical or important function is permitted and on what conditions, the regions or countries where services are provided and data processed, data availability, integrity and confidentiality provisions, access and recovery of data on insolvency or termination, service level descriptions, assistance at no or agreed cost on incidents, cooperation with authorities, termination rights and notice periods, and participation in security awareness and resilience training. Art. 30(3) adds further terms for arrangements supporting critical or important functions, including full audit and inspection rights and exit strategies with adequate transition periods.",
+            "action": "Run a repapering programme rather than a clause checklist — the exit-strategy and unrestricted audit-rights terms in Art. 30(3) are the ones large providers resist, so start with those and with the contracts you cannot replace.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 30(1)–(3)"
+          },
+          {
+            "label": "Critical provider oversight",
+            "title": "Your major providers get supervised directly — and that reaches back to you",
+            "base_says": "A provider's SOC 2 report says nothing about its regulatory standing with the ESAs.",
+            "delta": "Arts. 31 to 44 establish designation of critical ICT third-party service providers by the European Supervisory Authorities and an Oversight Framework run by a Lead Overseer with powers to request information, conduct investigations and inspections, and issue recommendations. Art. 42 requires competent authorities to take account of a provider's failure to follow recommendations, and empowers them to require financial entities to temporarily suspend or terminate use of the service. Art. 35(8) provides for periodic penalty payments on critical providers.",
+            "action": "Track which of your providers are designated, and keep a credible exit plan for each critical or important function — the supervisory power to require suspension or termination only means something if you can actually move. This is the point where the Art. 30(3) exit strategy stops being paperwork.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 31, 35(8), 42"
+          }
+        ],
+        "iso27001": [
+          {
+            "label": "Scope",
+            "title": "Twenty categories of financial entity — and your ICT providers get pulled in behind you",
+            "base_says": "Your certificate's scope statement has no effect on DORA applicability.",
+            "delta": "Art. 2 applies DORA to some twenty categories of financial entity: credit institutions, payment and e-money institutions, investment firms, crypto-asset service providers, central securities depositories, central counterparties, trading venues, trade repositories, insurance and reinsurance undertakings and intermediaries, institutions for occupational retirement provision, credit rating agencies, administrators of critical benchmarks, crowdfunding providers, securitisation repositories and ICT third-party service providers. Proportionality applies — microenterprises and certain small entities get a simplified framework under Art. 16 — but the regulation, not a national act, is what binds.",
+            "action": "Confirm the category for each legal entity and whether Art. 16's simplified framework applies; the answer changes the whole compliance burden. If you sell ICT services into financial entities, expect DORA obligations to arrive through your contracts even where you are not directly in scope.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 2, 16"
+          },
+          {
+            "label": "Management body accountability",
+            "title": "Ultimate responsibility for ICT risk sits with the management body, by statute",
+            "base_says": "Clause 5.1 leadership and Clause 9.3 management review are the right shape but far less prescriptive.",
+            "delta": "Art. 5(2) requires the management body to define, approve, oversee and be responsible for all arrangements in the ICT risk management framework, and specifically to bear ultimate responsibility for managing ICT risk; set roles and responsibilities for all ICT functions; set and approve the digital operational resilience strategy including the ICT risk tolerance level; approve and periodically review the ICT business continuity policy and response and recovery plans; approve ICT internal audit plans; allocate and periodically review the budget for resilience needs including security awareness and resilience training; approve and review the policy on ICT third-party arrangements; and put in place corporate reporting channels.",
+            "action": "Turn Art. 5(2)'s list into a standing board agenda with minuted approvals and review dates. The budget limb at 5(2)(g) is unusual and easy to miss: the management body has to actively allocate and review resilience spend, and be able to show it did.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 5(2)(a)–(i)"
+          },
+          {
+            "label": "ICT risk management framework",
+            "title": "A documented framework covering identify, protect, detect, respond and recover",
+            "base_says": "Clauses 6 and 8 plus A.5.29–A.5.30 and A.8.13–A.8.16 cover most of it. ISO 22301 covers continuity properly if you hold it.",
+            "delta": "Arts. 6 to 16 require a documented ICT risk management framework, reviewed at least annually and after major incidents: identification of ICT-supported business functions, assets and dependencies (Art. 8); protection and prevention (Art. 9); detection mechanisms with defined alert thresholds (Art. 10); an ICT business continuity policy with response and recovery plans and defined recovery objectives (Art. 11); backup and restoration with separate environments (Art. 12); learning and evolving, including post-incident reviews (Art. 13); crisis communication (Art. 14). Art. 6(8) requires a digital operational resilience strategy stating the risk tolerance level.",
+            "action": "Treat the resilience strategy and the risk tolerance statement as the load-bearing documents — they are the ones supervisors read first, and most firms have the underlying controls without ever having written the strategy that explains them.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 6–14"
+          },
+          {
+            "label": "Incident classification",
+            "title": "Classify every ICT incident against six statutory criteria",
+            "base_says": "A.5.25 assessment and classification of information security events is the hook; the criteria are DORA's.",
+            "delta": "Art. 18(1) requires financial entities to classify ICT-related incidents and determine impact against: the number and relevance of clients or financial counterparts affected and the transactions affected, plus any reputational impact; the duration including service downtime; geographical spread, particularly whether more than two Member States are affected; data losses touching availability, authenticity, integrity or confidentiality; the criticality of the services affected; and the economic impact in absolute and relative terms. Art. 18(2) requires cyber threats to be classified as significant on similar criteria.",
+            "action": "Encode the six criteria and the materiality thresholds into the incident tool itself, so classification happens as data is captured rather than in a meeting. The clock in the next card starts from classification, so a slow classification step is a compliance risk in its own right.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 18"
+          },
+          {
+            "label": "Incident reporting clock",
+            "title": "Four hours from classification, 72 hours, then one month",
+            "base_says": "A.5.24–A.5.26 give you the process; the clocks, templates and recipients are all new.",
+            "delta": "Art. 19(4) requires an initial notification, an intermediate report and a final report for major ICT-related incidents, with the time limits set by Commission Delegated Regulation (EU) 2025/301. Art. 5 of that RTS: the initial notification as early as possible and in any case within four hours of classifying the incident as major, and no later than 24 hours from becoming aware of it; the intermediate report within 72 hours of the initial notification, even if nothing has changed, with updates without undue delay and in any case once regular activities are recovered; the final report no later than one month after the intermediate or latest updated intermediate report. If you classify late, the four-hour clock still runs from classification. Deadlines falling on a weekend or bank holiday may move to noon the next working day — but not for credit institutions, CCPs, trading-venue operators, or entities that are also essential or important under NIS2.",
+            "action": "The four-hour limb is the one that breaks existing processes: it is short enough that the submission has to be drafted by the responders, not routed through legal review. Pre-build the templates from Art. 20, name a submitter per jurisdiction, and rehearse it.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 19(4); Commission Delegated Regulation (EU) 2025/301, Art. 5"
+          },
+          {
+            "label": "Client notification",
+            "title": "Tell affected clients without undue delay",
+            "base_says": "Clause 7.4 communication planning; no duty to warn clients.",
+            "delta": "Art. 19(3) requires that where a major ICT-related incident has an impact on the financial interests of clients, the financial entity informs those clients without undue delay as soon as it becomes aware, and tells them what has been done to mitigate the adverse effects. For a significant cyber threat, potentially affected clients must where applicable be told about protection measures they might take.",
+            "action": "Run the client-communications path in parallel with the regulator path, not after it. The trigger is financial interests of clients, which is a different and often earlier test than the one that makes an incident 'major' for reporting purposes.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 19(3)"
+          },
+          {
+            "label": "Resilience testing programme",
+            "title": "A risk-based testing programme, with every critical system tested yearly",
+            "base_says": "A.8.8 vulnerability management and A.8.29 security testing in development cover parts; the programme-level coverage requirement is new.",
+            "delta": "Art. 24 requires a digital operational resilience testing programme as an integral part of the ICT risk management framework, risk-based and proportionate, with independent testers and a process for prioritising and remediating findings. Art. 25 lists the test types — vulnerability assessments and scans, open-source analyses, network security assessments, gap analyses, physical security reviews, questionnaires and scanning software, source code reviews where feasible, scenario-based tests, compatibility testing, performance testing, end-to-end testing and penetration testing — and requires ICT systems supporting critical or important functions to be tested at least yearly.",
+            "action": "Write the programme down as a programme, with coverage tracked against your critical-function inventory. Firms usually do most of these tests already and cannot show which critical systems were covered in the last twelve months, which is the actual finding.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 24, 25"
+          },
+          {
+            "label": "Threat-led penetration testing",
+            "title": "TLPT at least every three years, on live production systems",
+            "base_says": "Not required by the standard at all.",
+            "delta": "Art. 26(1) requires identified financial entities — other than microenterprises and certain Art. 16 entities — to carry out advanced testing by means of threat-led penetration testing at least every three years, with the competent authority able to require a different frequency based on risk profile. Art. 26(2) requires the test to cover several or all critical or important functions and to be performed on live production systems, with the scope validated by the competent authority. Art. 26(3) requires ICT third-party providers in scope to participate, and you retain full responsibility for compliance.",
+            "action": "Budget for it as a multi-month regulated exercise rather than an annual pen test — scope validation, threat intelligence, red teaming and closure. Get the participation clause into provider contracts before you need it; retrofitting consent from a large cloud provider is the usual delay.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 26"
+          },
+          {
+            "label": "Register of information",
+            "title": "A maintained register of every ICT contractual arrangement",
+            "base_says": "A.5.9 inventory of associated assets and A.5.19 supplier relationships get you the raw material only.",
+            "delta": "Art. 28(3) requires financial entities to maintain and update, at entity level and at sub-consolidated and consolidated levels, a register of information on all contractual arrangements for ICT services from third-party providers, distinguishing those supporting critical or important functions from those that do not. You must report at least yearly to the competent authority on new arrangements, provider categories, contract types and the services and functions provided, make the full register or specified sections available on request, and inform the authority in good time of any planned arrangement covering a critical or important function and when a function becomes critical or important.",
+            "action": "The register is a structured regulatory submission, not a spreadsheet of vendors — populate it from contract and architecture data with owners for each field. The forward-looking notice duty means procurement has to tell the regulator-facing function before signing, which is a process change most firms have to make explicitly.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 28(3)"
+          },
+          {
+            "label": "Contractual provisions",
+            "title": "Named clauses in every ICT contract — and more of them for critical functions",
+            "base_says": "A.5.20 addressing security within supplier agreements is the hook; DORA supplies the actual clause list.",
+            "delta": "Art. 30(1) requires rights and obligations to be clearly allocated in writing, in one document including the service level agreements. Art. 30(2) sets the minimum terms for every ICT contract: a complete description of functions and services, whether subcontracting of a critical or important function is permitted and on what conditions, the regions or countries where services are provided and data processed, data availability, integrity and confidentiality provisions, access and recovery of data on insolvency or termination, service level descriptions, assistance at no or agreed cost on incidents, cooperation with authorities, termination rights and notice periods, and participation in security awareness and resilience training. Art. 30(3) adds further terms for arrangements supporting critical or important functions, including full audit and inspection rights and exit strategies with adequate transition periods.",
+            "action": "Run a repapering programme rather than a clause checklist — the exit-strategy and unrestricted audit-rights terms in Art. 30(3) are the ones large providers resist, so start with those and with the contracts you cannot replace.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 30(1)–(3)"
+          },
+          {
+            "label": "Critical provider oversight",
+            "title": "Your major providers get supervised directly — and that reaches back to you",
+            "base_says": "Certification of a provider is likewise unrelated to designation or oversight findings.",
+            "delta": "Arts. 31 to 44 establish designation of critical ICT third-party service providers by the European Supervisory Authorities and an Oversight Framework run by a Lead Overseer with powers to request information, conduct investigations and inspections, and issue recommendations. Art. 42 requires competent authorities to take account of a provider's failure to follow recommendations, and empowers them to require financial entities to temporarily suspend or terminate use of the service. Art. 35(8) provides for periodic penalty payments on critical providers.",
+            "action": "Track which of your providers are designated, and keep a credible exit plan for each critical or important function — the supervisory power to require suspension or termination only means something if you can actually move. This is the point where the Art. 30(3) exit strategy stops being paperwork.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 31, 35(8), 42"
+          }
+        ],
+        "nist_ai_rmf": [
+          {
+            "label": "Scope",
+            "title": "Twenty categories of financial entity — and your ICT providers get pulled in behind you",
+            "base_says": "No applicability concept.",
+            "delta": "Art. 2 applies DORA to some twenty categories of financial entity: credit institutions, payment and e-money institutions, investment firms, crypto-asset service providers, central securities depositories, central counterparties, trading venues, trade repositories, insurance and reinsurance undertakings and intermediaries, institutions for occupational retirement provision, credit rating agencies, administrators of critical benchmarks, crowdfunding providers, securitisation repositories and ICT third-party service providers. Proportionality applies — microenterprises and certain small entities get a simplified framework under Art. 16 — but the regulation, not a national act, is what binds.",
+            "action": "Confirm the category for each legal entity and whether Art. 16's simplified framework applies; the answer changes the whole compliance burden. If you sell ICT services into financial entities, expect DORA obligations to arrive through your contracts even where you are not directly in scope.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 2, 16"
+          },
+          {
+            "label": "Management body accountability",
+            "title": "Ultimate responsibility for ICT risk sits with the management body, by statute",
+            "base_says": "GOVERN 2 assigns AI accountability; nothing transfers to ICT risk governance in a regulated firm.",
+            "delta": "Art. 5(2) requires the management body to define, approve, oversee and be responsible for all arrangements in the ICT risk management framework, and specifically to bear ultimate responsibility for managing ICT risk; set roles and responsibilities for all ICT functions; set and approve the digital operational resilience strategy including the ICT risk tolerance level; approve and periodically review the ICT business continuity policy and response and recovery plans; approve ICT internal audit plans; allocate and periodically review the budget for resilience needs including security awareness and resilience training; approve and review the policy on ICT third-party arrangements; and put in place corporate reporting channels.",
+            "action": "Turn Art. 5(2)'s list into a standing board agenda with minuted approvals and review dates. The budget limb at 5(2)(g) is unusual and easy to miss: the management body has to actively allocate and review resilience spend, and be able to show it did.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 5(2)(a)–(i)"
+          },
+          {
+            "label": "ICT risk management framework",
+            "title": "A documented framework covering identify, protect, detect, respond and recover",
+            "base_says": "Not addressed — the AI RMF's lifecycle functions are about AI systems, not ICT operations.",
+            "delta": "Arts. 6 to 16 require a documented ICT risk management framework, reviewed at least annually and after major incidents: identification of ICT-supported business functions, assets and dependencies (Art. 8); protection and prevention (Art. 9); detection mechanisms with defined alert thresholds (Art. 10); an ICT business continuity policy with response and recovery plans and defined recovery objectives (Art. 11); backup and restoration with separate environments (Art. 12); learning and evolving, including post-incident reviews (Art. 13); crisis communication (Art. 14). Art. 6(8) requires a digital operational resilience strategy stating the risk tolerance level.",
+            "action": "Treat the resilience strategy and the risk tolerance statement as the load-bearing documents — they are the ones supervisors read first, and most firms have the underlying controls without ever having written the strategy that explains them.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 6–14"
+          },
+          {
+            "label": "Incident classification",
+            "title": "Classify every ICT incident against six statutory criteria",
+            "base_says": "Not addressed.",
+            "delta": "Art. 18(1) requires financial entities to classify ICT-related incidents and determine impact against: the number and relevance of clients or financial counterparts affected and the transactions affected, plus any reputational impact; the duration including service downtime; geographical spread, particularly whether more than two Member States are affected; data losses touching availability, authenticity, integrity or confidentiality; the criticality of the services affected; and the economic impact in absolute and relative terms. Art. 18(2) requires cyber threats to be classified as significant on similar criteria.",
+            "action": "Encode the six criteria and the materiality thresholds into the incident tool itself, so classification happens as data is captured rather than in a meeting. The clock in the next card starts from classification, so a slow classification step is a compliance risk in its own right.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 18"
+          },
+          {
+            "label": "Incident reporting clock",
+            "title": "Four hours from classification, 72 hours, then one month",
+            "base_says": "MANAGE 4.1 covers AI incident response with no regulatory deadline.",
+            "delta": "Art. 19(4) requires an initial notification, an intermediate report and a final report for major ICT-related incidents, with the time limits set by Commission Delegated Regulation (EU) 2025/301. Art. 5 of that RTS: the initial notification as early as possible and in any case within four hours of classifying the incident as major, and no later than 24 hours from becoming aware of it; the intermediate report within 72 hours of the initial notification, even if nothing has changed, with updates without undue delay and in any case once regular activities are recovered; the final report no later than one month after the intermediate or latest updated intermediate report. If you classify late, the four-hour clock still runs from classification. Deadlines falling on a weekend or bank holiday may move to noon the next working day — but not for credit institutions, CCPs, trading-venue operators, or entities that are also essential or important under NIS2.",
+            "action": "The four-hour limb is the one that breaks existing processes: it is short enough that the submission has to be drafted by the responders, not routed through legal review. Pre-build the templates from Art. 20, name a submitter per jurisdiction, and rehearse it.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 19(4); Commission Delegated Regulation (EU) 2025/301, Art. 5"
+          },
+          {
+            "label": "Client notification",
+            "title": "Tell affected clients without undue delay",
+            "base_says": "Not addressed.",
+            "delta": "Art. 19(3) requires that where a major ICT-related incident has an impact on the financial interests of clients, the financial entity informs those clients without undue delay as soon as it becomes aware, and tells them what has been done to mitigate the adverse effects. For a significant cyber threat, potentially affected clients must where applicable be told about protection measures they might take.",
+            "action": "Run the client-communications path in parallel with the regulator path, not after it. The trigger is financial interests of clients, which is a different and often earlier test than the one that makes an incident 'major' for reporting purposes.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 19(3)"
+          },
+          {
+            "label": "Resilience testing programme",
+            "title": "A risk-based testing programme, with every critical system tested yearly",
+            "base_says": "The MEASURE function covers AI evaluation, not ICT resilience testing.",
+            "delta": "Art. 24 requires a digital operational resilience testing programme as an integral part of the ICT risk management framework, risk-based and proportionate, with independent testers and a process for prioritising and remediating findings. Art. 25 lists the test types — vulnerability assessments and scans, open-source analyses, network security assessments, gap analyses, physical security reviews, questionnaires and scanning software, source code reviews where feasible, scenario-based tests, compatibility testing, performance testing, end-to-end testing and penetration testing — and requires ICT systems supporting critical or important functions to be tested at least yearly.",
+            "action": "Write the programme down as a programme, with coverage tracked against your critical-function inventory. Firms usually do most of these tests already and cannot show which critical systems were covered in the last twelve months, which is the actual finding.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 24, 25"
+          },
+          {
+            "label": "Threat-led penetration testing",
+            "title": "TLPT at least every three years, on live production systems",
+            "base_says": "Not addressed.",
+            "delta": "Art. 26(1) requires identified financial entities — other than microenterprises and certain Art. 16 entities — to carry out advanced testing by means of threat-led penetration testing at least every three years, with the competent authority able to require a different frequency based on risk profile. Art. 26(2) requires the test to cover several or all critical or important functions and to be performed on live production systems, with the scope validated by the competent authority. Art. 26(3) requires ICT third-party providers in scope to participate, and you retain full responsibility for compliance.",
+            "action": "Budget for it as a multi-month regulated exercise rather than an annual pen test — scope validation, threat intelligence, red teaming and closure. Get the participation clause into provider contracts before you need it; retrofitting consent from a large cloud provider is the usual delay.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 26"
+          },
+          {
+            "label": "Register of information",
+            "title": "A maintained register of every ICT contractual arrangement",
+            "base_says": "Not addressed.",
+            "delta": "Art. 28(3) requires financial entities to maintain and update, at entity level and at sub-consolidated and consolidated levels, a register of information on all contractual arrangements for ICT services from third-party providers, distinguishing those supporting critical or important functions from those that do not. You must report at least yearly to the competent authority on new arrangements, provider categories, contract types and the services and functions provided, make the full register or specified sections available on request, and inform the authority in good time of any planned arrangement covering a critical or important function and when a function becomes critical or important.",
+            "action": "The register is a structured regulatory submission, not a spreadsheet of vendors — populate it from contract and architecture data with owners for each field. The forward-looking notice duty means procurement has to tell the regulator-facing function before signing, which is a process change most firms have to make explicitly.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 28(3)"
+          },
+          {
+            "label": "Contractual provisions",
+            "title": "Named clauses in every ICT contract — and more of them for critical functions",
+            "base_says": "GOVERN 6 addresses third-party AI risk only.",
+            "delta": "Art. 30(1) requires rights and obligations to be clearly allocated in writing, in one document including the service level agreements. Art. 30(2) sets the minimum terms for every ICT contract: a complete description of functions and services, whether subcontracting of a critical or important function is permitted and on what conditions, the regions or countries where services are provided and data processed, data availability, integrity and confidentiality provisions, access and recovery of data on insolvency or termination, service level descriptions, assistance at no or agreed cost on incidents, cooperation with authorities, termination rights and notice periods, and participation in security awareness and resilience training. Art. 30(3) adds further terms for arrangements supporting critical or important functions, including full audit and inspection rights and exit strategies with adequate transition periods.",
+            "action": "Run a repapering programme rather than a clause checklist — the exit-strategy and unrestricted audit-rights terms in Art. 30(3) are the ones large providers resist, so start with those and with the contracts you cannot replace.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Art. 30(1)–(3)"
+          },
+          {
+            "label": "Critical provider oversight",
+            "title": "Your major providers get supervised directly — and that reaches back to you",
+            "base_says": "Not addressed.",
+            "delta": "Arts. 31 to 44 establish designation of critical ICT third-party service providers by the European Supervisory Authorities and an Oversight Framework run by a Lead Overseer with powers to request information, conduct investigations and inspections, and issue recommendations. Art. 42 requires competent authorities to take account of a provider's failure to follow recommendations, and empowers them to require financial entities to temporarily suspend or terminate use of the service. Art. 35(8) provides for periodic penalty payments on critical providers.",
+            "action": "Track which of your providers are designated, and keep a credible exit plan for each critical or important function — the supervisory power to require suspension or termination only means something if you can actually move. This is the point where the Art. 30(3) exit strategy stops being paperwork.",
+            "when": "In force. DORA has applied since 17 Jan 2025 (Art. 64) — directly, with no national transposition step.",
+            "cite": "DORA Arts. 31, 35(8), 42"
+          }
+        ]
+      }
     }
   },
   "meta": {
-    "version": "0.9",
+    "version": "1.0",
     "updated": "2026-09-12",
     "registry_snapshot_date": "2026-09-12",
     "verified_against": {
@@ -1304,7 +2252,7 @@ const CROSSWALK = {
       },
       "US-HIPAA-SECURITY-2026": {
         "status": "draft",
-        "effective_date": "",
+        "effective_date": null,
         "role": "cited",
         "cards": "hipaa: Security Rule overhaul (flagged proposed)"
       },
@@ -1331,10 +2279,85 @@ const CROSSWALK = {
         "effective_date": "2018-05-25",
         "role": "cited",
         "cards": "gdpr: Age assurance"
+      },
+      "EU-NIS2": {
+        "status": "in_force",
+        "effective_date": "2024-10-17",
+        "role": "target"
+      },
+      "US-CCPA-CPRA": {
+        "status": "in_force",
+        "effective_date": "2023-01-01",
+        "role": "target"
+      },
+      "EU-DORA": {
+        "status": "in_force",
+        "effective_date": "2025-01-17",
+        "role": "target"
+      },
+      "EU-NIS2-AMEND-2026": {
+        "status": "draft",
+        "effective_date": null,
+        "role": "cited",
+        "cards": "nis2: Transposition reality (watch note)"
+      },
+      "US-CPPA-OOPS": {
+        "status": "draft",
+        "effective_date": null,
+        "role": "cited",
+        "cards": "ccpa: Opt-out preference signals"
+      },
+      "DE-NIS2": {
+        "role": "cited",
+        "cards": "nis2: Transposition reality (national in-force dates)",
+        "status": "in_force",
+        "effective_date": "2025-12-06"
+      },
+      "SE-NIS2": {
+        "role": "cited",
+        "cards": "nis2: Transposition reality (national in-force dates)",
+        "status": "in_force",
+        "effective_date": "2026-01-15"
+      },
+      "PL-NIS2": {
+        "role": "cited",
+        "cards": "nis2: Transposition reality (national in-force dates)",
+        "status": "in_force",
+        "effective_date": "2026-04-03"
+      },
+      "NL-NIS2": {
+        "role": "cited",
+        "cards": "nis2: Transposition reality (national in-force dates)",
+        "status": "in_force",
+        "effective_date": "2026-08-15"
+      },
+      "AT-NIS2": {
+        "role": "cited",
+        "cards": "nis2: Transposition reality (national in-force dates)",
+        "status": "enacted",
+        "effective_date": "2026-10-01"
+      },
+      "IT-NIS2": {
+        "role": "cited",
+        "cards": "nis2: Transposition reality (national in-force dates)",
+        "status": "in_force",
+        "effective_date": "2024-10-16"
+      },
+      "BE-NIS2": {
+        "role": "cited",
+        "cards": "nis2: Transposition reality (national in-force dates)",
+        "status": "in_force",
+        "effective_date": "2024-10-18"
+      },
+      "HR-NIS2": {
+        "role": "cited",
+        "cards": "nis2: Transposition reality (national in-force dates)",
+        "status": "in_force",
+        "effective_date": "2026-01-01"
       }
     }
   }
-};;
+};;;;;
 
 const baseEl = document.getElementById('base');
 const targetEl = document.getElementById('target');
