@@ -183,6 +183,14 @@
       "filename": "podcast-2026-09-10.mp3",
       "summary": "California becomes the first jurisdiction anywhere to license the people who audit AI, signing SB 813 and AB 1405 into law on 9 September \u2014 regulating the auditors rather than the AI systems themselves. It lands in the same 72 hours as the EU Cyber Resilience Act's Article 14 incident reporting (11 Sep), Korea's amended PIPA with personal CEO liability and fines up to ten percent of turnover (11 Sep), the EU Data Act's data-access-by-design trigger (12 Sep), and a FinCEN alert mapping nearly $13 billion in crypto scam-center fraud.",
       "show_notes_html": "podcast-2026-09-10.html"
+    },
+    {
+      "number": 38,
+      "title": "Episode 38: EU KIDS Act Reaches AI Chatbots",
+      "date": "2026-09-17",
+      "filename": "podcast-2026-09-17.mp3",
+      "summary": "Brussels tables the EU KIDS Act \u2014 the first EU measure to reach AI chatbots and companion apps \u2014 as a wall of hard deadlines lands: FedRAMP's OSCAL mandate, NIS2 in Austria and Poland, and China's expanded police cyber-inspection powers. Plus FinCEN's $13B scam-center alert and Ireland's first Online Safety Code probe into X.",
+      "show_notes_html": "podcast-2026-09-17.html"
     }
   ]
 }
