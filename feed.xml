@@ -20,7 +20,22 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 24 Sep 2026 11:50:07 +0000</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 14:52:31 +0000</lastBuildDate>
+<item>
+<title>Episode 40: Borrowed Age Checks Don't Borrow The Liability</title>
+<itunes:title>Episode 40: Borrowed Age Checks Don't Borrow The Liability</itunes:title>
+<itunes:episode>40</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-10-01.mp3" length="7132845" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-040</guid>
+<itunes:duration>00:07:26</itunes:duration>
+<itunes:summary>Ofcom tests whether a device-level age signal can carry a legal duty with it, after Pornhub's provider Aylo leaned on Apple's age checks. Plus Austria's NISG 2026 binds today with registration due 1 January 2027, China's MPS Order 176 widens police cyber-inspection to remote penetration testing of non-CII systems, the Fed's GENIUS Act stablecoin proposals open to 30 November, and the FDA elevates Abiomed's Impella controller recall to Class I after three deaths.</itunes:summary>
+<description>Ofcom tests whether a device-level age signal can carry a legal duty with it, after Pornhub's provider Aylo leaned on Apple's age checks. Plus Austria's NISG 2026 binds today with registration due 1 January 2027, China's MPS Order 176 widens police cyber-inspection to remote penetration testing of non-CII systems, the Fed's GENIUS Act stablecoin proposals open to 30 November, and the FDA elevates Abiomed's Impella controller recall to Class I after three deaths.</description>
+<content:encoded><![CDATA[Ofcom tests whether a device-level age signal can carry a legal duty with it, after Pornhub's provider Aylo leaned on Apple's age checks. Plus Austria's NISG 2026 binds today with registration due 1 January 2027, China's MPS Order 176 widens police cyber-inspection to remote penetration testing of non-CII systems, the Fed's GENIUS Act stablecoin proposals open to 30 November, and the FDA elevates Abiomed's Impella controller recall to Class I after three deaths.]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 39: Connecticut's AI Law Binds Thursday</title>
 <itunes:title>Episode 39: Connecticut's AI Law Binds Thursday</itunes:title>
