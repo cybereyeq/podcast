@@ -1,5 +1,14 @@
 # Crosswalk — changelog
 
+## v1.1 — 2026-10-12
+
+Factual correction (no new cards). Austria's NISG 2026 reached its in-force date:
+the three NIS2 "Transposition reality" cards now read "**entered into force** on 1 Oct 2026"
+(was "enters force on 1 Oct 2026"), and the AT-NIS2 `meta.verified_against` snapshot moves
+`enacted` → `in_force`. `meta.updated` / `registry_snapshot_date` bumped to 2026-10-12. Source
+re-verified against usp.gv.at / BGBl (NISG 2026, in force 1 Oct 2026). Flagged by the weekly
+registry-viz drift check (2026-10-04 and 2026-10-11 runs).
+
 ## v1.0 — 2026-09-12
 
 Three new targets. 102 → **201** delta cards; 9 → 18 pairings.
