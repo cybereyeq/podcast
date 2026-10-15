@@ -20,7 +20,22 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 08 Oct 2026 17:09:09 +0000</lastBuildDate>
+<lastBuildDate>Thu, 15 Oct 2026 11:23:49 +0000</lastBuildDate>
+<item>
+<title>Episode 42: Bank of America's Record AML Penalty</title>
+<itunes:title>Episode 42: Bank of America's Record AML Penalty</itunes:title>
+<itunes:episode>42</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-10-15.mp3" length="7085229" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-042</guid>
+<itunes:duration>00:07:23</itunes:duration>
+<itunes:summary>FinCEN and the OCC hit Bank of America with record BSA/AML penalties. Plus Türkiye's state age token, the UK's high-LTI overhaul, and the deadlines landing before month-end.</itunes:summary>
+<description>FinCEN and the OCC hit Bank of America with record BSA/AML penalties. Plus Türkiye's state age token, the UK's high-LTI overhaul, and the deadlines landing before month-end.</description>
+<content:encoded><![CDATA[FinCEN and the OCC hit Bank of America with record BSA/AML penalties. Plus Türkiye's state age token, the UK's high-LTI overhaul, and the deadlines landing before month-end.]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 41: California Makes Broker Data Deletable</title>
 <itunes:title>Episode 41: California Makes Broker Data Deletable</itunes:title>
