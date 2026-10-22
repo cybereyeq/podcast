@@ -20,7 +20,22 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 15 Oct 2026 11:23:49 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 11:14:54 +0000</lastBuildDate>
+<item>
+<title>Episode 43: OCC Finalizes GENIUS Stablecoin Rule</title>
+<itunes:title>Episode 43: OCC Finalizes GENIUS Stablecoin Rule</itunes:title>
+<itunes:episode>43</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-10-22.mp3" length="7159725" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-043</guid>
+<itunes:duration>00:07:27</itunes:duration>
+<itunes:summary>The OCC finalises its GENIUS Act stablecoin rule, the Dutch DPA fines Uber €825M over automated deactivations, and deadlines cluster from 25 October to 1 November.</itunes:summary>
+<description>The OCC finalises its GENIUS Act stablecoin rule, the Dutch DPA fines Uber €825M over automated deactivations, and deadlines cluster from 25 October to 1 November.</description>
+<content:encoded><![CDATA[The OCC finalises its GENIUS Act stablecoin rule, the Dutch DPA fines Uber €825M over automated deactivations, and deadlines cluster from 25 October to 1 November.]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 42: Bank of America's Record AML Penalty</title>
 <itunes:title>Episode 42: Bank of America's Record AML Penalty</itunes:title>
