@@ -1,5 +1,18 @@
 # Crosswalk — changelog
 
+## v1.2 — 2026-10-25
+
+Factual update (no new cards). The GDPR target's three base summaries (soc2/iso27001/nist_ai_rmf)
+carried a "live caveat" noting the Commission's Digital Omnibus data package (2025/0360(COD)) was
+"still a proposal in Parliament and Council." The Council of the EU agreed its general approach
+(negotiating mandate) on the Digital Omnibus on 21 Oct 2026 — a procedural milestone in the ordinary
+legislative procedure, not adoption. The caveat now records that milestone while keeping the
+load-bearing point unchanged: it remains a proposal pending the European Parliament's position,
+nothing in it is law yet, and no delta changes. The EU-DIGITAL-OMNIBUS `meta.verified_against`
+snapshot stays `draft` and its note records the 21 Oct event; `meta.version` 1.1 → 1.2 and
+`meta.updated` → 2026-10-25. Source: Council of the EU press release, 2026-10-21
+(consilium.europa.eu). Flagged by the weekly registry-viz drift check (2026-10-25 run).
+
 ## v1.1 — 2026-10-12
 
 Factual correction (no new cards). Austria's NISG 2026 reached its in-force date:
