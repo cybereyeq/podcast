@@ -20,7 +20,22 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 22 Oct 2026 11:14:54 +0000</lastBuildDate>
+<lastBuildDate>Thu, 05 Nov 2026 12:22:56 +0000</lastBuildDate>
+<item>
+<title>Episode 44: EU Bans AI Sexual-Deepfake Generators from 2 December</title>
+<itunes:title>Episode 44: EU Bans AI Sexual-Deepfake Generators from 2 December</itunes:title>
+<itunes:episode>44</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-11-05.mp3" length="8203053" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-044</guid>
+<itunes:duration>00:08:33</itunes:duration>
+<itunes:summary>New EU AI Act prohibitions from 2 December, Mexico and India 13 November clocks, a $13M cyber False Claims settlement, FTC surveillance-pricing orders, and the CISA 2015 sunset.</itunes:summary>
+<description>New EU AI Act prohibitions from 2 December, Mexico and India 13 November clocks, a $13M cyber False Claims settlement, FTC surveillance-pricing orders, and the CISA 2015 sunset.</description>
+<content:encoded><![CDATA[New EU AI Act prohibitions from 2 December, Mexico and India 13 November clocks, a $13M cyber False Claims settlement, FTC surveillance-pricing orders, and the CISA 2015 sunset.]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 43: OCC Finalizes GENIUS Stablecoin Rule</title>
 <itunes:title>Episode 43: OCC Finalizes GENIUS Stablecoin Rule</itunes:title>
