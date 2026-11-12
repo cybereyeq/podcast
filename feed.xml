@@ -20,7 +20,22 @@
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
-<lastBuildDate>Thu, 05 Nov 2026 12:22:56 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 12:18:49 +0000</lastBuildDate>
+<item>
+<title>Episode 45: FedEx Fined Over Ignored Privacy Signals</title>
+<itunes:title>Episode 45: FedEx Fined Over Ignored Privacy Signals</itunes:title>
+<itunes:episode>45</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<enclosure url="https://cybereyeq.github.io/podcast/episodes/podcast-2026-11-12.mp3" length="6550701" type="audio/mpeg"/>
+<guid isPermaLink="false">cybereyeq-podcast-ep-045</guid>
+<itunes:duration>00:06:49</itunes:duration>
+<itunes:summary>CalPrivacy fines FedEx $2.975M for ignoring Global Privacy Control, FedRAMP RFC windows close 17 and 19 November, China's CAC unifies AI and blockchain filings, FinCEN cuts MEXC Global off from US institutions, and the EU tables its Digital Fairness Act.</itunes:summary>
+<description>CalPrivacy fines FedEx $2.975M for ignoring Global Privacy Control, FedRAMP RFC windows close 17 and 19 November, China's CAC unifies AI and blockchain filings, FinCEN cuts MEXC Global off from US institutions, and the EU tables its Digital Fairness Act.</description>
+<content:encoded><![CDATA[CalPrivacy fines FedEx $2.975M for ignoring Global Privacy Control, FedRAMP RFC windows close 17 and 19 November, China's CAC unifies AI and blockchain filings, FinCEN cuts MEXC Global off from US institutions, and the EU tables its Digital Fairness Act.]]></content:encoded>
+<itunes:image href="https://cybereyeq.github.io/podcast/cover.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+</item>
 <item>
 <title>Episode 44: EU Bans AI Sexual-Deepfake Generators from 2 December</title>
 <itunes:title>Episode 44: EU Bans AI Sexual-Deepfake Generators from 2 December</itunes:title>

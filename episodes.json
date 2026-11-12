@@ -239,6 +239,14 @@
       "filename": "podcast-2026-11-05.mp3",
       "summary": "New EU AI Act prohibitions from 2 December, Mexico and India 13 November clocks, a $13M cyber False Claims settlement, FTC surveillance-pricing orders, and the CISA 2015 sunset.",
       "show_notes_html": "show-notes/podcast-2026-11-05.html"
+    },
+    {
+      "number": 45,
+      "title": "Episode 45: FedEx Fined Over Ignored Privacy Signals",
+      "date": "2026-11-12",
+      "filename": "podcast-2026-11-12.mp3",
+      "summary": "CalPrivacy fines FedEx $2.975M for ignoring Global Privacy Control, FedRAMP RFC windows close 17 and 19 November, China's CAC unifies AI and blockchain filings, FinCEN cuts MEXC Global off from US institutions, and the EU tables its Digital Fairness Act.",
+      "show_notes_html": "show-notes/podcast-2026-11-12.html"
     }
   ]
 }
